@@ -1,0 +1,35 @@
+{
+  "resourceType" : "Slot",
+  "id" : "slot-123",
+  "meta" : {
+    "profile" : ["https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Slot slot-123</b></p><a name=\"slot-123\"> </a><a name=\"hcslot-123\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-slot.html\">MedMe Pharmacy Slot</a></p></div><p><b>Group Size</b>: 2</p><p><b>Invalidated At</b>: 2025-07-15 09:15:00+0000</p><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id</code>/a521be25-475d-4a45-b193-026c3d35048d</p><p><b>serviceType</b>: <span title=\"Codes:{https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id 123}\">123</span></p><p><b>schedule</b>: <a href=\"Schedule-example-pharmacy-schedule.html\">Schedule: identifier = https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/id#12345,https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/name#Test Calendar</a></p><p><b>status</b>: Free</p><p><b>start</b>: 2025-07-15 09:15:00+0000</p><p><b>end</b>: 2025-07-15 09:30:00+0000</p></div>"
+  },
+  "extension" : [{
+    "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size",
+    "valueInteger" : 2
+  },
+  {
+    "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/invalidated-at",
+    "valueDateTime" : "2025-07-15T09:15:00Z"
+  }],
+  "identifier" : [{
+    "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id",
+    "value" : "a521be25-475d-4a45-b193-026c3d35048d"
+  }],
+  "serviceType" : [{
+    "coding" : [{
+      "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id",
+      "code" : "123"
+    }]
+  }],
+  "schedule" : {
+    "reference" : "Schedule/example-pharmacy-schedule"
+  },
+  "status" : "free",
+  "start" : "2025-07-15T09:15:00Z",
+  "end" : "2025-07-15T09:30:00Z"
+}

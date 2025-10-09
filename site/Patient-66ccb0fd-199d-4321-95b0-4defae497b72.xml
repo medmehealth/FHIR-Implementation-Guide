@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="66ccb0fd-199d-4321-95b0-4defae497b72"/>
+  <meta>
+    <profile value="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient 66ccb0fd-199d-4321-95b0-4defae497b72</b></p><a name="66ccb0fd-199d-4321-95b0-4defae497b72"> </a><a name="hc66ccb0fd-199d-4321-95b0-4defae497b72"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-medme-pharmacy-patient.html">MedMe Pharmacy Patient</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Jane Doe  Female, DoB: 1990-01-13 ( MRN)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Other Id (see the one above)">Other Id:</td><td colspan="3">JHN/9998887777</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li>ph: 7780009999(Mobile)</li><li>ph: 7780009998(Home)</li><li><a href="mailto:jane.doe@example.com">jane.doe@example.com</a></li><li>123 Main St Montreal CA-QC T0C 2C0 CAN </li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Language spoken">Language:</td><td colspan="3"><span title="Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}">English (Canada)</span> (preferred)</td></tr><tr><td style="background-color: #f3f5da" title="Nominated Contact: Emergency Contact">Emergency Contact:</td><td colspan="3"><ul><li>Mommy Doe </li><li>ph: 1231231234</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Patient Links">Links:</td><td colspan="3"><ul><li>Managing Organization: <a href="Organization-example-pharmacy-organization.html">Organization MedMe Pharmacy Network</a></li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Reference to the location where the patient is registered or primarily receives care."><a href="StructureDefinition-location-id.html">Location ID</a></td><td colspan="3">Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5</td></tr></table></div>
+  </text>
+  <extension url="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id">
+    <valueString value="Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5"/>
+  </extension>
+  <identifier>
+    <type>
+      <coding>
+        <system value="https://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="MRN"/>
+      </coding>
+    </type>
+    <system value="https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/id"/>
+    <value value="66ccb0fd-199d-4321-95b0-4defae497b72"/>
+  </identifier>
+  <identifier>
+    <extension url="https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html">
+      <valueString value="BB"/>
+    </extension>
+    <type>
+      <coding>
+        <system value="https://terminology.hl7.org/CodeSystem/v2-0203"/>
+        <code value="JHN"/>
+      </coding>
+    </type>
+    <system value="https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id"/>
+    <value value="9998887777"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Doe"/>
+    <given value="Jane"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="7780009999"/>
+    <use value="mobile"/>
+  </telecom>
+  <telecom>
+    <system value="phone"/>
+    <value value="7780009998"/>
+    <use value="home"/>
+  </telecom>
+  <telecom>
+    <system value="email"/>
+    <value value="jane.doe@example.com"/>
+  </telecom>
+  <gender value="female"/>
+  <birthDate value="1990-01-13"/>
+  <address>
+    <line value="123 Main St"/>
+    <city value="Montreal"/>
+    <state value="CA-QC"/>
+    <postalCode value="T0C 2C0"/>
+    <country value="CAN"/>
+  </address>
+  <contact>
+    <relationship>
+      <coding>
+        <system value="https://hl7.org/fhir/ValueSet/patient-contactrelationship"/>
+        <code value="EP"/>
+        <display value="Emergency Contact"/>
+      </coding>
+    </relationship>
+    <name>
+      <family value="Doe"/>
+      <given value="Mommy"/>
+    </name>
+    <telecom>
+      <system value="phone"/>
+      <value value="1231231234"/>
+    </telecom>
+  </contact>
+  <communication>
+    <language>
+      <coding>
+        <system value="https://terminology.hl7.org/CodeSystem/language"/>
+        <code value="en-CA"/>
+        <display value="English (Canada)"/>
+      </coding>
+    </language>
+    <preferred value="true"/>
+  </communication>
+  <managingOrganization>
+    <reference value="Organization/example-pharmacy-organization"/>
+  </managingOrganization>
+</Patient>

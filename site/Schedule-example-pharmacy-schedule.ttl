@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.medmehealth.com/pharmacy-services/Schedule/example-pharmacy-schedule> a fhir:Schedule ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "example-pharmacy-schedule"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule"^^xsd:anyURI ;
+       fhir:link <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Schedule example-pharmacy-schedule</b></p><a name=\"example-pharmacy-schedule\"> </a><a name=\"hcexample-pharmacy-schedule\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-schedule.html\">MedMe Pharmacy Schedule</a></p></div><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/id</code>/12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/name</code>/Test Calendar</p><p><b>active</b>: true</p><p><b>actor</b>: </p><ul><li><a href=\"HealthcareService-pharmacy-immunization-service.html\">HealthcareService COVID-19 and Flu Vaccination Service</a></li><li><a href=\"Location-example-pharmacy-location.html\">Location MedMe Pharmacy - Downtown</a></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/id"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "12345" ]
+  ] [
+     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/name"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Test Calendar" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:actor ( [
+     fhir:link <https://fhir.medmehealth.com/pharmacy-services/HealthcareService/pharmacy-immunization-service> ;
+     fhir:reference [ fhir:v "HealthcareService/pharmacy-immunization-service" ]
+  ] [
+     fhir:link <https://fhir.medmehealth.com/pharmacy-services/Location/example-pharmacy-location> ;
+     fhir:reference [ fhir:v "Location/example-pharmacy-location" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

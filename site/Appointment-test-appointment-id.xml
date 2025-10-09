@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="test-appointment-id"/>
+  <meta>
+    <profile value="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Appointment test-appointment-id</b></p><a name="test-appointment-id"> </a><a name="hctest-appointment-id"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-medme-pharmacy-appointment.html">MedMe Pharmacy Appointment</a></p></div><p><b>Appointment Mode</b>: in-person</p><p><b>Communication Language</b>: <span title="Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}">English (Canada)</span></p><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id</code>/test-appointment-id</p><p><b>status</b>: Booked</p><p><b>appointmentType</b>: <span title="Codes:{https://terminology.hl7.org/CodeSystem/v2-0276 ROUTINE}">ROUTINE</span></p><p><b>start</b>: 2023-01-01 10:00:00+0000</p><p><b>end</b>: 2023-01-01 10:15:00+0000</p><p><b>minutesDuration</b>: 30</p><p><b>created</b>: 2023-01-01 10:00:00+0000</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="Patient-66ccb0fd-199d-4321-95b0-4defae497b72.html">Jane Doe  Female, DoB: 1990-01-13 ( MRN)</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href="HealthcareService-pharmacy-immunization-service.html">HealthcareService COVID-19 and Flu Vaccination Service</a></p><p><b>status</b>: Accepted</p></blockquote></div>
+  </text>
+  <extension url="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode">
+    <valueString value="in-person"/>
+  </extension>
+  <extension url="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://terminology.hl7.org/CodeSystem/language"/>
+        <code value="en-CA"/>
+        <display value="English (Canada)"/>
+      </coding>
+      <text value="English (Canada)"/>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-contact"/>
+  <identifier>
+    <system value="https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id"/>
+    <value value="test-appointment-id"/>
+  </identifier>
+  <status value="booked"/>
+  <appointmentType>
+    <coding>
+      <system value="https://terminology.hl7.org/CodeSystem/v2-0276"/>
+      <code value="ROUTINE"/>
+    </coding>
+  </appointmentType>
+  <start value="2023-01-01T10:00:00Z"/>
+  <end value="2023-01-01T10:15:00Z"/>
+  <minutesDuration value="30"/>
+  <created value="2023-01-01T10:00:00Z"/>
+  <participant>
+    <actor>
+      <reference value="Patient/66ccb0fd-199d-4321-95b0-4defae497b72"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+  <participant>
+    <actor>
+      <reference value="HealthcareService/pharmacy-immunization-service"/>
+    </actor>
+    <status value="accepted"/>
+  </participant>
+</Appointment>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Schedule xmlns="http://hl7.org/fhir">
+  <id value="example-pharmacy-schedule"/>
+  <meta>
+    <profile value="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Schedule example-pharmacy-schedule</b></p><a name="example-pharmacy-schedule"> </a><a name="hcexample-pharmacy-schedule"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-medme-pharmacy-schedule.html">MedMe Pharmacy Schedule</a></p></div><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/id</code>/12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/name</code>/Test Calendar</p><p><b>active</b>: true</p><p><b>actor</b>: </p><ul><li><a href="HealthcareService-pharmacy-immunization-service.html">HealthcareService COVID-19 and Flu Vaccination Service</a></li><li><a href="Location-example-pharmacy-location.html">Location MedMe Pharmacy - Downtown</a></li></ul></div>
+  </text>
+  <identifier>
+    <system value="https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/id"/>
+    <value value="12345"/>
+  </identifier>
+  <identifier>
+    <system value="https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/name"/>
+    <value value="Test Calendar"/>
+  </identifier>
+  <active value="true"/>
+  <actor>
+    <reference value="HealthcareService/pharmacy-immunization-service"/>
+  </actor>
+  <actor>
+    <reference value="Location/example-pharmacy-location"/>
+  </actor>
+</Schedule>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Home - MedMe Pharmacy Services Implementation Guide v0.9.11</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">MedMe Pharmacy Services Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.9.11 - ci-build
+
+
+
+  <img alt="Canada flag" src="assets/images/can.svg" height="16" title="Canada"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="artifacts.html">Artifacts</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+</ul> 
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.11) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.9.11<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services|0.9.11"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-09-10
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">MedMePharmacyServicesIG</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#medme-pharmacy-services-implementation-guide" id="markdown-toc-medme-pharmacy-services-implementation-guide">MedMe Pharmacy Services Implementation Guide</a>    <ul>
+      <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
+      <li><a href="#whats-included" id="markdown-toc-whats-included">What's Included</a></li>
+      <li><a href="#multilingual-support" id="markdown-toc-multilingual-support">Multilingual Support</a>        <ul>
+          <li><a href="#using-primitive-extensions-for-translations" id="markdown-toc-using-primitive-extensions-for-translations">Using Primitive Extensions for Translations</a></li>
+          <li><a href="#supported-fields-for-multilingual-content" id="markdown-toc-supported-fields-for-multilingual-content">Supported Fields for Multilingual Content</a></li>
+          <li><a href="#implementation-guidelines" id="markdown-toc-implementation-guidelines">Implementation Guidelines</a></li>
+        </ul>
+      </li>
+      <li><a href="#getting-started" id="markdown-toc-getting-started">Getting Started</a></li>
+      <li><a href="#support" id="markdown-toc-support">Support</a></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<h1 id="medme-pharmacy-services-implementation-guide">MedMe Pharmacy Services Implementation Guide</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>Welcome to the <strong>MedMe Pharmacy Services Implementation Guide</strong>. This FHIR R4 Implementation Guide provides specifications for comprehensive pharmacy services including prescription dispensing, immunizations, minor ailment treatments, and medication management services within the Canadian healthcare context.</p>
+
+<h2 id="whats-included">What's Included</h2>
+
+<p>This Implementation Guide defines:</p>
+
+<ul>
+  <li><strong>FHIR Profiles</strong>: Specialized profiles for pharmacy services built on Canadian Core
+    <ul>
+      <li><strong>MedMePharmacyOrganization</strong>: Profile for pharmacy organizations with MedMe-specific identifiers and constraints</li>
+      <li><strong>MedMePharmacyLocation</strong>: Profile for pharmacy locations with required contact information and pharmacy types</li>
+      <li><strong>MedMePharmacyHealthcareService</strong>: Profile for pharmacy services with required fields and business rules</li>
+    </ul>
+  </li>
+  <li><strong>Extensions</strong>: Custom extensions for pharmacy-specific functionality</li>
+  <li><strong>Examples</strong>: Sample resources demonstrating proper usage</li>
+  <li><strong>Value Sets</strong>: Standardized codes for pharmacy services</li>
+</ul>
+
+<h2 id="multilingual-support">Multilingual Support</h2>
+
+<p>This Implementation Guide supports multilingual content through FHIR primitive extensions. While the profiles don't enforce these extensions, implementers are encouraged to use them for better user experience in bilingual environments.</p>
+
+<h3 id="using-primitive-extensions-for-translations">Using Primitive Extensions for Translations</h3>
+
+<p>For fields that support multilingual content (such as <code class="language-plaintext highlighter-rouge">name</code>, <code class="language-plaintext highlighter-rouge">comment</code>, and <code class="language-plaintext highlighter-rouge">extraDetails</code> in HealthcareService), you can add French translations using primitive extensions:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"COVID-19 Vaccination Service"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"extension"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://hl7.org/fhir/StructureDefinition/translation"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"extension"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"lang"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"valueCode"</span><span class="p">:</span><span class="w"> </span><span class="s2">"fr"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"content"</span><span class="p">,</span><span class="w">
+            </span><span class="nl">"valueString"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Service de vaccination COVID-19"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+      </span><span class="p">}</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<h3 id="supported-fields-for-multilingual-content">Supported Fields for Multilingual Content</h3>
+
+<ul>
+  <li><strong>HealthcareService.name</strong>: Service name</li>
+  <li><strong>HealthcareService.comment</strong>: Service description</li>
+  <li><strong>HealthcareService.extraDetails</strong>: Additional service details</li>
+</ul>
+
+<h3 id="implementation-guidelines">Implementation Guidelines</h3>
+
+<ol>
+  <li><strong>Primary Language</strong>: Always provide content in the primary language (English)</li>
+  <li><strong>Translation Extension</strong>: Add <code class="language-plaintext highlighter-rouge">_fieldName</code> primitive extension for translations</li>
+  <li><strong>Language Code</strong>: Use <code class="language-plaintext highlighter-rouge">fr</code> for French translations</li>
+  <li><strong>Content Type</strong>: Use <code class="language-plaintext highlighter-rouge">valueString</code> for text fields, <code class="language-plaintext highlighter-rouge">valueMarkdown</code> for markdown fields</li>
+</ol>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>To implement these profiles:</p>
+
+<ol>
+  <li><strong>Review the Profiles</strong>: Understand the constraints and requirements</li>
+  <li><strong>Check Examples</strong>: See sample resources in the examples section</li>
+  <li><strong>Follow Multilingual Guidelines</strong>: Implement translations as described above</li>
+  <li><strong>Validate Resources</strong>: Ensure your resources conform to the profiles</li>
+</ol>
+
+<h2 id="support">Support</h2>
+
+<p>For questions or support with this Implementation Guide, please refer to the FHIR specification or contact the MedMe development team.</p>
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.11 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 10, 2025 15:54-0300">2025-09-10</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

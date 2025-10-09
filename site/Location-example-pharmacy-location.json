@@ -1,0 +1,60 @@
+{
+  "resourceType" : "Location",
+  "id" : "example-pharmacy-location",
+  "meta" : {
+    "profile" : ["https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location example-pharmacy-location</b></p><a name=\"example-pharmacy-location\"> </a><a name=\"hcexample-pharmacy-location\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-location.html\">MedMe Pharmacy Location</a></p></div><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/location/id</code>/loc-67890, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/location/store-number</code>/STORE-001</p><p><b>status</b>: Active</p><p><b>name</b>: MedMe Pharmacy - Downtown</p><p><b>description</b>: Main downtown location for MedMe pharmacy services</p><p><b>mode</b>: Instance</p><p><b>type</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/v3-RoleCode PHARM}\">Pharmacy</span></p><p><b>telecom</b>: <a href=\"tel:+1-555-987-6543\">+1-555-987-6543</a>, fax: +1-555-987-6544(Work), <a href=\"mailto:downtown@medme.com\">downtown@medme.com</a></p><p><b>address</b>: 456 Queen Street West, Toronto, ON M5V 2B7</p><h3>Positions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td style=\"display: none\">*</td><td>-79.3832</td><td>43.6532</td></tr></table><p><b>managingOrganization</b>: <a href=\"Organization-example-pharmacy-organization.html\">Organization MedMe Pharmacy Network</a></p></div>"
+  },
+  "identifier" : [{
+    "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/location/id",
+    "value" : "loc-67890"
+  },
+  {
+    "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/location/store-number",
+    "value" : "STORE-001"
+  }],
+  "status" : "active",
+  "name" : "MedMe Pharmacy - Downtown",
+  "description" : "Main downtown location for MedMe pharmacy services",
+  "mode" : "instance",
+  "type" : [{
+    "coding" : [{
+      "system" : "https://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "code" : "PHARM",
+      "display" : "Pharmacy"
+    }]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+1-555-987-6543",
+    "use" : "work"
+  },
+  {
+    "system" : "fax",
+    "value" : "+1-555-987-6544",
+    "use" : "work"
+  },
+  {
+    "system" : "email",
+    "value" : "downtown@medme.com",
+    "use" : "work"
+  }],
+  "address" : {
+    "text" : "456 Queen Street West, Toronto, ON M5V 2B7",
+    "line" : ["456 Queen Street West"],
+    "city" : "Toronto",
+    "state" : "ON",
+    "postalCode" : "M5V 2B7",
+    "country" : "CA"
+  },
+  "position" : {
+    "longitude" : -79.3832,
+    "latitude" : 43.6532
+  },
+  "managingOrganization" : {
+    "reference" : "Organization/example-pharmacy-organization"
+  }
+}

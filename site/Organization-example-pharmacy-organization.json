@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Organization",
+  "id" : "example-pharmacy-organization",
+  "meta" : {
+    "profile" : ["https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-pharmacy-organization</b></p><a name=\"example-pharmacy-organization\"> </a><a name=\"hcexample-pharmacy-organization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-organization.html\">MedMe Pharmacy Organization</a></p></div><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id</code>/org-12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/code</code>/MEDME-PHARM</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: MedMe Pharmacy Network</p><p><b>telecom</b>: <a href=\"tel:+1-555-123-4567\">+1-555-123-4567</a>, <a href=\"mailto:contact@medmepharmacy.com\">contact@medmepharmacy.com</a></p><p><b>address</b>: 123 Main Street Toronto ON M5V 3A8 CA </p></div>"
+  },
+  "identifier" : [{
+    "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id",
+    "value" : "org-12345"
+  },
+  {
+    "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/code",
+    "value" : "MEDME-PHARM"
+  }],
+  "active" : true,
+  "type" : [{
+    "coding" : [{
+      "system" : "https://terminology.hl7.org/CodeSystem/organization-type",
+      "code" : "prov",
+      "display" : "Healthcare Provider"
+    }]
+  }],
+  "name" : "MedMe Pharmacy Network",
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "+1-555-123-4567"
+  },
+  {
+    "system" : "email",
+    "value" : "contact@medmepharmacy.com"
+  }],
+  "address" : [{
+    "line" : ["123 Main Street"],
+    "city" : "Toronto",
+    "state" : "ON",
+    "postalCode" : "M5V 3A8",
+    "country" : "CA"
+  }]
+}

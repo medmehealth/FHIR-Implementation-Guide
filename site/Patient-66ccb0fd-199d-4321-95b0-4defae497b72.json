@@ -1,0 +1,97 @@
+{
+  "resourceType" : "Patient",
+  "id" : "66ccb0fd-199d-4321-95b0-4defae497b72",
+  "meta" : {
+    "profile" : ["https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient 66ccb0fd-199d-4321-95b0-4defae497b72</b></p><a name=\"66ccb0fd-199d-4321-95b0-4defae497b72\"> </a><a name=\"hc66ccb0fd-199d-4321-95b0-4defae497b72\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-patient.html\">MedMe Pharmacy Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jane Doe  Female, DoB: 1990-01-13 ( MRN)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Id (see the one above)\">Other Id:</td><td colspan=\"3\">JHN/9998887777</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 7780009999(Mobile)</li><li>ph: 7780009998(Home)</li><li><a href=\"mailto:jane.doe@example.com\">jane.doe@example.com</a></li><li>123 Main St Montreal CA-QC T0C 2C0 CAN </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\">English (Canada)</span> (preferred)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: Emergency Contact\">Emergency Contact:</td><td colspan=\"3\"><ul><li>Mommy Doe </li><li>ph: 1231231234</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-example-pharmacy-organization.html\">Organization MedMe Pharmacy Network</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Reference to the location where the patient is registered or primarily receives care.\"><a href=\"StructureDefinition-location-id.html\">Location ID</a></td><td colspan=\"3\">Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id",
+    "valueString" : "Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5"
+  }],
+  "identifier" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "MRN"
+      }]
+    },
+    "system" : "https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/id",
+    "value" : "66ccb0fd-199d-4321-95b0-4defae497b72"
+  },
+  {
+    "extension" : [{
+      "url" : "https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html",
+      "valueString" : "BB"
+    }],
+    "type" : {
+      "coding" : [{
+        "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+        "code" : "JHN"
+      }]
+    },
+    "system" : "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id",
+    "value" : "9998887777"
+  }],
+  "active" : true,
+  "name" : [{
+    "family" : "Doe",
+    "given" : ["Jane"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "7780009999",
+    "use" : "mobile"
+  },
+  {
+    "system" : "phone",
+    "value" : "7780009998",
+    "use" : "home"
+  },
+  {
+    "system" : "email",
+    "value" : "jane.doe@example.com"
+  }],
+  "gender" : "female",
+  "birthDate" : "1990-01-13",
+  "address" : [{
+    "line" : ["123 Main St"],
+    "city" : "Montreal",
+    "state" : "CA-QC",
+    "postalCode" : "T0C 2C0",
+    "country" : "CAN"
+  }],
+  "contact" : [{
+    "relationship" : [{
+      "coding" : [{
+        "system" : "https://hl7.org/fhir/ValueSet/patient-contactrelationship",
+        "code" : "EP",
+        "display" : "Emergency Contact"
+      }]
+    }],
+    "name" : {
+      "family" : "Doe",
+      "given" : ["Mommy"]
+    },
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "1231231234"
+    }]
+  }],
+  "communication" : [{
+    "language" : {
+      "coding" : [{
+        "system" : "https://terminology.hl7.org/CodeSystem/language",
+        "code" : "en-CA",
+        "display" : "English (Canada)"
+      }]
+    },
+    "preferred" : true
+  }],
+  "managingOrganization" : {
+    "reference" : "Organization/example-pharmacy-organization"
+  }
+}

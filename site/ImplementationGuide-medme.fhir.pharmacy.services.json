@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide medme.fhir.pharmacy.services</b></p><a name=\"medme.fhir.pharmacy.services\"> </a><a name=\"hcmedme.fhir.pharmacy.services\"> </a><h2>MedMePharmacyServicesIG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services</pre><div><p>FHIR Implementation Guide for comprehensive pharmacy services including prescription dispensing, immunizations, minor ailment treatments, and medication management - built on Canadian Core profiles</p>\n</div></div>"
   },
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services",
-  "version" : "0.9.11",
+  "version" : "0.9.15",
   "name" : "MedMePharmacyServicesIG",
   "title" : "MedMe Pharmacy Services Implementation Guide",
   "status" : "draft",
-  "date" : "2025-09-10T15:54:27-03:00",
+  "date" : "2025-10-03T11:11:24-03:00",
   "publisher" : "MedMe Health",
   "contact" : [{
     "name" : "MedMe Health",
@@ -680,7 +680,7 @@
       },
       "name" : "Example Pharmacy Immunization Service",
       "description" : "An example of a pharmacy immunization service with all required extensions",
-      "exampleCanonical" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice"
+      "exampleCanonical" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service"
     },
     {
       "extension" : [{
@@ -844,7 +844,7 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/medme-pharmacy-healthcareservice"
+        "reference" : "StructureDefinition/medme-pharmacy-healthcare-service"
       },
       "name" : "MedMe Pharmacy HealthcareService",
       "description" : "A profile of HealthcareService for MedMe pharmacy services, based on Canadian Core, with additional extensions for pharmacy-specific needs.",

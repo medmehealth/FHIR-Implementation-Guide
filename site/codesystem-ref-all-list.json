@@ -374,8 +374,8 @@
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
-      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set"
+      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set",
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

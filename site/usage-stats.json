@@ -1,6 +1,6 @@
 {
   "package": "medme.fhir.pharmacy.services",
-  "version": "0.9.11",
+  "version": "0.9.15",
   "fhirVersion": "4.0.1",
   "jurisdiction": "CA",
   "extensions": [
@@ -151,7 +151,7 @@
     ],
     "HealthcareService": [
       {
-        "url": "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice",
+        "url": "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service",
         "title": "MedMe Pharmacy HealthcareService"
       }
     ],

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Multilingual Support - MedMe Pharmacy Services Implementation Guide v0.9.11</title>
+    <title>Multilingual Support - MedMe Pharmacy Services Implementation Guide v0.9.15</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,7 +52,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MedMe Pharmacy Services Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.9.11 - ci-build
+            <span style="display:inline-block;">0.9.15 - ci-build
 
 
 
@@ -116,7 +116,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.11) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.15) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Multilingual Support</h2>
   
 
@@ -248,7 +248,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </span><span class="nl">"resourceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"HealthcareService"</span><span class="p">,</span><span class="w">
   </span><span class="nl">"meta"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
     </span><span class="nl">"profile"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-      </span><span class="s2">"https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice"</span><span class="w">
+      </span><span class="s2">"https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service"</span><span class="w">
     </span><span class="p">]</span><span class="w">
   </span><span class="p">},</span><span class="w">
   </span><span class="nl">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
@@ -322,7 +322,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"English content here"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="err">/*</span><span class="w"> </span><span class="err">French</span><span class="w"> </span><span class="err">translation</span><span class="w"> </span><span class="err">*/</span><span class="w"> </span><span class="p">}</span><span class="w">
+  </span><span class="nl">"_name"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="err">/*</span><span class="w"> </span><span class="err">French</span><span class="w"> </span><span class="err">translation</span><span class="w"> </span><span class="err">*/</span><span class="w">
+  </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w">
 </span></code></pre></div></div>
 
@@ -362,6 +364,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h2 id="best-practices">Best Practices</h2>
 
 <h3 id="1-consistency">1. Consistency</h3>
+
 <ul>
   <li>Always provide translations for all user-facing text</li>
   <li>Use consistent terminology across translations</li>
@@ -369,6 +372,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 <h3 id="2-validation">2. Validation</h3>
+
 <ul>
   <li>Validate that translations are complete and accurate</li>
   <li>Test with native French speakers when possible</li>
@@ -376,6 +380,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 <h3 id="3-fallback-strategy">3. Fallback Strategy</h3>
+
 <ul>
   <li>Applications should fall back to English if translations are missing</li>
   <li>Consider using a language preference setting</li>
@@ -383,6 +388,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 <h3 id="4-performance">4. Performance</h3>
+
 <ul>
   <li>Primitive extensions don't significantly impact performance</li>
   <li>Consider caching translations for frequently accessed content</li>
@@ -417,7 +423,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Use FHIR validation tools to ensure your resources conform to the profiles:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># Example validation command</span>
-fhir validate <span class="nt">--profile</span> https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice resource.json
+fhir validate <span class="nt">--profile</span> https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service resource.json
 </code></pre></div></div>
 
 <h2 id="references">References</h2>
@@ -427,6 +433,7 @@ fhir validate <span class="nt">--profile</span> https://fhir.medmehealth.com/pha
   <li><a href="https://www.hl7.org/fhir/extension-translation.html">HL7 Translation Extension</a></li>
   <li><a href="https://fhir.infoway-inforoute.ca/cacore">Canadian Core FHIR Profiles</a></li>
 </ul>
+
 
 
 
@@ -446,7 +453,7 @@ fhir validate <span class="nt">--profile</span> https://fhir.medmehealth.com/pha
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.11 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Sep 10, 2025 15:54-0300">2025-09-10</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.15 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Oct 3, 2025 11:11-0300">2025-10-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

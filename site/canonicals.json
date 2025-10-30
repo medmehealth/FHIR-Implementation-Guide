@@ -91,9 +91,9 @@
     "name" : "MedMePharmacyAppointment"
   },
   {
-    "id" : "medme-pharmacy-healthcare-service",
+    "id" : "medme-pharmacy-healthcareservice",
     "type" : "StructureDefinition",
-    "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service",
+    "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice",
     "version" : "0.9.15",
     "name" : "MedMePharmacyHealthcareService"
   },

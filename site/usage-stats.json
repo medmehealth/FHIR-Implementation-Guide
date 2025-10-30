@@ -151,7 +151,7 @@
     ],
     "HealthcareService": [
       {
-        "url": "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service",
+        "url": "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice",
         "title": "MedMe Pharmacy HealthcareService"
       }
     ],

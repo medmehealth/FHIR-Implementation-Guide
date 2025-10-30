@@ -11,7 +11,7 @@
   <name value="MedMePharmacyServicesIG"/>
   <title value="MedMe Pharmacy Services Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-10-03T11:11:24-03:00"/>
+  <date value="2025-10-30T18:43:23-03:00"/>
   <publisher value="MedMe Health"/>
   <contact>
     <name value="MedMe Health"/>
@@ -520,7 +520,7 @@
       </reference>
       <name value="Example Pharmacy Immunization Service"/>
       <description value="An example of a pharmacy immunization service with all required extensions"/>
-      <exampleCanonical value="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service"/>
+      <exampleCanonical value="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -670,7 +670,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/medme-pharmacy-healthcare-service"/>
+        <reference value="StructureDefinition/medme-pharmacy-healthcareservice"/>
       </reference>
       <name value="MedMe Pharmacy HealthcareService"/>
       <description value="A profile of HealthcareService for MedMe pharmacy services, based on Canadian Core, with additional extensions for pharmacy-specific needs."/>

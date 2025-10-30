@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "CommunicationLanguage"] ; # 
   fhir:title [ fhir:v "Communication Language"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-03T11:11:24-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-30T18:43:23-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MedMe Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MedMe Health" ] ;

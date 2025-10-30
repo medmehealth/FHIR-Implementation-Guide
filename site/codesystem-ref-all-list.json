@@ -184,6 +184,18 @@
       "http://hl7.org/fhir/R4/valueset-appointment-cancellation-reason.html" : "Appointment cancellation reason"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "CommonTags",
+      "title" : "Common Tags",
+      "description" : "Common Tag Codes defined by FHIR project",
+      "oids" : ["2.16.840.1.113883.4.642.1.1067"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-common-tags.html" : "Common Tags"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/contactentity-type",
       "version" : "1.0.0",
       "status" : "draft",
@@ -374,8 +386,8 @@
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
-      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set",
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

@@ -10,7 +10,7 @@
   "name" : "MedMePharmacyServicesIG",
   "title" : "MedMe Pharmacy Services Implementation Guide",
   "status" : "draft",
-  "date" : "2025-10-03T11:11:24-03:00",
+  "date" : "2025-10-30T18:43:23-03:00",
   "publisher" : "MedMe Health",
   "contact" : [{
     "name" : "MedMe Health",
@@ -680,7 +680,7 @@
       },
       "name" : "Example Pharmacy Immunization Service",
       "description" : "An example of a pharmacy immunization service with all required extensions",
-      "exampleCanonical" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcare-service"
+      "exampleCanonical" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice"
     },
     {
       "extension" : [{
@@ -844,7 +844,7 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/medme-pharmacy-healthcare-service"
+        "reference" : "StructureDefinition/medme-pharmacy-healthcareservice"
       },
       "name" : "MedMe Pharmacy HealthcareService",
       "description" : "A profile of HealthcareService for MedMe pharmacy services, based on Canadian Core, with additional extensions for pharmacy-specific needs.",

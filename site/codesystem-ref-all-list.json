@@ -37,6 +37,18 @@
       "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
+      "url" : "http://hl7.org/fhir/appointmentstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AppointmentStatus",
+      "title" : "AppointmentStatus",
+      "description" : "The free/busy status of an appointment.",
+      "oids" : ["2.16.840.1.113883.4.642.4.485"],
+      "uses" : {
+      },
+      "ValueSet-medme-appointment-status.html" : "MedMe Appointment Status"
+    },
+    {
       "url" : "http://hl7.org/fhir/contact-point-system",
       "version" : "4.0.1",
       "status" : "active",
@@ -146,7 +158,7 @@
     },
     {
       "url" : "http://loinc.org",
-      "version" : "3.1.0",
+      "version" : "3.0.1",
       "status" : "active",
       "name" : "LOINC",
       "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
@@ -168,8 +180,8 @@
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes"
+      "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason",
@@ -325,7 +337,7 @@
       "oids" : ["2.16.840.1.113883.18.47"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+      "http://terminology.hl7.org/7.0.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
@@ -361,7 +373,7 @@
       "oids" : ["2.16.840.1.113883.18.169"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v2-0276.html" : "hl7VS-appointmentReasonCodes"
+      "http://terminology.hl7.org/7.0.0/ValueSet-v2-0276.html" : "hl7VS-appointmentReasonCodes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
@@ -385,8 +397,8 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
       "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
+      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
       "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set"
     },
     {
@@ -411,7 +423,7 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+      "http://terminology.hl7.org/7.0.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
     },
     {
       "url" : "urn:ietf:bcp:47",
@@ -427,7 +439,7 @@
     },
     {
       "url" : "urn:iso:std:iso:3166",
-      "version" : "1.0.1",
+      "version" : "1.0.0",
       "status" : "active",
       "name" : "ISO3166Part1",
       "title" : "ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code",
@@ -435,11 +447,11 @@
       "oids" : ["1.0.3166.1"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-jurisdiction.html" : "Jurisdiction ValueSet"
+      "http://terminology.hl7.org/7.0.0/ValueSet-jurisdiction.html" : "Jurisdiction ValueSet"
     },
     {
       "url" : "urn:iso:std:iso:3166:-2",
-      "version" : "1.0.1",
+      "version" : "1.0.0",
       "status" : "active",
       "name" : "ISO3166Part2",
       "title" : "ISO 3166-2 Codes for the representation of names of countries and their subdivisions — Part 2: Country subdivision code",
@@ -447,7 +459,7 @@
       "oids" : ["1.0.3166.2"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.5.0/ValueSet-jurisdiction.html" : "Jurisdiction ValueSet"
+      "http://terminology.hl7.org/7.0.0/ValueSet-jurisdiction.html" : "Jurisdiction ValueSet"
     }
   ]
 }

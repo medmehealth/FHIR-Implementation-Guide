@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services"/>
-  <version value="0.9.15"/>
+  <version value="0.9.20"/>
   <name value="MedMePharmacyServicesIG"/>
   <title value="MedMe Pharmacy Services Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-10-30T18:43:23-03:00"/>
+  <date value="2025-11-18T19:57:13-03:00"/>
   <publisher value="MedMe Health"/>
   <contact>
     <name value="MedMe Health"/>
@@ -40,7 +40,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.5.0"/>
+    <version value="7.0.0"/>
   </dependsOn>
   <dependsOn id="ca_infoway_io_core">
     <uri value="http://fhir.org/packages/ca.infoway.io.core/ImplementationGuide/ca.infoway.io.core"/>
@@ -652,6 +652,28 @@
       </reference>
       <name value="Location ID"/>
       <description value="Reference to the location where the patient is registered or primarily receives care."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medme-appointment-status"/>
+      </reference>
+      <name value="MedMe Appointment Status"/>
+      <description value="Supported appointment statuses for MedMe pharmacy services"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medme-appointment-type"/>
+      </reference>
+      <name value="MedMe Appointment Type"/>
+      <description value="Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

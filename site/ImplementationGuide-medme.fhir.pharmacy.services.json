@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide medme.fhir.pharmacy.services</b></p><a name=\"medme.fhir.pharmacy.services\"> </a><a name=\"hcmedme.fhir.pharmacy.services\"> </a><h2>MedMePharmacyServicesIG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services</pre><div><p>FHIR Implementation Guide for comprehensive pharmacy services including prescription dispensing, immunizations, minor ailment treatments, and medication management - built on Canadian Core profiles</p>\n</div></div>"
   },
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services",
-  "version" : "0.9.15",
+  "version" : "0.9.20",
   "name" : "MedMePharmacyServicesIG",
   "title" : "MedMe Pharmacy Services Implementation Guide",
   "status" : "draft",
-  "date" : "2025-10-30T18:43:23-03:00",
+  "date" : "2025-11-18T19:57:13-03:00",
   "publisher" : "MedMe Health",
   "contact" : [{
     "name" : "MedMe Health",
@@ -41,7 +41,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.5.0"
+    "version" : "7.0.0"
   },
   {
     "id" : "ca_infoway_io_core",
@@ -824,6 +824,30 @@
       },
       "name" : "Location ID",
       "description" : "Reference to the location where the patient is registered or primarily receives care.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medme-appointment-status"
+      },
+      "name" : "MedMe Appointment Status",
+      "description" : "Supported appointment statuses for MedMe pharmacy services",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/medme-appointment-type"
+      },
+      "name" : "MedMe Appointment Type",
+      "description" : "Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)",
       "exampleBoolean" : false
     },
     {

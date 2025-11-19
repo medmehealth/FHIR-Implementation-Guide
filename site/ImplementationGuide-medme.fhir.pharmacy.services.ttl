@@ -14,11 +14,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide medme.fhir.pharmacy.services</b></p><a name=\"medme.fhir.pharmacy.services\"> </a><a name=\"hcmedme.fhir.pharmacy.services\"> </a><h2>MedMePharmacyServicesIG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services</pre><div><p>FHIR Implementation Guide for comprehensive pharmacy services including prescription dispensing, immunizations, minor ailment treatments, and medication management - built on Canadian Core profiles</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.9.15"] ; # 
+  fhir:version [ fhir:v "0.9.20"] ; # 
   fhir:name [ fhir:v "MedMePharmacyServicesIG"] ; # 
   fhir:title [ fhir:v "MedMe Pharmacy Services Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-10-30T18:43:23-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-18T19:57:13-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MedMe Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MedMe Health" ] ;
@@ -54,7 +54,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.5.0" ]
+     fhir:version [ fhir:v "7.0.0" ]
   ] [
      fhir:id [ fhir:v "ca_infoway_io_core" ] ;
      fhir:uri [
@@ -1157,6 +1157,42 @@
        ] ;
        fhir:name [ fhir:v "Location ID" ] ;
        fhir:description [ fhir:v "Reference to the location where the patient is registered or primarily receives care." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status> ;
+         fhir:reference [ fhir:v "ValueSet/medme-appointment-status" ]
+       ] ;
+       fhir:name [ fhir:v "MedMe Appointment Status" ] ;
+       fhir:description [ fhir:v "Supported appointment statuses for MedMe pharmacy services" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type> ;
+         fhir:reference [ fhir:v "ValueSet/medme-appointment-type" ]
+       ] ;
+       fhir:name [ fhir:v "MedMe Appointment Type" ] ;
+       fhir:description [ fhir:v "Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

@@ -1,0 +1,218 @@
+MedMePharmacyServicesIG : Validation Results
+=========================================
+
+err = 37, warn = 92, info = 4
+IG Publisher Version: 2.0.17 Out of date - current version is 2.0.26
+Generated Tue Nov 18 19:58:39 BRT 2025. FHIR version 4.0.1 for medme.fhir.pharmacy.services#0.9.20 (canonical = https://fhir.medmehealth.com/pharmacy-services)
+ Build Errors : 26 / 4 / 0
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/Appointment-test-appointment-id : 7 / 7 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/HealthcareService-pharmacy-immunization-service : 0 / 11 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/ImplementationGuide-medme.fhir.pharmacy.services : 0 / 3 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/Location-example-pharmacy-location : 0 / 3 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/Organization-example-pharmacy-organization : 0 / 3 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/Patient-66ccb0fd-199d-4321-95b0-4defae497b72 : 10 / 17 / 3
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/Schedule-example-pharmacy-schedule : 1 / 2 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/Slot-slot-123 : 0 / 3 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-appointment-mode : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-artifact-contact : 3 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-communication-language : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-default-duration : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-group-size : 1 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-invalidated-at : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-is-cancellation-allowed : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-is-public : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-is-rescheduling-allowed : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-is-waitlisted : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-location-id : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-appointment : 3 / 5 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-healthcareservice : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-location : 0 / 2 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-organization : 0 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-patient : 3 / 26 / 2
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-schedule : 1 / 0 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-slot : 0 / 3 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/ValueSet-medme-appointment-status : 0 / 1 / 1
+ /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/ValueSet-medme-appointment-type : 2 / 2 / 2
+</table>
+== n/a ==
+ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
+ERROR: StructureDefinition-medme-pharmacy-patient.html: The reference integer64 could not be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient.html: The reference CodeableReference could not be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient.html: The reference RatioRange could not be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient.html: The reference Availability could not be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient.html: The reference ExtendedContactDetail could not be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 1592: The link 'integer64.html' for "integer64" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 3102: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 4424: The link 'RatioRange.html' for "RatioRange" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 5764: The link 'Availability.html' for "Availability" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 432, column 5810: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 502, column 1592: The link 'integer64.html' for "integer64" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 502, column 3102: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 502, column 4424: The link 'RatioRange.html' for "RatioRange" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 502, column 5764: The link 'Availability.html' for "Availability" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 502, column 5810: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1184, column 1088: The link 'integer64.html' for "integer64" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1184, column 2094: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1184, column 2984: The link 'RatioRange.html' for "RatioRange" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1184, column 3928: The link 'Availability.html' for "Availability" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1184, column 3974: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1255, column 1088: The link 'integer64.html' for "integer64" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1255, column 2094: The link 'CodeableReference.html' for "CodeableReference" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1255, column 2984: The link 'RatioRange.html' for "RatioRange" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1255, column 3928: The link 'Availability.html' for "Availability" cannot be resolved
+ERROR: StructureDefinition-medme-pharmacy-patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1255, column 3974: The link 'ExtendedContactDetail.html' for "ExtendedContactDetail" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Appointment-test-appointment-id.json ==
+WARNING: Appointment/test-appointment-id: Appointment.extension[1].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/language' could not be found, so the code cannot be validated
+ERROR: Appointment/test-appointment-id: Appointment.extension[2]: Constraint failed: ext-1: 'Must have either extensions or value[x], not both' (defined in http://hl7.org/fhir/StructureDefinition/Extension)
+ERROR: Appointment/test-appointment-id: Appointment.extension[2]: The Extension 'http://hl7.org/fhir/StructureDefinition/artifact-contact' definition is for a simple extension, so it must contain a value
+ERROR: Appointment/test-appointment-id: Appointment.extension[2]: Extension.value[x]: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0)
+WARNING: Appointment/test-appointment-id: Appointment.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id'
+WARNING: Appointment/test-appointment-id: Appointment.appointmentType.coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0276' could not be found, so the code cannot be validated
+WARNING: Appointment/test-appointment-id: Appointment.appointmentType: Unable to check whether the code is in the value set 'https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type|0.9.20' because the code system https://terminology.hl7.org/CodeSystem/v2-0276 was not found
+WARNING: Appointment/test-appointment-id: Appointment.appointmentType: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0276' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type|0.9.20' because the code system https://terminology.hl7.org/CodeSystem/v2-0276 was not found
+ERROR: Appointment/test-appointment-id: Appointment.participant[0]: Constraint failed: at-least-one-patient: 'At least one participant must be a Patient (participant.where(actor.reference.startsWith('Patient/')).count() >= 1)'
+ERROR: Appointment/test-appointment-id: Appointment.participant[0]: Constraint failed: at-least-one-healthcare-service: 'At least one participant must be a HealthcareService' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+WARNING: Appointment/test-appointment-id: Appointment.participant[0].status: ValueSet 'https://hl7.org/fhir/ValueSet/participationstatus' not found
+ERROR: Appointment/test-appointment-id: Appointment.participant[1]: Constraint failed: at-least-one-patient: 'At least one participant must be a Patient (participant.where(actor.reference.startsWith('Patient/')).count() >= 1)'
+ERROR: Appointment/test-appointment-id: Appointment.participant[1]: Constraint failed: at-least-one-healthcare-service: 'At least one participant must be a HealthcareService' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+WARNING: Appointment/test-appointment-id: Appointment.participant[1].status: ValueSet 'https://hl7.org/fhir/ValueSet/participationstatus' not found
+== fsh-generated/resources/HealthcareService-pharmacy-immunization-service.json ==
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id'
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.identifier[1].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id'
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.identifier[2].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/url-param'
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.category[0].coding[0].system: A definition for CodeSystem 'https://snomed.info/sct' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.category[0].coding[1]: A definition for CodeSystem 'https://snomed.info/sct' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.category[1].coding[0]: A definition for CodeSystem 'https://snomed.info/sct' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.type[0].coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/fhir/service-type' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.type[0].coding[1]: A definition for CodeSystem 'https://snomed.info/sct' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.type[0].coding[2]: A definition for CodeSystem 'https://snomed.info/sct' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.characteristic[0].coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/fhir/service-mode' could not be found, so the code cannot be validated
+WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.characteristic[0].coding[1]: A definition for CodeSystem 'https://terminology.hl7.org/fhir/service-mode' could not be found, so the code cannot be validated
+== fsh-generated/resources/ImplementationGuide-medme.fhir.pharmacy.services.json ==
+WARNING: ImplementationGuide/medme.fhir.pharmacy.services: ImplementationGuide.dependsOn[1].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/ca.infoway.io.core/ImplementationGuide/ca.infoway.io.core'
+WARNING: ImplementationGuide/medme.fhir.pharmacy.services: ImplementationGuide.dependsOn[1]: The canonical URL http://fhir.org/packages/ca.infoway.io.core/ImplementationGuide/ca.infoway.io.core doesn't point to an actual ImplementationGuide resource
+WARNING: ImplementationGuide/medme.fhir.pharmacy.services: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+== fsh-generated/resources/Location-example-pharmacy-location.json ==
+WARNING: Location/example-pharmacy-location: Location.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/location/id'
+WARNING: Location/example-pharmacy-location: Location.identifier[1].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/location/store-number'
+WARNING: Location/example-pharmacy-location: Location.type[0].coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v3-RoleCode' could not be found, so the code cannot be validated
+== fsh-generated/resources/Organization-example-pharmacy-organization.json ==
+WARNING: Organization/example-pharmacy-organization: Organization.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id'
+WARNING: Organization/example-pharmacy-organization: Organization.identifier[1].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code'
+WARNING: Organization/example-pharmacy-organization: Organization.type[0].coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/organization-type' could not be found, so the code cannot be validated
+== fsh-generated/resources/Patient-66ccb0fd-199d-4321-95b0-4defae497b72.json ==
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:patientId in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:patientId in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:patientId in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:jhn in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:jhn in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:jhn in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:pcId in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:pcId in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2]: Slicing cannot be evaluated: Could not match discriminator (type) for slice Patient.identifier:pcId in profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20 - the discriminator [type] does not have fixed value, binding or existence assertions
+INFORMATION: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient: Patient.identifier:patientId: Found 0 matches, but unable to check minimum required (Patient.identifier) due to lack of slicing validation (from https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.20)
+INFORMATION: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.meta.source: No definition could be found for URL value 'https://fhir.medmehealth.com'
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0].type.coding[0].system: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0203' could not be found, so the code cannot be validated
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/org-12345/patient/id'
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1].extension[0]: The extension https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html could not be found so is not allowed here
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1].extension[0].url: No definition could be found for URL value 'https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html'
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1].type.coding[0]: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0203' could not be found, so the code cannot be validated
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1].system: No definition could be found for URL value 'https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id'
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2].type.coding[0]: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0203' could not be found, so the code cannot be validated
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id'
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.telecom[0].system: ValueSet 'https://hl7.org/fhir/ValueSet/contact-point-system' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.telecom[0].use: ValueSet 'https://hl7.org/fhir/ValueSet/contact-point-use' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.telecom[1].system: ValueSet 'https://hl7.org/fhir/ValueSet/contact-point-system' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.telecom[1].use: ValueSet 'https://hl7.org/fhir/ValueSet/contact-point-use' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.telecom[2].system: ValueSet 'https://hl7.org/fhir/ValueSet/contact-point-system' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.gender: ValueSet 'https://hl7.org/fhir/ValueSet/administrative-gender' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.contact[0].relationship[0].coding[0].system: A definition for CodeSystem 'https://hl7.org/fhir/ValueSet/patient-contactrelationship' could not be found, so the code cannot be validated
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.contact[0].telecom[0].system: ValueSet 'https://hl7.org/fhir/ValueSet/contact-point-system' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.communication[0].language: ValueSet 'http://terminology.hl7.org/NamingSystem/iso639-3' not found
+WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.communication[0].language.coding[0]: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/language' could not be found, so the code cannot be validated
+== fsh-generated/resources/Schedule-example-pharmacy-schedule.json ==
+WARNING: Schedule/example-pharmacy-schedule: Schedule.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/id'
+WARNING: Schedule/example-pharmacy-schedule: Schedule.identifier[1].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/schedule/name'
+ERROR: Schedule/example-pharmacy-schedule: Schedule.actor[0]: Constraint failed: at-least-one-location: 'At least one actor must be a Location' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+== fsh-generated/resources/Slot-slot-123.json ==
+WARNING: Slot/slot-123: Slot.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id'
+WARNING: Slot/slot-123: Slot.serviceType[0].coding[0].system: A definition for CodeSystem 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id' could not be found, so the code cannot be validated
+WARNING: Slot/slot-123: Slot.status: ValueSet 'https://hl7.org/fhir/ValueSet/slotstatus' not found
+== fsh-generated/resources/StructureDefinition-appointment-mode.json ==
+== fsh-generated/resources/StructureDefinition-artifact-contact.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/StructureDefinition/artifact-contact'): Conformance resource /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-artifact-contact.json - the canonical URL (https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/artifact-contact) does not match the URL (http://hl7.org/fhir/StructureDefinition/artifact-contact). Use the special-url parameter if you really mean for it not to match
+ERROR: StructureDefinition/artifact-contact: StructureDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+ERROR: /home/denisdifazio/projetos/medme/fhir-ig/fsh-generated/resources/StructureDefinition-artifact-contact: URL Mismatch https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/artifact-contact vs http://hl7.org/fhir/StructureDefinition/artifact-contact
+== fsh-generated/resources/StructureDefinition-communication-language.json ==
+== fsh-generated/resources/StructureDefinition-default-duration.json ==
+== fsh-generated/resources/StructureDefinition-group-size.json ==
+ERROR: StructureDefinition/group-size: StructureDefinition.differential.element[3].constraint[0]: The invariant positive-integer defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size)
+== fsh-generated/resources/StructureDefinition-invalidated-at.json ==
+== fsh-generated/resources/StructureDefinition-is-cancellation-allowed.json ==
+== fsh-generated/resources/StructureDefinition-is-public.json ==
+== fsh-generated/resources/StructureDefinition-is-rescheduling-allowed.json ==
+== fsh-generated/resources/StructureDefinition-is-waitlisted.json ==
+== fsh-generated/resources/StructureDefinition-location-id.json ==
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-appointment.json ==
+WARNING: MedMe Pharmacy Appointment.Appointment.participant.status: Binding https://hl7.org/fhir/ValueSet/participationstatus could not be located
+WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/artifact-contact'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 0.9.20, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/artifact-contact' to 'http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0'
+WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.snapshot.element[58].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/participationstatus'
+WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/artifact-contact'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 0.9.20, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/artifact-contact' to 'http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0'
+WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[22].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/participationstatus'
+ERROR: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[11].constraint[0]: The invariant walkin-no-slot defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment)
+ERROR: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[20].constraint[1]: The invariant at-least-one-healthcare-service defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment)
+ERROR: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.snapshot.element[51].constraint[2]: Error in constraint 'at-least-one-patient' with expression 'participant.where(actor.reference.startsWith('Patient/')).count() >= 1': Error evaluating FHIRPath expression: The name 'participant' is not valid for any of the possible types: [https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment#Appointment.participant] (@char 1)
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-healthcareservice.json ==
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-location.json ==
+WARNING: StructureDefinition/medme-pharmacy-location: StructureDefinition.snapshot.element[42].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
+WARNING: StructureDefinition/medme-pharmacy-location: StructureDefinition.snapshot.element[43].binding.valueSet: There are multiple different potential matches for the url 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.0.0, 3.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType' to 'http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType|3.0.0'
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-organization.json ==
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-patient.json ==
+WARNING: MedMe Pharmacy Patient.Patient.telecom.system: Binding https://hl7.org/fhir/ValueSet/contact-point-system could not be located
+WARNING: MedMe Pharmacy Patient.Patient.telecom.use: Binding https://hl7.org/fhir/ValueSet/contact-point-use could not be located
+WARNING: MedMe Pharmacy Patient.Patient.gender: Binding https://hl7.org/fhir/ValueSet/administrative-gender could not be located
+WARNING: MedMe Pharmacy Patient.telecom.Patient.contact.telecom.system: Binding https://hl7.org/fhir/ValueSet/contact-point-system could not be located
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[67].type[10].code: No definition could be found for URL value 'integer64'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[67].type[25].code: No definition could be found for URL value 'CodeableReference'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[67].type[38].code: No definition could be found for URL value 'RatioRange'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[67].type[50].code: No definition could be found for URL value 'Availability'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[67].type[51].code: No definition could be found for URL value 'ExtendedContactDetail'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[87].type[10].code: No definition could be found for URL value 'integer64'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[87].type[25].code: No definition could be found for URL value 'CodeableReference'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[87].type[38].code: No definition could be found for URL value 'RatioRange'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[87].type[50].code: No definition could be found for URL value 'Availability'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[87].type[51].code: No definition could be found for URL value 'ExtendedContactDetail'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[89].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-patientbirthsex'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '1.1.0', found versions: 0.2.0, 1.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-patientbirthsex' to 'http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-patientbirthsex|1.1.0'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[191].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/contact-point-system'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[193].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[200].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/administrative-gender'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[204].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 4.0.1, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.1.0'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[252].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/contact-point-system'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.differential.element[26].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/contact-point-system'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.differential.element[27].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/contact-point-use'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.differential.element[28].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/administrative-gender'
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.differential.element[38].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/contact-point-system'
+ERROR: StructureDefinition/medme-pharmacy-patient: StructureDefinition.differential.element[7].constraint[0]: The invariant medme-identifier-required defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient)
+ERROR: StructureDefinition/medme-pharmacy-patient: StructureDefinition.differential.element[18].constraint[0]: The invariant pcid-identifier-pattern defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient)
+INFORMATION: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[93].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
+ERROR: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot.element[133].constraint[2]: Error in constraint 'jhn-extension-format' with expression '%resource.identifier.where(system = 'https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id').all(extension.where(url = 'https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html').all(valueString.exists() and valueString.length() > 0))': Error evaluating FHIRPath expression: The name 'valueString' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Extension] (@char 244)
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot: The slice 'JHN' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapshot: The slice 'MRN' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-schedule.json ==
+ERROR: StructureDefinition/medme-pharmacy-schedule: StructureDefinition.differential.element[11].constraint[0]: The invariant at-least-one-location defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule)
+== fsh-generated/resources/StructureDefinition-medme-pharmacy-slot.json ==
+WARNING: MedMe Pharmacy Slot.Slot.status: Binding https://hl7.org/fhir/ValueSet/slotstatus could not be located
+WARNING: StructureDefinition/medme-pharmacy-slot: StructureDefinition.snapshot.element[36].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/slotstatus'
+WARNING: StructureDefinition/medme-pharmacy-slot: StructureDefinition.differential.element[14].binding.valueSet: A definition could not be found for Canonical URL 'https://hl7.org/fhir/ValueSet/slotstatus'
+== fsh-generated/resources/ValueSet-medme-appointment-status.json ==
+WARNING: ValueSet/medme-appointment-status: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-medme-appointment-type.json ==
+WARNING: ValueSet/medme-appointment-type: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://terminology.hl7.org/CodeSystem/v2-0276'
+INFORMATION: ValueSet/medme-appointment-type: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0276' could not be found, so the code cannot be validated
+ERROR: ValueSet/medme-appointment-type: ValueSet.compose.include[0].concept[1]: The code 'ROUTINE' is not valid in the system https://terminology.hl7.org/CodeSystem/v2-0276 (A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0276' could not be found, so the code cannot be validated)
+WARNING: ValueSet/medme-appointment-type: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ValueSet.where(id = 'medme-appointment-type'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://terminology.hl7.org/CodeSystem/v2-0276' could not be found, so the value set cannot be expanded

@@ -17,6 +17,7 @@
       <sch:assert test="count(f:status) &gt;= 1">status: minimum cardinality of 'status' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
       <sch:assert test="count(f:address) &gt;= 1">address: minimum cardinality of 'address' is 1</sch:assert>
+      <sch:assert test="count(f:position) &gt;= 1">position: minimum cardinality of 'position' is 1</sch:assert>
       <sch:assert test="count(f:managingOrganization) &gt;= 1">managingOrganization: minimum cardinality of 'managingOrganization' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

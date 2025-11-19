@@ -12,19 +12,18 @@
   <sch:pattern>
     <sch:title>f:Appointment</sch:title>
     <sch:rule context="f:Appointment">
-      <sch:assert test="count(f:id) &gt;= 1">id: minimum cardinality of 'id' is 1</sch:assert>
       <sch:assert test="count(f:meta) &gt;= 1">meta: minimum cardinality of 'meta' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode']) &gt;= 1">extension with URL = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode']) &lt;= 1">extension with URL = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/artifact-contact']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/artifact-contact': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language']) &gt;= 1">extension with URL = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language']) &lt;= 1">extension with URL = 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &lt;= 1">identifier: maximum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:appointmentType) &gt;= 1">appointmentType: minimum cardinality of 'appointmentType' is 1</sch:assert>
       <sch:assert test="count(f:start) &gt;= 1">start: minimum cardinality of 'start' is 1</sch:assert>
       <sch:assert test="count(f:end) &gt;= 1">end: minimum cardinality of 'end' is 1</sch:assert>
       <sch:assert test="count(f:minutesDuration) &gt;= 1">minutesDuration: minimum cardinality of 'minutesDuration' is 1</sch:assert>
+      <sch:assert test="count(f:slot) &lt;= 1">slot: maximum cardinality of 'slot' is 1</sch:assert>
       <sch:assert test="count(f:created) &gt;= 1">created: minimum cardinality of 'created' is 1</sch:assert>
       <sch:assert test="count(f:participant) &gt;= 2">participant: minimum cardinality of 'participant' is 2</sch:assert>
     </sch:rule>

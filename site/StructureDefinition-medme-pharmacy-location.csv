@@ -333,7 +333,7 @@ Territory","",1,1,"","","Y","string {[]} {[]}
 "Location.physicalType","Location.physicalType","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","Physical form of the location","Physical form of the location, e.g. building, room, vehicle, road.","","For purposes of showing relevant locations in queries, we need to categorize locations.","","","","","","","",,"example","Physical form of the location.","http://hl7.org/fhir/ValueSet/location-physical-type","",,,,"Location.physicalType",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"Location.position","Location.position","","","",0,1,"","","","BackboneElement {[]} {[]}
+"Location.position","Location.position","","","",1,1,"","","","BackboneElement {[]} {[]}
 ","GPS coordinates of the location","The absolute geographic location of the Location, expressed using the WGS84 datum (This is the same co-ordinate system used in KML).","","For mobile applications and automated route-finding knowing the exact location of the Location is required.","","","","","","","",,,,,"",,,,"Location.position",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Location.position.id","Location.position.id","","","",0,1,"","","","string {[]} {[]}

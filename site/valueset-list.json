@@ -1,3 +1,22 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
+      "version" : "0.9.20",
+      "status" : "draft",
+      "name" : "MedMeAppointmentStatus",
+      "title" : "MedMe Appointment Status",
+      "description" : "Supported appointment statuses for MedMe pharmacy services",
+      "systems" : ["http://hl7.org/fhir/appointmentstatus"]
+    },
+    {
+      "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
+      "version" : "0.9.20",
+      "status" : "draft",
+      "name" : "MedMeAppointmentType",
+      "title" : "MedMe Appointment Type",
+      "description" : "Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)",
+      "systems" : ["https://terminology.hl7.org/CodeSystem/v2-0276"]
+    }
+  ]
 }

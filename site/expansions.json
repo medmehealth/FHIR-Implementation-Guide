@@ -1,8 +1,77 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b3763eed-861b-4d8c-b60c-ea107931e3cc",
+  "id" : "716b8868-26ef-44da-9bf9-d9be48cf9031",
   "meta" : {
-    "lastUpdated" : "2025-10-30T18:43:50.485-03:00"
+    "lastUpdated" : "2025-11-18T19:57:34.903-03:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html\">codesystem AppointmentStatus v4.0.1 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/appointmentstatus-pending\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-pending\">pending</a></td><td>http://hl7.org/fhir/appointmentstatus</td><td>Pending</td><td><div><p>Some or all of the participant(s) have not finalized their acceptance of the appointment request.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/appointmentstatus-booked\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-booked\">booked</a></td><td>http://hl7.org/fhir/appointmentstatus</td><td>Booked</td><td><div><p>All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/appointmentstatus-cancelled\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-cancelled\">cancelled</a></td><td>http://hl7.org/fhir/appointmentstatus</td><td>Cancelled</td><td><div><p>The appointment has been cancelled.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/appointmentstatus-fulfilled\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-fulfilled\">fulfilled</a></td><td>http://hl7.org/fhir/appointmentstatus</td><td>Fulfilled</td><td><div><p>The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/appointmentstatus-entered-in-error\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-entered-in-error\">entered-in-error</a></td><td>http://hl7.org/fhir/appointmentstatus</td><td>Entered in Error</td><td><div><p>This instance should not have been part of this patient's medical record.</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
+      "version" : "0.9.20",
+      "name" : "MedMeAppointmentStatus",
+      "title" : "MedMe Appointment Status",
+      "status" : "draft",
+      "date" : "2025-11-18T19:57:13-03:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CA"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d8b24270-2a85-4de8-906b-d2fd5ea0ce97",
+        "timestamp" : "2025-11-18T19:58:12-03:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/appointmentstatus|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/appointmentstatus",
+          "code" : "pending",
+          "display" : "Pending"
+        },
+        {
+          "system" : "http://hl7.org/fhir/appointmentstatus",
+          "code" : "booked",
+          "display" : "Booked"
+        },
+        {
+          "system" : "http://hl7.org/fhir/appointmentstatus",
+          "code" : "cancelled",
+          "display" : "Cancelled"
+        },
+        {
+          "system" : "http://hl7.org/fhir/appointmentstatus",
+          "code" : "fulfilled",
+          "display" : "Fulfilled"
+        },
+        {
+          "system" : "http://hl7.org/fhir/appointmentstatus",
+          "code" : "entered-in-error",
+          "display" : "Entered in Error"
+        }]
+      }
+    }
+  }]
 }

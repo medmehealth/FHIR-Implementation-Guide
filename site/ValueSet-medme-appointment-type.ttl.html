@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>MedMe Appointment Type - TTL Representation - MedMe Pharmacy Services Implementation Guide v0.9.20</title>
+    <title>MedMe Appointment Type - TTL Representation - MedMe Pharmacy Services Implementation Guide v0.9.21</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -54,7 +54,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MedMe Pharmacy Services Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.9.20 - ci-build
+            <span style="display:inline-block;">0.9.21 - ci-build
 
 
 
@@ -111,7 +111,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.20) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.21) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -166,7 +166,7 @@
         
           Draft
           
-            as of 2025-11-18
+            as of 2025-11-24
           
         
       </td>
@@ -182,7 +182,7 @@
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
@@ -196,14 +196,17 @@
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;medme-appointment-type&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet medme-appointment-type&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medme-appointment-type\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedme-appointment-type\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;https://terminology.hl7.org/CodeSystem/v2-0276&lt;/code&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WALKIN&lt;/td&gt;&lt;td&gt;Walk-in&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ROUTINE&lt;/td&gt;&lt;td&gt;Routine&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet medme-appointment-type&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medme-appointment-type\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedme-appointment-type\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;https://terminology.hl7.org/CodeSystem/v2-0276&lt;/code&gt;&lt;span title=\&quot;Version is not explicity stated. No matching Code System found\&quot;&gt; version Not Stated (use latest from terminology server)&lt;/span&gt;&lt;table class=\&quot;none\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;WALKIN&lt;/td&gt;&lt;td&gt;Walk-in&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ROUTINE&lt;/td&gt;&lt;td&gt;Routine&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type&quot;^^xsd:anyURI] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.9.20&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.9.21&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MedMeAppointmentType&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MedMe Appointment Type&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-11-18T19:57:13-03:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-11-24T17:38:48-05:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MedMe Health&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MedMe Health&quot; ] ;
@@ -216,12 +219,16 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:jurisdiction</a> ( [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CA&quot; ]     ] )
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
     ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminology.hl7.org/CodeSystem/v2-0276&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminology.hl7.org/CodeSystem/v2-0276&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://terminology.hl7.org/CodeSystem/v2-0276&gt;       ] ;
       ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;WALKIN&quot; ] ;
 <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Walk-in&quot; ]       ] [
@@ -254,7 +261,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.20 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 18, 2025 19:57-0300">2025-11-18</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.21 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 24, 2025 17:38-0500">2025-11-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

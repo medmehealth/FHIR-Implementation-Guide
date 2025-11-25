@@ -12,24 +12,33 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization"^^xsd:anyURI ;
-       fhir:link <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization>
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-pharmacy-organization</b></p><a name=\"example-pharmacy-organization\"> </a><a name=\"hcexample-pharmacy-organization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-organization.html\">MedMe Pharmacy Organization</a></p></div><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id</code>/org-12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code</code>/MEDME-PHARM</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: MedMe Pharmacy</p><p><b>telecom</b>: <a href=\"tel:+1-555-123-4567\">+1-555-123-4567</a>, <a href=\"mailto:contact@medmepharmacy.com\">contact@medmepharmacy.com</a></p><p><b>address</b>: 123 Main Street Toronto ON M5V 3A8 CA </p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization example-pharmacy-organization</b></p><a name=\"example-pharmacy-organization\"> </a><a name=\"hcexample-pharmacy-organization\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-organization.html\">MedMe Pharmacy Organization</a></p></div><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id</code>/org-12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code</code>/MEDME-PHARM</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/organization-type prov}\">Healthcare Provider</span></p><p><b>name</b>: MedMe Pharmacy</p><p><b>telecom</b>: <a href=\"tel:+1-555-123-4567\">+1-555-123-4567</a>, <a href=\"mailto:contact@medmepharmacy.com\">contact@medmepharmacy.com</a></p><p><b>address</b>: 123 Main Street Toronto ON M5V 3A8 CA </p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id>
+     ] ;
      fhir:value [ fhir:v "org-12345" ]
   ] [
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code>
+     ] ;
      fhir:value [ fhir:v "MEDME-PHARM" ]
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:type ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ;
+         fhir:l <https://terminology.hl7.org/CodeSystem/organization-type>
+       ] ;
        fhir:code [ fhir:v "prov" ] ;
        fhir:display [ fhir:v "Healthcare Provider" ]
      ] )

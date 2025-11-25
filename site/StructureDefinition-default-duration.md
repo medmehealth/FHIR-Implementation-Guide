@@ -1,0 +1,130 @@
+# Default Duration - MedMe Pharmacy Services Implementation Guide v0.9.21
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Default Duration**
+
+## Extension: Default Duration 
+
+| | |
+| :--- | :--- |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration | *Version*:0.9.21 |
+| Draft as of 2025-11-24 | *Computable Name*:DefaultDuration |
+
+The default duration in minutes for appointments of this healthcare service type.
+
+**Context of Use**
+
+**Usage info**
+
+**Usages:**
+
+* Use this Extension: [MedMe Pharmacy HealthcareService](StructureDefinition-medme-pharmacy-healthcareservice.md)
+* Examples for this Extension: [COVID-19 and Flu Vaccination Service](HealthcareService-pharmacy-immunization-service.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/medme.fhir.pharmacy.services|current/StructureDefinition/default-duration)
+
+### Formal Views of Extension Content
+
+ [Description of Profiles, Differentials, Snapshots, and how the XML and JSON presentations work](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](StructureDefinition-default-duration.csv), [Excel](StructureDefinition-default-duration.xlsx), [Schematron](StructureDefinition-default-duration.sch) 
+
+#### Constraints
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "default-duration",
+  "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration",
+  "version" : "0.9.21",
+  "name" : "DefaultDuration",
+  "title" : "Default Duration",
+  "status" : "draft",
+  "date" : "2025-11-24T17:38:48-05:00",
+  "publisher" : "MedMe Health",
+  "contact" : [
+    {
+      "name" : "MedMe Health",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "https://medmehealth.com"
+        },
+        {
+          "system" : "email",
+          "value" : "fhir@medmehealth.com"
+        }
+      ]
+    }
+  ],
+  "description" : "The default duration in minutes for appointments of this healthcare service type.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "CA"
+        }
+      ]
+    }
+  ],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [
+    {
+      "identity" : "rim",
+      "uri" : "http://hl7.org/v3",
+      "name" : "RIM Mapping"
+    }
+  ],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [
+    {
+      "type" : "element",
+      "expression" : "HealthcareService"
+    }
+  ],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Extension",
+        "path" : "Extension",
+        "short" : "Default Duration",
+        "definition" : "The default duration in minutes for appointments of this healthcare service type."
+      },
+      {
+        "id" : "Extension.extension",
+        "path" : "Extension.extension",
+        "max" : "0"
+      },
+      {
+        "id" : "Extension.url",
+        "path" : "Extension.url",
+        "fixedUri" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration"
+      },
+      {
+        "id" : "Extension.value[x]",
+        "path" : "Extension.value[x]",
+        "short" : "Duration in minutes",
+        "min" : 1,
+        "type" : [
+          {
+            "code" : "integer"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+```

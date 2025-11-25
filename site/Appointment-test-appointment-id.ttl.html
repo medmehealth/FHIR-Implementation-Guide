@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Example Pharmacy Appointment - TTL Representation - MedMe Pharmacy Services Implementation Guide v0.9.20</title>
+    <title>Example Pharmacy Appointment - TTL Representation - MedMe Pharmacy Services Implementation Guide v0.9.21</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -54,7 +54,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MedMe Pharmacy Services Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.9.20 - ci-build
+            <span style="display:inline-block;">0.9.21 - ci-build
 
 
 
@@ -111,7 +111,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.20) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.21) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -167,7 +167,7 @@
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
@@ -182,52 +182,67 @@
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment&gt;     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment&gt;     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Appointment test-appointment-id&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;test-appointment-id\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hctest-appointment-id\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-medme-pharmacy-appointment.html\&quot;&gt;MedMe Pharmacy Appointment&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Appointment Mode&lt;/b&gt;: in-person&lt;/p&gt;&lt;p&gt;&lt;b&gt;Communication Language&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\&quot;&gt;English (Canada)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id&lt;/code&gt;/test-appointment-id&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Booked&lt;/p&gt;&lt;p&gt;&lt;b&gt;appointmentType&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://terminology.hl7.org/CodeSystem/v2-0276 ROUTINE}\&quot;&gt;ROUTINE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;start&lt;/b&gt;: 2023-01-01 10:00:00+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;end&lt;/b&gt;: 2023-01-01 10:15:00+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;minutesDuration&lt;/b&gt;: 30&lt;/p&gt;&lt;p&gt;&lt;b&gt;slot&lt;/b&gt;: &lt;a href=\&quot;Slot-slot-123.html\&quot;&gt;Slot: extension = 2,2025-07-15 09:15:00+0000; identifier = https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id#a521be25-475d-4a45-b193-026c3d35048d; serviceType = 123; status = free; start = 2025-07-15 09:15:00+0000; end = 2025-07-15 09:30:00+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;created&lt;/b&gt;: 2023-01-01 10:00:00+0000&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;a href=\&quot;Patient-66ccb0fd-199d-4321-95b0-4defae497b72.html\&quot;&gt;Jane Doe  Female, DoB: 1990-01-13 ( MR)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Accepted&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;a href=\&quot;HealthcareService-pharmacy-immunization-service.html\&quot;&gt;HealthcareService COVID-19 and Flu Vaccination Service&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Accepted&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Appointment test-appointment-id&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;test-appointment-id\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hctest-appointment-id\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-medme-pharmacy-appointment.html\&quot;&gt;MedMe Pharmacy Appointment&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Appointment Mode&lt;/b&gt;: in-person&lt;/p&gt;&lt;p&gt;&lt;b&gt;Communication Language&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\&quot;&gt;English (Canada)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id&lt;/code&gt;/test-appointment-id&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Booked&lt;/p&gt;&lt;p&gt;&lt;b&gt;appointmentType&lt;/b&gt;: &lt;span title=\&quot;Codes:{https://terminology.hl7.org/CodeSystem/v2-0276 ROUTINE}\&quot;&gt;ROUTINE&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;start&lt;/b&gt;: 2023-01-01 10:00:00+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;end&lt;/b&gt;: 2023-01-01 10:15:00+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;minutesDuration&lt;/b&gt;: 30&lt;/p&gt;&lt;p&gt;&lt;b&gt;slot&lt;/b&gt;: &lt;a href=\&quot;Slot-slot-123.html\&quot;&gt;Slot: extension = 2,2025-07-15 09:15:00+0000; identifier = https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id#a521be25-475d-4a45-b193-026c3d35048d; serviceType = 123; status = free; start = 2025-07-15 09:15:00+0000; end = 2025-07-15 09:30:00+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;created&lt;/b&gt;: 2023-01-01 10:00:00+0000&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;a href=\&quot;Patient-66ccb0fd-199d-4321-95b0-4defae497b72.html\&quot;&gt;Jane Doe  Female, DoB: 1990-01-13 ( MR)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Accepted&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;actor&lt;/b&gt;: &lt;a href=\&quot;HealthcareService-pharmacy-immunization-service.html\&quot;&gt;HealthcareService COVID-19 and Flu Vaccination Service&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Accepted&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.extension">fhir:extension</a> ( [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;in-person&quot;     ]
   ] [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminology.hl7.org/CodeSystem/language&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminology.hl7.org/CodeSystem/language&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://terminology.hl7.org/CodeSystem/language&gt;         ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en-CA&quot; ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;English (Canada)&quot; ]       ] ) ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;English (Canada)&quot; ]     ]
   ] [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/artifact-contact&quot;^^xsd:anyURI ]
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/artifact-contact&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/artifact-contact&gt;     ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;test-appointment-id&quot; ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;booked&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.appointmentType">fhir:appointmentType</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminology.hl7.org/CodeSystem/v2-0276&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminology.hl7.org/CodeSystem/v2-0276&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://terminology.hl7.org/CodeSystem/v2-0276&gt;       ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ROUTINE&quot; ]     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-01-01T10:00:00Z&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.end">fhir:end</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2023-01-01T10:15:00Z&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.minutesDuration">fhir:minutesDuration</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">fhir:v</a> &quot;30&quot;^^xsd:positiveInteger] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.slot">fhir:slot</a> ( [
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> fhir:Slot/slot-123 ;
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Slot/slot-123&quot; ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.created">fhir:created</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-01-01T10:00:00Z&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant">fhir:participant</a> ( [
 <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.actor">fhir:actor</a> [
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> fhir:Patient/66ccb0fd-199d-4321-95b0-4defae497b72 ;
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/66ccb0fd-199d-4321-95b0-4defae497b72&quot; ]     ] ;
 <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;accepted&quot; ]
   ] [
 <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.actor">fhir:actor</a> [
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> fhir:HealthcareService/pharmacy-immunization-service ;
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HealthcareService/pharmacy-immunization-service&quot; ]     ] ;
 <a href="http://hl7.org/fhir/R4/appointment.html#Appointment.participant.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;accepted&quot; ]
   ] ) . # 
@@ -257,7 +272,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.20 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 18, 2025 19:57-0300">2025-11-18</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.21 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 24, 2025 17:38-0500">2025-11-24</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -11,14 +11,17 @@
   fhir:id [ fhir:v "medme-appointment-type"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medme-appointment-type</b></p><a name=\"medme-appointment-type\"> </a><a name=\"hcmedme-appointment-type\"> </a><ul><li>Include these codes as defined in <code>https://terminology.hl7.org/CodeSystem/v2-0276</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>WALKIN</td><td>Walk-in</td></tr><tr><td>ROUTINE</td><td>Routine</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medme-appointment-type</b></p><a name=\"medme-appointment-type\"> </a><a name=\"hcmedme-appointment-type\"> </a><ul><li>Include these codes as defined in <code>https://terminology.hl7.org/CodeSystem/v2-0276</code><span title=\"Version is not explicity stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>WALKIN</td><td>Walk-in</td></tr><tr><td>ROUTINE</td><td>Routine</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
-  fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.9.20"] ; # 
+  fhir:url [
+     fhir:v "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type"^^xsd:anyURI ;
+     fhir:l <https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.9.21"] ; # 
   fhir:name [ fhir:v "MedMeAppointmentType"] ; # 
   fhir:title [ fhir:v "MedMe Appointment Type"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-18T19:57:13-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-24T17:38:48-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MedMe Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MedMe Health" ] ;
@@ -33,13 +36,19 @@
   fhir:description [ fhir:v "Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "CA" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/v2-0276"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://terminology.hl7.org/CodeSystem/v2-0276"^^xsd:anyURI ;
+         fhir:l <https://terminology.hl7.org/CodeSystem/v2-0276>
+       ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "WALKIN" ] ;
          fhir:display [ fhir:v "Walk-in" ]

@@ -12,41 +12,59 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment"^^xsd:anyURI ;
-       fhir:link <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment>
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Appointment test-appointment-id</b></p><a name=\"test-appointment-id\"> </a><a name=\"hctest-appointment-id\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-appointment.html\">MedMe Pharmacy Appointment</a></p></div><p><b>Appointment Mode</b>: in-person</p><p><b>Communication Language</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\">English (Canada)</span></p><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id</code>/test-appointment-id</p><p><b>status</b>: Booked</p><p><b>appointmentType</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/v2-0276 ROUTINE}\">ROUTINE</span></p><p><b>start</b>: 2023-01-01 10:00:00+0000</p><p><b>end</b>: 2023-01-01 10:15:00+0000</p><p><b>minutesDuration</b>: 30</p><p><b>slot</b>: <a href=\"Slot-slot-123.html\">Slot: extension = 2,2025-07-15 09:15:00+0000; identifier = https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id#a521be25-475d-4a45-b193-026c3d35048d; serviceType = 123; status = free; start = 2025-07-15 09:15:00+0000; end = 2025-07-15 09:30:00+0000</a></p><p><b>created</b>: 2023-01-01 10:00:00+0000</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient-66ccb0fd-199d-4321-95b0-4defae497b72.html\">Jane Doe  Female, DoB: 1990-01-13 ( MR)</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"HealthcareService-pharmacy-immunization-service.html\">HealthcareService COVID-19 and Flu Vaccination Service</a></p><p><b>status</b>: Accepted</p></blockquote></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Appointment test-appointment-id</b></p><a name=\"test-appointment-id\"> </a><a name=\"hctest-appointment-id\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-appointment.html\">MedMe Pharmacy Appointment</a></p></div><p><b>Appointment Mode</b>: in-person</p><p><b>Communication Language</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\">English (Canada)</span></p><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id</code>/test-appointment-id</p><p><b>status</b>: Booked</p><p><b>appointmentType</b>: <span title=\"Codes:{https://terminology.hl7.org/CodeSystem/v2-0276 ROUTINE}\">ROUTINE</span></p><p><b>start</b>: 2023-01-01 10:00:00+0000</p><p><b>end</b>: 2023-01-01 10:15:00+0000</p><p><b>minutesDuration</b>: 30</p><p><b>slot</b>: <a href=\"Slot-slot-123.html\">Slot: extension = 2,2025-07-15 09:15:00+0000; identifier = https://fhir.medmehealth.com/pharmacy-services/systems/entity/slot/id#a521be25-475d-4a45-b193-026c3d35048d; serviceType = 123; status = free; start = 2025-07-15 09:15:00+0000; end = 2025-07-15 09:30:00+0000</a></p><p><b>created</b>: 2023-01-01 10:00:00+0000</p><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"Patient-66ccb0fd-199d-4321-95b0-4defae497b72.html\">Jane Doe  Female, DoB: 1990-01-13 ( MR)</a></p><p><b>status</b>: Accepted</p></blockquote><blockquote><p><b>participant</b></p><p><b>actor</b>: <a href=\"HealthcareService-pharmacy-immunization-service.html\">HealthcareService COVID-19 and Flu Vaccination Service</a></p><p><b>status</b>: Accepted</p></blockquote></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode>
+     ] ;
      fhir:value [
-       a fhir:string ;
+       a fhir:String ;
        fhir:v "in-person"
      ]
   ] [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language>
+     ] ;
      fhir:value [
        a fhir:CodeableConcept ;
        fhir:coding ( [
-         fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/language"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://terminology.hl7.org/CodeSystem/language"^^xsd:anyURI ;
+           fhir:l <https://terminology.hl7.org/CodeSystem/language>
+         ] ;
          fhir:code [ fhir:v "en-CA" ] ;
          fhir:display [ fhir:v "English (Canada)" ]
        ] ) ;
        fhir:text [ fhir:v "English (Canada)" ]
      ]
   ] [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-contact"^^xsd:anyURI ]
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-contact"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/artifact-contact>
+     ]
   ] ) ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/appointment/id>
+     ] ;
      fhir:value [ fhir:v "test-appointment-id" ]
   ] ) ; # 
   fhir:status [ fhir:v "booked"] ; # 
   fhir:appointmentType [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/v2-0276"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://terminology.hl7.org/CodeSystem/v2-0276"^^xsd:anyURI ;
+         fhir:l <https://terminology.hl7.org/CodeSystem/v2-0276>
+       ] ;
        fhir:code [ fhir:v "ROUTINE" ]
      ] )
   ] ; # 
@@ -54,19 +72,19 @@
   fhir:end [ fhir:v "2023-01-01T10:15:00Z"^^xsd:dateTime] ; # 
   fhir:minutesDuration [ fhir:v "30"^^xsd:positiveInteger] ; # 
   fhir:slot ( [
-     fhir:link <https://fhir.medmehealth.com/pharmacy-services/Slot/slot-123> ;
+     fhir:l <https://fhir.medmehealth.com/pharmacy-services/Slot/slot-123> ;
      fhir:reference [ fhir:v "Slot/slot-123" ]
   ] ) ; # 
   fhir:created [ fhir:v "2023-01-01T10:00:00Z"^^xsd:dateTime] ; # 
   fhir:participant ( [
      fhir:actor [
-       fhir:link <https://fhir.medmehealth.com/pharmacy-services/Patient/66ccb0fd-199d-4321-95b0-4defae497b72> ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/Patient/66ccb0fd-199d-4321-95b0-4defae497b72> ;
        fhir:reference [ fhir:v "Patient/66ccb0fd-199d-4321-95b0-4defae497b72" ]
      ] ;
      fhir:status [ fhir:v "accepted" ]
   ] [
      fhir:actor [
-       fhir:link <https://fhir.medmehealth.com/pharmacy-services/HealthcareService/pharmacy-immunization-service> ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/HealthcareService/pharmacy-immunization-service> ;
        fhir:reference [ fhir:v "HealthcareService/pharmacy-immunization-service" ]
      ] ;
      fhir:status [ fhir:v "accepted" ]

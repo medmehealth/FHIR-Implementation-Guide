@@ -10,56 +10,83 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "66ccb0fd-199d-4321-95b0-4defae497b72"] ; # 
   fhir:meta [
-     fhir:source [ fhir:v "https://fhir.medmehealth.com"^^xsd:anyURI ] ;
+     fhir:source [
+       fhir:v "https://fhir.medmehealth.com"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com>
+     ] ;
      fhir:profile ( [
        fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient"^^xsd:anyURI ;
-       fhir:link <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient>
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient 66ccb0fd-199d-4321-95b0-4defae497b72</b></p><a name=\"66ccb0fd-199d-4321-95b0-4defae497b72\"> </a><a name=\"hc66ccb0fd-199d-4321-95b0-4defae497b72\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&amp;canonical=https://fhir.medmehealth.com\">https://fhir.medmehealth.com</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-patient.html\">MedMe Pharmacy Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jane Doe  Female, DoB: 1990-01-13 ( MR)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>JHN/9998887777</li><li>PT/6e03e880-bbf1-4df4-9e35-e71ee5d74e86</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 7780009999(Mobile)</li><li>ph: 7780009998(Home)</li><li><a href=\"mailto:jane.doe@example.com\">jane.doe@example.com</a></li><li>123 Main St Montreal CA-QC T0C 2C0 CAN </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\">English (Canada)</span> (preferred)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: Emergency Contact\">Emergency Contact:</td><td colspan=\"3\"><ul><li>Mommy Doe </li><li>ph: 1231231234</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-example-pharmacy-organization.html\">Organization MedMe Pharmacy</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Reference to the location where the patient is registered or primarily receives care.\"><a href=\"StructureDefinition-location-id.html\">Location ID</a></td><td colspan=\"3\">Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Patient 66ccb0fd-199d-4321-95b0-4defae497b72</b></p><a name=\"66ccb0fd-199d-4321-95b0-4defae497b72\"> </a><a name=\"hc66ccb0fd-199d-4321-95b0-4defae497b72\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Information Source: <a href=\"https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&amp;canonical=https://fhir.medmehealth.com\">https://fhir.medmehealth.com</a></p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-patient.html\">MedMe Pharmacy Patient</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Jane Doe  Female, DoB: 1990-01-13 ( MR)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Other Ids (see the one above)\">Other Ids:</td><td colspan=\"3\"><ul><li>JHN/9998887777</li><li>PT/6e03e880-bbf1-4df4-9e35-e71ee5d74e86</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 7780009999(Mobile)</li><li>ph: 7780009998(Home)</li><li><a href=\"mailto:jane.doe@example.com\">jane.doe@example.com</a></li><li>123 Main St Montreal CA-QC T0C 2C0 CAN </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{https://terminology.hl7.org/CodeSystem/language en-CA}\">English (Canada)</span> (preferred)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: Emergency Contact\">Emergency Contact:</td><td colspan=\"3\"><ul><li>Mommy Doe </li><li>ph: 1231231234</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>Managing Organization: <a href=\"Organization-example-pharmacy-organization.html\">Organization MedMe Pharmacy</a></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Reference to the location where the patient is registered or primarily receives care.\"><a href=\"StructureDefinition-location-id.html\">Location ID</a></td><td colspan=\"3\">Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id>
+     ] ;
      fhir:value [
-       a fhir:string ;
+       a fhir:String ;
        fhir:v "Location/5ce61e53-6c0e-47c0-975c-6e76dcdfaaf5"
      ]
   ] ) ; # 
   fhir:identifier ( [
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <https://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
          fhir:code [ fhir:v "MR" ]
        ] )
      ] ;
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/org-12345/patient/id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/org-12345/patient/id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/org-12345/patient/id>
+     ] ;
      fhir:value [ fhir:v "66ccb0fd-199d-4321-95b0-4defae497b72" ]
   ] [
      fhir:extension ( [
-       fhir:url [ fhir:v "https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html"^^xsd:anyURI ;
+         fhir:l <https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html>
+       ] ;
        fhir:value [
-         a fhir:string ;
+         a fhir:String ;
          fhir:v "BB"
        ]
      ] ) ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <https://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
          fhir:code [ fhir:v "JHN" ]
        ] )
      ] ;
-     fhir:system [ fhir:v "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id"^^xsd:anyURI ;
+       fhir:l <https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id>
+     ] ;
      fhir:value [ fhir:v "9998887777" ]
   ] [
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ;
+           fhir:l <https://terminology.hl7.org/CodeSystem/v2-0203>
+         ] ;
          fhir:code [ fhir:v "PT" ]
        ] )
      ] ;
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id>
+     ] ;
      fhir:value [ fhir:v "6e03e880-bbf1-4df4-9e35-e71ee5d74e86" ]
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
@@ -91,7 +118,10 @@
   fhir:contact ( [
      fhir:relationship ( [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://hl7.org/fhir/ValueSet/patient-contactrelationship"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://hl7.org/fhir/ValueSet/patient-contactrelationship"^^xsd:anyURI ;
+           fhir:l <https://hl7.org/fhir/ValueSet/patient-contactrelationship>
+         ] ;
          fhir:code [ fhir:v "EP" ] ;
          fhir:display [ fhir:v "Emergency Contact" ]
        ] )
@@ -108,7 +138,10 @@
   fhir:communication ( [
      fhir:language [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://terminology.hl7.org/CodeSystem/language"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://terminology.hl7.org/CodeSystem/language"^^xsd:anyURI ;
+           fhir:l <https://terminology.hl7.org/CodeSystem/language>
+         ] ;
          fhir:code [ fhir:v "en-CA" ] ;
          fhir:display [ fhir:v "English (Canada)" ]
        ] )
@@ -116,7 +149,7 @@
      fhir:preferred [ fhir:v true ]
   ] ) ; # 
   fhir:managingOrganization [
-     fhir:link <https://fhir.medmehealth.com/pharmacy-services/Organization/example-pharmacy-organization> ;
+     fhir:l <https://fhir.medmehealth.com/pharmacy-services/Organization/example-pharmacy-organization> ;
      fhir:reference [ fhir:v "Organization/example-pharmacy-organization" ]
   ] . # 
 

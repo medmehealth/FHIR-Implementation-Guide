@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:LocationId |
+| Draft as of 2025-11-25 | *Computable Name*:LocationId |
 
 Reference to the location where the patient is registered or primarily receives care.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-location-id.csv), [E
   "name" : "LocationId",
   "title" : "Location ID",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

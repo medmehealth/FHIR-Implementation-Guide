@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:DefaultDuration |
+| Draft as of 2025-11-25 | *Computable Name*:DefaultDuration |
 
 The default duration in minutes for appointments of this healthcare service type.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-default-duration.csv
   "name" : "DefaultDuration",
   "title" : "Default Duration",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

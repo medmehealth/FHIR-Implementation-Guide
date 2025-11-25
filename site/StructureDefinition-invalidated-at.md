@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/invalidated-at | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:InvalidatedAt |
+| Draft as of 2025-11-25 | *Computable Name*:InvalidatedAt |
 
 The timestamp when this slot was/will be invalidated.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-invalidated-at.csv),
   "name" : "InvalidatedAt",
   "title" : "Invalidated At",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

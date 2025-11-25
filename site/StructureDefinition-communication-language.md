@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:CommunicationLanguage |
+| Draft as of 2025-11-25 | *Computable Name*:CommunicationLanguage |
 
 Preferred language for communications related to this appointment.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-communication-langua
   "name" : "CommunicationLanguage",
   "title" : "Communication Language",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:GroupSize |
+| Draft as of 2025-11-25 | *Computable Name*:GroupSize |
 
 The maximum number of people that can be booked in this slot.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-group-size.csv), [Ex
   "name" : "GroupSize",
   "title" : "Group Size",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

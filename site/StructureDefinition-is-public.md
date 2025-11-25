@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:IsPublic |
+| Draft as of 2025-11-25 | *Computable Name*:IsPublic |
 
 Indicates whether the healthcare service is available to the general public or restricted to specific populations.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-is-public.csv), [Exc
   "name" : "IsPublic",
   "title" : "Is Public",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

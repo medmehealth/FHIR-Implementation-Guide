@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:AppointmentMode |
+| Draft as of 2025-11-25 | *Computable Name*:AppointmentMode |
 
 The mode of service delivery for the appointment (e.g., in-person, virtual, phone).
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-appointment-mode.csv
   "name" : "AppointmentMode",
   "title" : "Appointment Mode",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

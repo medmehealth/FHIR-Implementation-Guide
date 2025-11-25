@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:IsReschedulingAllowed |
+| Draft as of 2025-11-25 | *Computable Name*:IsReschedulingAllowed |
 
 Indicates whether patients can reschedule their appointments for this healthcare service.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-is-rescheduling-allo
   "name" : "IsReschedulingAllowed",
   "title" : "Is Rescheduling Allowed",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

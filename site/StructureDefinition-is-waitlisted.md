@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:IsWaitlisted |
+| Draft as of 2025-11-25 | *Computable Name*:IsWaitlisted |
 
 Indicates whether the healthcare service currently has a waiting list for new patients or appointments.
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-is-waitlisted.csv), 
   "name" : "IsWaitlisted",
   "title" : "Is Waitlisted",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

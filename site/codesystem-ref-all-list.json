@@ -166,8 +166,8 @@
       "oids" : ["2.16.840.1.113883.6.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set",
-      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgendertype" : "Recorded Gender Type Value Set"
+      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgendertype" : "Recorded Gender Type Value Set",
+      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -179,8 +179,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
       "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
       "http://hl7.org/fhir/R4/valueset-encounter-reason.html" : "Encounter Reason Codes"
     },
     {
@@ -398,8 +398,8 @@
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/genderidentityvaluecode" : "Gender Identity Value Set",
-      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus",
-      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set"
+      "https://simplifier.net/resolve?scope=ca.infoway.io.core@1.0.1-dft-preballot&canonical=https://fhir.infoway-inforoute.ca/ValueSet/recordedgender" : "Recorded Gender Value Set",
+      "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

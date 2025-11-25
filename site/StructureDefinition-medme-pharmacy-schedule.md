@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:MedMePharmacySchedule |
+| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacySchedule |
 
  
 A profile of Schedule for MedMe pharmacy services. 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-sched
   "name" : "MedMePharmacySchedule",
   "title" : "MedMe Pharmacy Schedule",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

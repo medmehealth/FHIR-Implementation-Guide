@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/StructureDefinition/artifact-contact | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:ArtifactContact |
+| Draft as of 2025-11-25 | *Computable Name*:ArtifactContact |
 
 Contact details for communications related to this appointment (may be different from the patient).
 
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-artifact-contact.csv
   "name" : "ArtifactContact",
   "title" : "Artifact Contact",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

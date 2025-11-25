@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:MedMeAppointmentType |
+| Draft as of 2025-11-25 | *Computable Name*:MedMeAppointmentType |
 
  
 Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only) 
@@ -52,7 +52,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "MedMeAppointmentType",
   "title" : "MedMe Appointment Type",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T16:51:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

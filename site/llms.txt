@@ -1,0 +1,52 @@
+# medme.fhir.pharmacy.services#0.9.21: MedMe Pharmacy Services Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Multilingual Support](multilingual-support.md)
+
+## Resources
+
+### ValueSets
+
+* [MedMe Appointment Status](ValueSet-medme-appointment-status.md)
+* [MedMe Appointment Type](ValueSet-medme-appointment-type.md)
+
+### Resource Profiles
+
+* [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appointment.md)
+* [MedMe Pharmacy HealthcareService](StructureDefinition-medme-pharmacy-healthcareservice.md)
+* [MedMe Pharmacy Location](StructureDefinition-medme-pharmacy-location.md)
+* [MedMe Pharmacy Organization](StructureDefinition-medme-pharmacy-organization.md)
+* [MedMe Pharmacy Patient](StructureDefinition-medme-pharmacy-patient.md)
+* [MedMe Pharmacy Schedule](StructureDefinition-medme-pharmacy-schedule.md)
+* [MedMe Pharmacy Slot](StructureDefinition-medme-pharmacy-slot.md)
+
+### Extensions
+
+* [Appointment Mode](StructureDefinition-appointment-mode.md)
+* [Artifact Contact](StructureDefinition-artifact-contact.md)
+* [Communication Language](StructureDefinition-communication-language.md)
+* [Default Duration](StructureDefinition-default-duration.md)
+* [Group Size](StructureDefinition-group-size.md)
+* [Invalidated At](StructureDefinition-invalidated-at.md)
+* [Is Cancellation Allowed](StructureDefinition-is-cancellation-allowed.md)
+* [Is Public](StructureDefinition-is-public.md)
+* [Is Rescheduling Allowed](StructureDefinition-is-rescheduling-allowed.md)
+* [Is Waitlisted](StructureDefinition-is-waitlisted.md)
+* [Location ID](StructureDefinition-location-id.md)
+
+### ImplementationGuides
+
+* [MedMe Pharmacy Services Implementation Guide](index.md)
+
+### Examples
+
+* [test-appointment-id (Appointment)](Appointment-test-appointment-id.md)
+* [COVID-19 and Flu Vaccination Service (HealthcareService)](HealthcareService-pharmacy-immunization-service.md)
+* [MedMe Pharmacy - Downtown (Location)](Location-example-pharmacy-location.md)
+* [MedMe Pharmacy (Organization)](Organization-example-pharmacy-organization.md)
+* [66ccb0fd-199d-4321-95b0-4defae497b72 (Patient)](Patient-66ccb0fd-199d-4321-95b0-4defae497b72.md)
+* [example-pharmacy-schedule (Schedule)](Schedule-example-pharmacy-schedule.md)
+* [slot-123 (Slot)](Slot-slot-123.md)

@@ -12,73 +12,106 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice"^^xsd:anyURI ;
-       fhir:link <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice>
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService pharmacy-immunization-service</b></p><a name=\"pharmacy-immunization-service\"> </a><a name=\"hcpharmacy-immunization-service\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-healthcareservice.html\">MedMe Pharmacy HealthcareService</a></p></div><p><b>Is Public</b>: true</p><p><b>Is Waitlisted</b>: true</p><p><b>Is Rescheduling Allowed</b>: true</p><p><b>Is Cancellation Allowed</b>: false</p><p><b>Default Duration</b>: 15</p><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id</code>/hs-12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id</code>/activity-67890, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/url-param</code>/covid-flu-vaccination</p><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-example-pharmacy-organization.html\">Organization MedMe Pharmacy</a></p><p><b>category</b>: <span title=\"Codes:{https://snomed.info/sct 430193006}, {https://snomed.info/sct 430193007}\">Medication management services</span>, <span title=\"Codes:{https://snomed.info/sct 310080006}\">Preventive care services</span></p><p><b>type</b>: <span title=\"Codes:{https://terminology.hl7.org/fhir/service-type 64}, {https://snomed.info/sct 33879002}, {https://snomed.info/sct 430193006}\">Administration of vaccine to produce active immunity</span></p><p><b>location</b>: <a href=\"Location-example-pharmacy-location.html\">Location MedMe Pharmacy - Downtown</a></p><p><b>name</b>: COVID-19 and Flu Vaccination Service</p><p><b>comment</b>: Comprehensive vaccination service for COVID-19 and seasonal flu vaccines</p><p><b>extraDetails</b>: </p><div><p><strong>Walk-ins welcome</strong> during business hours. Please bring your health card and vaccination history.</p>\n</div><p><b>characteristic</b>: <span title=\"Codes:{https://terminology.hl7.org/fhir/service-mode in-person}, {https://terminology.hl7.org/fhir/service-mode virtual}\">In-person</span></p><p><b>appointmentRequired</b>: false</p><h3>AvailableTimes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DaysOfWeek</b></td><td><b>AvailableStartTime</b></td><td><b>AvailableEndTime</b></td></tr><tr><td style=\"display: none\">*</td><td>Friday</td><td>09:00:00</td><td>17:00:00</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService pharmacy-immunization-service</b></p><a name=\"pharmacy-immunization-service\"> </a><a name=\"hcpharmacy-immunization-service\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-medme-pharmacy-healthcareservice.html\">MedMe Pharmacy HealthcareService</a></p></div><p><b>Is Public</b>: true</p><p><b>Is Waitlisted</b>: true</p><p><b>Is Rescheduling Allowed</b>: true</p><p><b>Is Cancellation Allowed</b>: false</p><p><b>Default Duration</b>: 15</p><p><b>identifier</b>: <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id</code>/hs-12345, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id</code>/activity-67890, <code>https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/url-param</code>/covid-flu-vaccination</p><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-example-pharmacy-organization.html\">Organization MedMe Pharmacy</a></p><p><b>category</b>: <span title=\"Codes:{https://snomed.info/sct 430193006}, {https://snomed.info/sct 430193007}\">Medication management services</span>, <span title=\"Codes:{https://snomed.info/sct 310080006}\">Preventive care services</span></p><p><b>type</b>: <span title=\"Codes:{https://terminology.hl7.org/fhir/service-type 64}, {https://snomed.info/sct 33879002}, {https://snomed.info/sct 430193006}\">Administration of vaccine to produce active immunity</span></p><p><b>location</b>: <a href=\"Location-example-pharmacy-location.html\">Location MedMe Pharmacy - Downtown</a></p><p><b>name</b>: COVID-19 and Flu Vaccination Service</p><p><b>comment</b>: Comprehensive vaccination service for COVID-19 and seasonal flu vaccines</p><p><b>extraDetails</b>: </p><div><p><strong>Walk-ins welcome</strong> during business hours. Please bring your health card and vaccination history.</p>\n</div><p><b>characteristic</b>: <span title=\"Codes:{https://terminology.hl7.org/fhir/service-mode in-person}, {https://terminology.hl7.org/fhir/service-mode virtual}\">In-person</span></p><p><b>appointmentRequired</b>: false</p><h3>AvailableTimes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>DaysOfWeek</b></td><td><b>AvailableStartTime</b></td><td><b>AvailableEndTime</b></td></tr><tr><td style=\"display: none\">*</td><td>Friday</td><td>09:00:00</td><td>17:00:00</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public>
+     ] ;
      fhir:value [
-       a fhir:boolean ;
+       a fhir:Boolean ;
        fhir:v true
      ]
   ] [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted>
+     ] ;
      fhir:value [
-       a fhir:boolean ;
+       a fhir:Boolean ;
        fhir:v true
      ]
   ] [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed>
+     ] ;
      fhir:value [
-       a fhir:boolean ;
+       a fhir:Boolean ;
        fhir:v true
      ]
   ] [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed>
+     ] ;
      fhir:value [
-       a fhir:boolean ;
+       a fhir:Boolean ;
        fhir:v false
      ]
   ] [
-     fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration>
+     ] ;
      fhir:value [
-       a fhir:integer ;
+       a fhir:Integer ;
        fhir:v 15
      ]
   ] ) ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id>
+     ] ;
      fhir:value [ fhir:v "hs-12345" ]
   ] [
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id>
+     ] ;
      fhir:value [ fhir:v "activity-67890" ]
   ] [
-     fhir:system [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/url-param"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/url-param"^^xsd:anyURI ;
+       fhir:l <https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/url-param>
+     ] ;
      fhir:value [ fhir:v "covid-flu-vaccination" ]
   ] ) ; # 
   fhir:active [ fhir:v true] ; # 
   fhir:providedBy [
-     fhir:link <https://fhir.medmehealth.com/pharmacy-services/Organization/example-pharmacy-organization> ;
+     fhir:l <https://fhir.medmehealth.com/pharmacy-services/Organization/example-pharmacy-organization> ;
      fhir:reference [ fhir:v "Organization/example-pharmacy-organization" ]
   ] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <https://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "430193006" ] ;
        fhir:display [ fhir:v "Medication Review" ]
      ] [
-       fhir:system [ fhir:v "https://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <https://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "430193007" ] ;
        fhir:display [ fhir:v "Medication Reconciliation" ]
      ] ) ;
      fhir:text [ fhir:v "Medication management services" ]
   ] [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <https://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "310080006" ] ;
        fhir:display [ fhir:v "Pharmacy service" ]
      ] ) ;
@@ -86,20 +119,29 @@
   ] ) ; # 
   fhir:type ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://terminology.hl7.org/fhir/service-type"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://terminology.hl7.org/fhir/service-type"^^xsd:anyURI ;
+         fhir:l <https://terminology.hl7.org/fhir/service-type>
+       ] ;
        fhir:code [ fhir:v "64" ]
      ] [
-       fhir:system [ fhir:v "https://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <https://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "33879002" ] ;
        fhir:display [ fhir:v "Administration of vaccine to produce active immunity" ]
      ] [
-       fhir:system [ fhir:v "https://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <https://snomed.info/sct>
+       ] ;
        fhir:code [ fhir:v "430193006" ] ;
        fhir:display [ fhir:v "Medication Review" ]
      ] )
   ] ) ; # 
   fhir:location ( [
-     fhir:link <https://fhir.medmehealth.com/pharmacy-services/Location/example-pharmacy-location> ;
+     fhir:l <https://fhir.medmehealth.com/pharmacy-services/Location/example-pharmacy-location> ;
      fhir:reference [ fhir:v "Location/example-pharmacy-location" ]
   ] ) ; # 
   fhir:name [ fhir:v "COVID-19 and Flu Vaccination Service"] ; # 
@@ -107,11 +149,17 @@
   fhir:extraDetails [ fhir:v "**Walk-ins welcome** during business hours. Please bring your health card and vaccination history."] ; # 
   fhir:characteristic ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://terminology.hl7.org/fhir/service-mode"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://terminology.hl7.org/fhir/service-mode"^^xsd:anyURI ;
+         fhir:l <https://terminology.hl7.org/fhir/service-mode>
+       ] ;
        fhir:code [ fhir:v "in-person" ] ;
        fhir:display [ fhir:v "In-person" ]
      ] [
-       fhir:system [ fhir:v "https://terminology.hl7.org/fhir/service-mode"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://terminology.hl7.org/fhir/service-mode"^^xsd:anyURI ;
+         fhir:l <https://terminology.hl7.org/fhir/service-mode>
+       ] ;
        fhir:code [ fhir:v "virtual" ] ;
        fhir:display [ fhir:v "Virtual" ]
      ] )

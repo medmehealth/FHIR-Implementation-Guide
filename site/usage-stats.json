@@ -1,6 +1,6 @@
 {
   "package": "medme.fhir.pharmacy.services",
-  "version": "0.9.21",
+  "version": "0.9.22",
   "fhirVersion": "4.0.1",
   "jurisdiction": "CA",
   "extensions": [
@@ -268,9 +268,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
-    ],
-    "https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html": [
-      "Patient.identifier"
     ],
     "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode": [
       "Appointment"

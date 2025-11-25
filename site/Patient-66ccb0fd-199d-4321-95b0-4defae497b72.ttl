@@ -51,8 +51,8 @@
   ] [
      fhir:extension ( [
        fhir:url [
-         fhir:v "https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html"^^xsd:anyURI ;
-         fhir:l <https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html>
+         fhir:v "http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-identifierversion"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-identifierversion>
        ] ;
        fhir:value [
          a fhir:String ;

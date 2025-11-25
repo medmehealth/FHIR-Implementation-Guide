@@ -1,4 +1,4 @@
-# MedMe Pharmacy Patient - MedMe Pharmacy Services Implementation Guide v0.9.21
+# MedMe Pharmacy Patient - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:MedMePharmacyPatient |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient | *Version*:0.9.22 |
+| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyPatient |
 
  
 A profile of Patient for MedMe pharmacy services, based on Canadian Core patient profile, with essential fields for pharmacy patient management. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-patient",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient",
-  "version" : "0.9.21",
+  "version" : "0.9.22",
   "name" : "MedMePharmacyPatient",
   "title" : "MedMe Pharmacy Patient",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T17:07:48-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -130,7 +130,23 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "id" : "Patient.identifier",
         "path" : "Patient.identifier",
         "short" : "Patient identifiers including MedMe ID and optional JHN, PCID",
-        "min" : 1
+        "min" : 1,
+        "constraint" : [
+          {
+            "key" : "medme-pcid-system-check",
+            "severity" : "error",
+            "human" : "If PCID system is present, type code must be PT",
+            "expression" : "where(system = 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id').all(type.coding.where(system='https://terminology.hl7.org/CodeSystem/v2-0203' and code='PT').exists())",
+            "source" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient"
+          },
+          {
+            "key" : "medme-pcid-count",
+            "severity" : "error",
+            "human" : "Maximum one PCID identifier allowed",
+            "expression" : "where(system = 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id').count() <= 1",
+            "source" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient"
+          }
+        ]
       },
       {
         "id" : "Patient.identifier:patientId",
@@ -144,37 +160,23 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
             "key" : "medme-identifier-required",
             "severity" : "error",
             "human" : "At least one MedMe identifier is required",
-            "expression" : "%resource.identifier.where(system.matches('https://fhir\\.medmehealth\\.com/pharmacy-services/systems/entity/(organization/[^/]+/)?patient/id')).count() >= 1",
+            "expression" : "system.matches('https://fhir\\.medmehealth\\.com/pharmacy-services/systems/entity/(organization/[^/]+/)?patient/id')",
             "xpath" : "@value|f:*|h:div",
             "source" : "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ]
       },
       {
-        "id" : "Patient.identifier:patientId.type.coding",
-        "path" : "Patient.identifier.type.coding",
-        "min" : 1,
-        "max" : "1"
-      },
-      {
-        "id" : "Patient.identifier:patientId.type.coding.system",
-        "path" : "Patient.identifier.type.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/v2-0203"
-      },
-      {
-        "id" : "Patient.identifier:patientId.type.coding.code",
-        "path" : "Patient.identifier.type.coding.code",
-        "patternCode" : "MR"
-      },
-      {
-        "id" : "Patient.identifier:patientId.system",
-        "path" : "Patient.identifier.system",
-        "short" : "Identifier system"
-      },
-      {
-        "id" : "Patient.identifier:patientId.value",
-        "path" : "Patient.identifier.value",
-        "short" : "Identifier value"
+        "id" : "Patient.identifier:patientId.type",
+        "path" : "Patient.identifier.type",
+        "patternCodeableConcept" : {
+          "coding" : [
+            {
+              "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+              "code" : "MR"
+            }
+          ]
+        }
       },
       {
         "id" : "Patient.identifier:jhn",
@@ -185,24 +187,12 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "max" : "1",
         "constraint" : [
           {
-            "key" : "jhn-type-code",
-            "severity" : "error",
-            "human" : "JHN identifier type code must be JHN when present",
-            "expression" : "type.coding.code = 'JHN'",
-            "xpath" : "@value|f:*|h:div",
-            "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-          },
-          {
-            "key" : "jhn-identifier-pattern",
-            "severity" : "error",
-            "human" : "JHN identifier must follow specific pattern when present",
-            "expression" : "%resource.identifier.where(system = 'https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id').all(system = 'https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id' and type.coding.where(system = 'https://terminology.hl7.org/CodeSystem/v2-0203' and code = 'JHN').exists())"
-          },
-          {
             "key" : "jhn-extension-format",
             "severity" : "error",
-            "human" : "JHN version extension must have proper format when present",
-            "expression" : "%resource.identifier.where(system = 'https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id').all(extension.where(url = 'https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html').all(valueString.exists() and valueString.length() > 0))"
+            "human" : "Must provide JHN version code if extension is used",
+            "expression" : "extension.where(url = 'http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-identifierversion').all(valueString.exists() and valueString.length() > 0)",
+            "xpath" : "@value|f:*|h:div",
+            "source" : "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ]
       },
@@ -212,76 +202,16 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "max" : "1"
       },
       {
-        "id" : "Patient.identifier:jhn.type.coding",
-        "path" : "Patient.identifier.type.coding",
-        "min" : 1,
-        "max" : "1"
-      },
-      {
-        "id" : "Patient.identifier:jhn.type.coding.system",
-        "path" : "Patient.identifier.type.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/v2-0203"
-      },
-      {
-        "id" : "Patient.identifier:jhn.type.coding.code",
-        "path" : "Patient.identifier.type.coding.code",
-        "min" : 1
-      },
-      {
-        "id" : "Patient.identifier:jhn.system",
-        "path" : "Patient.identifier.system",
-        "short" : "CA Baseline Canadian JHN URI"
-      },
-      {
-        "id" : "Patient.identifier:pcId",
-        "path" : "Patient.identifier",
-        "sliceName" : "pcId",
-        "short" : "Optional identifier representing external PC ID for Patient",
-        "min" : 0,
-        "max" : "1",
-        "constraint" : [
-          {
-            "key" : "pcid-system",
-            "severity" : "error",
-            "human" : "PCID identifier system must be correct when present",
-            "expression" : "system = 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id'",
-            "xpath" : "@value|f:*|h:div",
-            "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-          },
-          {
-            "key" : "pcid-type-code",
-            "severity" : "error",
-            "human" : "PCID identifier type code must be PT when present",
-            "expression" : "type.coding.code = 'PT'"
-          },
-          {
-            "key" : "pcid-identifier-pattern",
-            "severity" : "error",
-            "human" : "PCID identifier must follow specific pattern when present",
-            "expression" : "value.exists() and value.length() > 0"
-          }
-        ]
-      },
-      {
-        "id" : "Patient.identifier:pcId.type.coding",
-        "path" : "Patient.identifier.type.coding",
-        "min" : 1,
-        "max" : "1"
-      },
-      {
-        "id" : "Patient.identifier:pcId.type.coding.system",
-        "path" : "Patient.identifier.type.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/v2-0203"
-      },
-      {
-        "id" : "Patient.identifier:pcId.type.coding.code",
-        "path" : "Patient.identifier.type.coding.code",
-        "min" : 1
-      },
-      {
-        "id" : "Patient.identifier:pcId.system",
-        "path" : "Patient.identifier.system",
-        "short" : "PCID identifier system"
+        "id" : "Patient.identifier:jhn.type",
+        "path" : "Patient.identifier.type",
+        "patternCodeableConcept" : {
+          "coding" : [
+            {
+              "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+              "code" : "JHN"
+            }
+          ]
+        }
       },
       {
         "id" : "Patient.active",

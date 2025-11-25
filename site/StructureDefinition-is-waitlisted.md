@@ -1,4 +1,4 @@
-# Is Waitlisted - MedMe Pharmacy Services Implementation Guide v0.9.21
+# Is Waitlisted - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:IsWaitlisted |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted | *Version*:0.9.22 |
+| Draft as of 2025-11-25 | *Computable Name*:IsWaitlisted |
 
 Indicates whether the healthcare service currently has a waiting list for new patients or appointments.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-is-waitlisted.csv), 
   "resourceType" : "StructureDefinition",
   "id" : "is-waitlisted",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted",
-  "version" : "0.9.21",
+  "version" : "0.9.22",
   "name" : "IsWaitlisted",
   "title" : "Is Waitlisted",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T17:07:48-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

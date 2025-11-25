@@ -1,4 +1,4 @@
-# MedMe Pharmacy Slot - MedMe Pharmacy Services Implementation Guide v0.9.21
+# MedMe Pharmacy Slot - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:MedMePharmacySlot |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot | *Version*:0.9.22 |
+| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacySlot |
 
  
 A profile of Slot for MedMe pharmacy services. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-slot.
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-slot",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot",
-  "version" : "0.9.21",
+  "version" : "0.9.22",
   "name" : "MedMePharmacySlot",
   "title" : "MedMe Pharmacy Slot",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T17:07:48-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

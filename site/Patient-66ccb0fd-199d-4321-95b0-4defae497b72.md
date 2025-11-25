@@ -1,4 +1,4 @@
-# Jane Doe - Patient with MedMe ID and JHN - MedMe Pharmacy Services Implementation Guide v0.9.21
+# Jane Doe - Patient with MedMe ID and JHN - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -69,7 +69,7 @@ Jane Doe Female, DoB: 1990-01-13 ( MR)
     {
       "extension" : [
         {
-          "url" : "https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html",
+          "url" : "http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-identifierversion",
           "valueString" : "BB"
         }
       ],

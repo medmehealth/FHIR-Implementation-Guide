@@ -1,4 +1,4 @@
-# Multilingual Support - MedMe Pharmacy Services Implementation Guide v0.9.21
+# Multilingual Support - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * **Multilingual Support**

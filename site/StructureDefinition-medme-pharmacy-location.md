@@ -1,4 +1,4 @@
-# MedMe Pharmacy Location - MedMe Pharmacy Services Implementation Guide v0.9.21
+# MedMe Pharmacy Location - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:MedMePharmacyLocation |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location | *Version*:0.9.22 |
+| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyLocation |
 
  
 A profile of Location for MedMe pharmacy services, based on Canadian Core. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-locat
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-location",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location",
-  "version" : "0.9.21",
+  "version" : "0.9.22",
   "name" : "MedMePharmacyLocation",
   "title" : "MedMe Pharmacy Location",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T17:07:48-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

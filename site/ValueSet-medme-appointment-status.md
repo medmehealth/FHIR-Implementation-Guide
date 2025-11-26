@@ -1,4 +1,4 @@
-# MedMe Appointment Status - MedMe Pharmacy Services Implementation Guide v0.9.21
+# MedMe Appointment Status - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:MedMeAppointmentStatus |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status | *Version*:0.9.22 |
+| Draft as of 2025-11-25 | *Computable Name*:MedMeAppointmentStatus |
 
  
 Supported appointment statuses for MedMe pharmacy services 
@@ -46,11 +46,11 @@ Supported appointment statuses for MedMe pharmacy services
   "resourceType" : "ValueSet",
   "id" : "medme-appointment-status",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
-  "version" : "0.9.21",
+  "version" : "0.9.22",
   "name" : "MedMeAppointmentStatus",
   "title" : "MedMe Appointment Status",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T17:07:48-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

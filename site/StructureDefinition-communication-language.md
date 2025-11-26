@@ -1,4 +1,4 @@
-# Communication Language - MedMe Pharmacy Services Implementation Guide v0.9.21
+# Communication Language - MedMe Pharmacy Services Implementation Guide v0.9.22
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language | *Version*:0.9.21 |
-| Draft as of 2025-11-24 | *Computable Name*:CommunicationLanguage |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language | *Version*:0.9.22 |
+| Draft as of 2025-11-25 | *Computable Name*:CommunicationLanguage |
 
 Preferred language for communications related to this appointment.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-communication-langua
   "resourceType" : "StructureDefinition",
   "id" : "communication-language",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language",
-  "version" : "0.9.21",
+  "version" : "0.9.22",
   "name" : "CommunicationLanguage",
   "title" : "Communication Language",
   "status" : "draft",
-  "date" : "2025-11-24T17:38:48-05:00",
+  "date" : "2025-11-25T17:07:48-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

@@ -74,10 +74,10 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
-      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
-      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
-      "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService"
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
+      "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService",
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -196,12 +196,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-location.html" : "MedMe Pharmacy Location",
-      "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
-      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
       "StructureDefinition-medme-pharmacy-organization.html" : "MedMe Pharmacy Organization",
+      "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService",
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
       "StructureDefinition-medme-pharmacy-patient.html" : "MedMe Pharmacy Patient"
     },
     {
@@ -216,12 +216,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-location.html" : "MedMe Pharmacy Location",
-      "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
-      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
       "StructureDefinition-medme-pharmacy-organization.html" : "MedMe Pharmacy Organization",
+      "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService",
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
       "StructureDefinition-medme-pharmacy-patient.html" : "MedMe Pharmacy Patient"
     },
     {
@@ -236,12 +236,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-location.html" : "MedMe Pharmacy Location",
-      "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
-      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
       "StructureDefinition-medme-pharmacy-organization.html" : "MedMe Pharmacy Organization",
+      "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService",
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
       "StructureDefinition-medme-pharmacy-patient.html" : "MedMe Pharmacy Patient"
     },
     {
@@ -421,10 +421,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.516"],
       "uses" : {
       },
-      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
-      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
-      "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService"
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
+      "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService",
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-provision-conditions",
@@ -470,10 +470,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.518"],
       "uses" : {
       },
-      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
       "StructureDefinition-medme-pharmacy-schedule.html" : "MedMe Pharmacy Schedule",
-      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot",
-      "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService"
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment",
+      "StructureDefinition-medme-pharmacy-healthcareservice.html" : "MedMe Pharmacy HealthcareService",
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/jurisdiction",
@@ -580,7 +580,7 @@
     },
     {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
-      "version" : "0.9.21",
+      "version" : "0.9.22",
       "status" : "draft",
       "name" : "MedMeAppointmentStatus",
       "title" : "MedMe Appointment Status",
@@ -592,7 +592,7 @@
     },
     {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-      "version" : "0.9.21",
+      "version" : "0.9.22",
       "status" : "draft",
       "name" : "MedMeAppointmentType",
       "title" : "MedMe Appointment Type",

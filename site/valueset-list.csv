@@ -1,3 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status,0.9.21,draft,,MedMeAppointmentStatus,MedMe Appointment Status,"Supported appointment statuses for MedMe pharmacy services",,"hl7.fhir.r4.core"
-https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type,0.9.21,draft,,MedMeAppointmentType,MedMe Appointment Type,"Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)",,"Other"
+https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status,0.9.22,draft,,MedMeAppointmentStatus,MedMe Appointment Status,"Supported appointment statuses for MedMe pharmacy services",,"hl7.fhir.r4.core"
+https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type,0.9.22,draft,,MedMeAppointmentType,MedMe Appointment Type,"Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)",,"Other"

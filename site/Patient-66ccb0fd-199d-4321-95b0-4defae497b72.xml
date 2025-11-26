@@ -23,7 +23,7 @@
     <value value="66ccb0fd-199d-4321-95b0-4defae497b72"/>
   </identifier>
   <identifier>
-    <extension url="https://build.fhir.org/ig/HL7-Canada/ca-baseline/StructureDefinition-ext-identifierversion.html">
+    <extension url="http://hl7.org/fhir/ca/baseline/StructureDefinition/ext-identifierversion">
       <valueString value="BB"/>
     </extension>
     <type>

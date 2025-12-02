@@ -1084,7 +1084,7 @@ Territory","",1,1,"","","Y","string {[]} {[]}
 ","The Province or Territory of Canada, or Province, Territory of State of another country","The Province or Territory of Canada, or Province, Territory of State of another country. Recommend use of ISO 3166-2 Subdivision codes for provinces in Canada https://www.iso.org/obp/ui/#iso:code:3166:CA","","","","","","","","","",,,,,"",,,,"Address.state",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "medme-pharmacy-location","Location.address.postalCode","Location.address.postalCode","","Zip
-","",0,1,"Y","","Y","string {[]} {[]}
+","",1,1,"Y","","Y","string {[]} {[]}
 ","Postal code for area","A postal code designating a region defined by the postal service.","","","","","","","<valueString xmlns=""http://hl7.org/fhir"" value=""9132""/>","","",,,,,"",,,,"Address.postalCode",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "medme-pharmacy-location","Location.address.country","Location.address.country","","","",1,1,"Y","","Y","string {[]} {[]}

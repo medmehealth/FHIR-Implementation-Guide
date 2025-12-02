@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
-      "version" : "0.9.22",
+      "version" : "0.9.23",
       "status" : "draft",
       "name" : "MedMeAppointmentStatus",
       "title" : "MedMe Appointment Status",
@@ -14,7 +14,7 @@
     },
     {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-      "version" : "0.9.22",
+      "version" : "0.9.23",
       "status" : "draft",
       "name" : "MedMeAppointmentType",
       "title" : "MedMe Appointment Type",

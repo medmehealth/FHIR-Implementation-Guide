@@ -3,147 +3,147 @@
     "id" : "artifact-contact",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/StructureDefinition/artifact-contact",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "ArtifactContact"
   },
   {
     "id" : "medme.fhir.pharmacy.services",
     "type" : "ImplementationGuide",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacyServicesIG"
   },
   {
     "id" : "appointment-mode",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/appointment-mode",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "AppointmentMode"
   },
   {
     "id" : "communication-language",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "CommunicationLanguage"
   },
   {
     "id" : "default-duration",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "DefaultDuration"
   },
   {
     "id" : "group-size",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "GroupSize"
   },
   {
     "id" : "invalidated-at",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/invalidated-at",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "InvalidatedAt"
   },
   {
     "id" : "is-cancellation-allowed",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "IsCancellationAllowed"
   },
   {
     "id" : "is-public",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "IsPublic"
   },
   {
     "id" : "is-rescheduling-allowed",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "IsReschedulingAllowed"
   },
   {
     "id" : "is-waitlisted",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-waitlisted",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "IsWaitlisted"
   },
   {
     "id" : "location-id",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "LocationId"
   },
   {
     "id" : "medme-pharmacy-appointment",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacyAppointment"
   },
   {
     "id" : "medme-pharmacy-healthcareservice",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacyHealthcareService"
   },
   {
     "id" : "medme-pharmacy-location",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacyLocation"
   },
   {
     "id" : "medme-pharmacy-organization",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacyOrganization"
   },
   {
     "id" : "medme-pharmacy-patient",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacyPatient"
   },
   {
     "id" : "medme-pharmacy-schedule",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacySchedule"
   },
   {
     "id" : "medme-pharmacy-slot",
     "type" : "StructureDefinition",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMePharmacySlot"
   },
   {
     "id" : "medme-appointment-status",
     "type" : "ValueSet",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMeAppointmentStatus"
   },
   {
     "id" : "medme-appointment-type",
     "type" : "ValueSet",
     "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-    "version" : "0.9.22",
+    "version" : "0.9.23",
     "name" : "MedMeAppointmentType"
   }
 ]

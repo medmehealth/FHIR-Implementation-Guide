@@ -59,6 +59,7 @@
     <sch:title>f:Location/f:address</sch:title>
     <sch:rule context="f:Location/f:address">
       <sch:assert test="count(f:state) &gt;= 1">state: minimum cardinality of 'state' is 1</sch:assert>
+      <sch:assert test="count(f:postalCode) &gt;= 1">postalCode: minimum cardinality of 'postalCode' is 1</sch:assert>
       <sch:assert test="count(f:country) &gt;= 1">country: minimum cardinality of 'country' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

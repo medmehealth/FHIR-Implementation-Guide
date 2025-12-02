@@ -11,17 +11,14 @@
   fhir:id [ fhir:v "medme-appointment-status"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medme-appointment-status</b></p><a name=\"medme-appointment-status\"> </a><a name=\"hcmedme-appointment-status\"> </a><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html\"><code>http://hl7.org/fhir/appointmentstatus</code></a><span title=\"Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references\"> version ?4.0.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-pending\">pending</a></td><td>Pending</td><td>Some or all of the participant(s) have not finalized their acceptance of the appointment request.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-booked\">booked</a></td><td>Booked</td><td>All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-cancelled\">cancelled</a></td><td>Cancelled</td><td>The appointment has been cancelled.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-fulfilled\">fulfilled</a></td><td>Fulfilled</td><td>The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-entered-in-error\">entered-in-error</a></td><td>Entered in Error</td><td>This instance should not have been part of this patient's medical record.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet medme-appointment-status</b></p><a name=\"medme-appointment-status\"> </a><a name=\"hcmedme-appointment-status\"> </a><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html\"><code>http://hl7.org/fhir/appointmentstatus</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-pending\">pending</a></td><td>Pending</td><td>Some or all of the participant(s) have not finalized their acceptance of the appointment request.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-booked\">booked</a></td><td>Booked</td><td>All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-cancelled\">cancelled</a></td><td>Cancelled</td><td>The appointment has been cancelled.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-fulfilled\">fulfilled</a></td><td>Fulfilled</td><td>The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-entered-in-error\">entered-in-error</a></td><td>Entered in Error</td><td>This instance should not have been part of this patient's medical record.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:url [
-     fhir:v "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status"^^xsd:anyURI ;
-     fhir:l <https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status>
-  ] ; # 
-  fhir:version [ fhir:v "0.9.22"] ; # 
+  fhir:url [ fhir:v "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.9.23"] ; # 
   fhir:name [ fhir:v "MedMeAppointmentStatus"] ; # 
   fhir:title [ fhir:v "MedMe Appointment Status"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-25T17:07:48-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-02T11:10:54-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MedMe Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MedMe Health" ] ;
@@ -36,19 +33,13 @@
   fhir:description [ fhir:v "Supported appointment statuses for MedMe pharmacy services"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "CA" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [
-         fhir:v "http://hl7.org/fhir/appointmentstatus"^^xsd:anyURI ;
-         fhir:l <http://hl7.org/fhir/appointmentstatus>
-       ] ;
+       fhir:system [ fhir:v "http://hl7.org/fhir/appointmentstatus"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "pending" ] ;
          fhir:display [ fhir:v "Pending" ]

@@ -1,4 +1,4 @@
-# Jane Doe - Patient with MedMe ID and JHN - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Jane Doe - Patient with MedMe ID and JHN - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -10,15 +10,15 @@ Information Source: [https://fhir.medmehealth.com](https://simplifier.net/resolv
 
 Profile: [MedMe Pharmacy Patient](StructureDefinition-medme-pharmacy-patient.md)
 
-Jane Doe Female, DoB: 1990-01-13 ( MR)
+Jane Doe Female, DoB: 1990-01-13 ( Medical record number)
 
 -------
 
 | | |
 | :--- | :--- |
 | Active: | true |
-| Other Ids: | * JHN/9998887777
-* PT/6e03e880-bbf1-4df4-9e35-e71ee5d74e86
+| Other Ids: | * Jurisdictional health number/9998887777
+* Patient external identifier/6e03e880-bbf1-4df4-9e35-e71ee5d74e86
  |
 | Contact Detail | * ph: 7780009999(Mobile)
 * ph: 7780009998(Home)
@@ -58,7 +58,7 @@ Jane Doe Female, DoB: 1990-01-13 ( MR)
       "type" : {
         "coding" : [
           {
-            "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
             "code" : "MR"
           }
         ]
@@ -76,7 +76,7 @@ Jane Doe Female, DoB: 1990-01-13 ( MR)
       "type" : {
         "coding" : [
           {
-            "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
             "code" : "JHN"
           }
         ]
@@ -88,7 +88,7 @@ Jane Doe Female, DoB: 1990-01-13 ( MR)
       "type" : {
         "coding" : [
           {
-            "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+            "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
             "code" : "PT"
           }
         ]
@@ -137,7 +137,7 @@ Jane Doe Female, DoB: 1990-01-13 ( MR)
         {
           "coding" : [
             {
-              "system" : "https://hl7.org/fhir/ValueSet/patient-contactrelationship",
+              "system" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
               "code" : "EP",
               "display" : "Emergency Contact"
             }
@@ -161,7 +161,7 @@ Jane Doe Female, DoB: 1990-01-13 ( MR)
       "language" : {
         "coding" : [
           {
-            "system" : "https://terminology.hl7.org/CodeSystem/language",
+            "system" : "http://terminology.hl7.org/CodeSystem/language",
             "code" : "en-CA",
             "display" : "English (Canada)"
           }

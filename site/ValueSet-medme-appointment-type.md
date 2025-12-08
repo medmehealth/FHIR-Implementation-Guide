@@ -1,4 +1,4 @@
-# MedMe Appointment Type - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Appointment Type - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMeAppointmentType |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMeAppointmentType |
 
  
 Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only) 
@@ -23,8 +23,6 @@ Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only
  
 
 ### Expansion
-
-No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 
@@ -48,11 +46,11 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "medme-appointment-type",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMeAppointmentType",
   "title" : "MedMe Appointment Type",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -83,7 +81,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "compose" : {
     "include" : [
       {
-        "system" : "https://terminology.hl7.org/CodeSystem/v2-0276",
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0276",
         "concept" : [
           {
             "code" : "WALKIN",

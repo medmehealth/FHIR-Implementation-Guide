@@ -5,15 +5,15 @@
   "description" : "FHIR Implementation Guide for comprehensive pharmacy services including prescription dispensing, immunizations, minor ailment treatments, and medication management - built on Canadian Core profiles",
   "status" : "draft",
   "package-id" : "medme.fhir.pharmacy.services",
-  "ig-ver" : "0.9.23",
-  "date" : "Tue, 02 Dec, 2025 11:11:22 -0300",
-  "dateISO8601" : "2025-12-02T11:11:22-03:00",
-  "errs" : 27,
-  "warnings" : 95,
-  "hints" : 4,
+  "ig-ver" : "0.9.24",
+  "date" : "Mon, 08 Dec, 2025 15:17:38 -0500",
+  "dateISO8601" : "2025-12-08T15:17:38-05:00",
+  "errs" : 40,
+  "warnings" : 49,
+  "hints" : 10,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1324780296
+  "maxMemory" : 1983323888
 }

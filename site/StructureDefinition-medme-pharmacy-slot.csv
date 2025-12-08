@@ -117,7 +117,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Schedule this slot belongs to","The schedule resource that this slot defines an interval of status information.","","","","","","","","","",,,,,"",,,,"Slot.schedule",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Slot.status","Slot.status","","","",1,1,"","","Y","code {[]} {[]}
-","Status of the slot (free, busy, busy-tentative, busy-unavailable, entered-in-error)","busy | free | busy-unavailable | busy-tentative | entered-in-error.","","","","","","","","","",,"required","","https://hl7.org/fhir/ValueSet/slotstatus","",,,,"Slot.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Status of the slot (free, busy, busy-tentative, busy-unavailable, entered-in-error)","busy | free | busy-unavailable | busy-tentative | entered-in-error.","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/slotstatus","",,,,"Slot.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FREEBUSY;FBTYPE=(freeBusyType):19980314T233000Z/19980315T003000Z If the freeBusyType is BUSY, then this value can be excluded"
 "Slot.start","Slot.start","","","",1,1,"","","Y","instant {[]} {[]}
 ","Start time of the slot","Date/Time that the slot is to begin.","","","","","","","","","",,,,,"",,,,"Slot.start",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

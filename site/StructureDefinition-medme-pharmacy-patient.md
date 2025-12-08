@@ -1,4 +1,4 @@
-# MedMe Pharmacy Patient - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Pharmacy Patient - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyPatient |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyPatient |
 
  
 A profile of Patient for MedMe pharmacy services, based on Canadian Core patient profile, with essential fields for pharmacy patient management. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-patient",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMePharmacyPatient",
   "title" : "MedMe Pharmacy Patient",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -136,7 +136,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
             "key" : "medme-pcid-system-check",
             "severity" : "error",
             "human" : "If PCID system is present, type code must be PT",
-            "expression" : "where(system = 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id').all(type.coding.where(system='https://terminology.hl7.org/CodeSystem/v2-0203' and code='PT').exists())",
+            "expression" : "where(system = 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id').all(type.coding.where(system='http://terminology.hl7.org/CodeSystem/v2-0203' and code='PT').exists())",
             "source" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient"
           },
           {
@@ -172,7 +172,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "patternCodeableConcept" : {
           "coding" : [
             {
-              "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+              "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
               "code" : "MR"
             }
           ]
@@ -207,7 +207,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "patternCodeableConcept" : {
           "coding" : [
             {
-              "system" : "https://terminology.hl7.org/CodeSystem/v2-0203",
+              "system" : "http://terminology.hl7.org/CodeSystem/v2-0203",
               "code" : "JHN"
             }
           ]
@@ -242,7 +242,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "min" : 1,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.org/fhir/ValueSet/contact-point-system"
+          "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-system"
         }
       },
       {
@@ -250,7 +250,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "path" : "Patient.telecom.use",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.org/fhir/ValueSet/contact-point-use"
+          "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-use"
         }
       },
       {
@@ -260,7 +260,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "min" : 1,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.org/fhir/ValueSet/administrative-gender"
+          "valueSet" : "http://hl7.org/fhir/ValueSet/administrative-gender"
         }
       },
       {
@@ -287,7 +287,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
       {
         "id" : "Patient.contact.relationship.coding.system",
         "path" : "Patient.contact.relationship.coding.system",
-        "fixedUri" : "https://hl7.org/fhir/ValueSet/patient-contactrelationship"
+        "fixedUri" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship"
       },
       {
         "id" : "Patient.contact.relationship.coding.code",
@@ -315,7 +315,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
         "min" : 1,
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.org/fhir/ValueSet/contact-point-system"
+          "valueSet" : "http://hl7.org/fhir/ValueSet/contact-point-system"
         }
       },
       {
@@ -337,7 +337,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-patie
       {
         "id" : "Patient.communication.language.coding.system",
         "path" : "Patient.communication.language.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/language"
+        "fixedUri" : "http://terminology.hl7.org/CodeSystem/language"
       },
       {
         "id" : "Patient.communication.language.coding.code",

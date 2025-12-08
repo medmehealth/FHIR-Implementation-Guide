@@ -1,8 +1,78 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "AdministrativeGender",
+      "title" : "AdministrativeGender",
+      "description" : "The gender of a person used for administrative purposes.",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1"],
+      "uses" : {
+      },
+      "StructureDefinition-medme-pharmacy-patient.html" : "MedMe Pharmacy Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointSystem",
+      "title" : "ContactPointSystem",
+      "description" : "Telecommunications form for contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-system"],
+      "oids" : ["2.16.840.1.113883.4.642.3.71"],
+      "sources" : ["2.16.840.1.113883.4.642.3.71"],
+      "uses" : {
+      },
+      "StructureDefinition-medme-pharmacy-patient.html" : "MedMe Pharmacy Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ContactPointUse",
+      "title" : "ContactPointUse",
+      "description" : "Use of contact point.",
+      "systems" : ["http://hl7.org/fhir/contact-point-use"],
+      "oids" : ["2.16.840.1.113883.4.642.3.73"],
+      "sources" : ["2.16.840.1.113883.4.642.3.73"],
+      "uses" : {
+      },
+      "StructureDefinition-medme-pharmacy-patient.html" : "MedMe Pharmacy Patient"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participationstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipationStatus",
+      "title" : "ParticipationStatus",
+      "description" : "The Participation status of an appointment.",
+      "systems" : ["http://hl7.org/fhir/participationstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.486"],
+      "sources" : ["2.16.840.1.113883.4.642.3.486"],
+      "uses" : {
+      },
+      "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/slotstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SlotStatus",
+      "title" : "SlotStatus",
+      "description" : "The free/busy status of the slot.",
+      "systems" : ["http://hl7.org/fhir/slotstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.482"],
+      "sources" : ["2.16.840.1.113883.4.642.3.482"],
+      "uses" : {
+      },
+      "StructureDefinition-medme-pharmacy-slot.html" : "MedMe Pharmacy Slot"
+    },
+    {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
-      "version" : "0.9.23",
+      "version" : "0.9.24",
       "status" : "draft",
       "name" : "MedMeAppointmentStatus",
       "title" : "MedMe Appointment Status",
@@ -14,12 +84,12 @@
     },
     {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-      "version" : "0.9.23",
+      "version" : "0.9.24",
       "status" : "draft",
       "name" : "MedMeAppointmentType",
       "title" : "MedMe Appointment Type",
       "description" : "Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only)",
-      "systems" : ["https://terminology.hl7.org/CodeSystem/v2-0276"],
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0276"],
       "uses" : {
       },
       "StructureDefinition-medme-pharmacy-appointment.html" : "MedMe Pharmacy Appointment"

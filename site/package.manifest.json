@@ -1,7 +1,7 @@
 {
-  "version" : "0.9.23",
+  "version" : "0.9.24",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20251202111054",
+  "date" : "20251208151738",
   "name" : "medme.fhir.pharmacy.services",
   "jurisdiction" : "urn:iso:std:iso:3166#CA"
 }

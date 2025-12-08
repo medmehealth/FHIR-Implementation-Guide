@@ -1,4 +1,4 @@
-# MedMe Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyOrganization |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyOrganization |
 
  
 A profile of Organization for MedMe pharmacy services, based on Canadian Core. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-organ
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-organization",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMePharmacyOrganization",
   "title" : "MedMe Pharmacy Organization",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -158,7 +158,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-organ
       {
         "id" : "Organization.type.coding.system",
         "path" : "Organization.type.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/organization-type"
+        "fixedUri" : "http://terminology.hl7.org/CodeSystem/organization-type"
       },
       {
         "id" : "Organization.type.coding.code",

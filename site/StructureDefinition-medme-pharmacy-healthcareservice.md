@@ -1,4 +1,4 @@
-# MedMe Pharmacy HealthcareService - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Pharmacy HealthcareService - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyHealthcareService |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyHealthcareService |
 
  
 A profile of HealthcareService for MedMe pharmacy services, based on Canadian Core, with additional extensions for pharmacy-specific needs. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-healt
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-healthcareservice",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMePharmacyHealthcareService",
   "title" : "MedMe Pharmacy HealthcareService",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-healt
       {
         "id" : "HealthcareService.category.coding.system",
         "path" : "HealthcareService.category.coding.system",
-        "fixedUri" : "https://snomed.info/sct"
+        "fixedUri" : "http://snomed.info/sct"
       },
       {
         "id" : "HealthcareService.type",
@@ -326,7 +326,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-healt
       {
         "id" : "HealthcareService.characteristic.coding.system",
         "path" : "HealthcareService.characteristic.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/fhir/service-mode"
+        "fixedUri" : "http://terminology.hl7.org/fhir/service-mode"
       },
       {
         "id" : "HealthcareService.appointmentRequired",

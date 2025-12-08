@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>MedMe Appointment Status - XML Representation - MedMe Pharmacy Services Implementation Guide v0.9.23</title>
+    <title>MedMe Appointment Status - XML Representation - MedMe Pharmacy Services Implementation Guide v0.9.24</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -54,7 +54,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MedMe Pharmacy Services Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.9.23 - ci-build
+            <span style="display:inline-block;">0.9.24 - ci-build
 
 
 
@@ -111,7 +111,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.23) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.24) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -166,7 +166,7 @@
         
           Draft
           
-            as of 2025-12-02
+            as of 2025-12-08
           
         
       </td>
@@ -182,20 +182,20 @@
 
 
 
-  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;medme-appointment-status&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;extensions&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet medme-appointment-status&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;medme-appointment-status&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcmedme-appointment-status&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html&quot;&gt;&lt;code&gt;http://hl7.org/fhir/appointmentstatus&lt;/code&gt;&lt;/a&gt;&lt;table class=&quot;none&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-pending&quot;&gt;pending&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pending&lt;/td&gt;&lt;td&gt;Some or all of the participant(s) have not finalized their acceptance of the appointment request.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-booked&quot;&gt;booked&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Booked&lt;/td&gt;&lt;td&gt;All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-cancelled&quot;&gt;cancelled&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cancelled&lt;/td&gt;&lt;td&gt;The appointment has been cancelled.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-fulfilled&quot;&gt;fulfilled&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fulfilled&lt;/td&gt;&lt;td&gt;The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-entered-in-error&quot;&gt;entered-in-error&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entered in Error&lt;/td&gt;&lt;td&gt;This instance should not have been part of this patient's medical record.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet medme-appointment-status&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;medme-appointment-status&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcmedme-appointment-status&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html&quot;&gt;&lt;code&gt;http://hl7.org/fhir/appointmentstatus&lt;/code&gt;&lt;/a&gt;&lt;span title=&quot;Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references&quot;&gt; version &amp;#x1F4E6;4.0.1&lt;/span&gt;&lt;table class=&quot;none&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-pending&quot;&gt;pending&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pending&lt;/td&gt;&lt;td&gt;Some or all of the participant(s) have not finalized their acceptance of the appointment request.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-booked&quot;&gt;booked&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Booked&lt;/td&gt;&lt;td&gt;All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-cancelled&quot;&gt;cancelled&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Cancelled&lt;/td&gt;&lt;td&gt;The appointment has been cancelled.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-fulfilled&quot;&gt;fulfilled&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Fulfilled&lt;/td&gt;&lt;td&gt;The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-entered-in-error&quot;&gt;entered-in-error&lt;/a&gt;&lt;/td&gt;&lt;td&gt;Entered in Error&lt;/td&gt;&lt;td&gt;This instance should not have been part of this patient's medical record.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>
        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.9.23&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.9.24&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MedMeAppointmentStatus&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MedMe Appointment Status&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-12-02T11:10:54-03:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-12-08T15:17:38-05:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MedMe Health&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MedMe Health&quot;/&gt;
@@ -265,7 +265,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.23 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 2, 2025 11:11-0300">2025-12-02</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.24 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 8, 2025 15:17-0500">2025-12-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

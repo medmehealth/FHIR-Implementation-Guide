@@ -1,4 +1,4 @@
-# Multilingual Support - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Multilingual Support - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * **Multilingual Support**
@@ -23,7 +23,7 @@ FHIR allows you to add extensions to primitive types (like `string`, `markdown`)
   "_fieldName": {
     "extension": [
       {
-        "url": "https://hl7.org/fhir/StructureDefinition/translation",
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
         "extension": [
           {
             "url": "lang",
@@ -73,7 +73,7 @@ The following fields support multilingual content:
   "_name": {
     "extension": [
       {
-        "url": "https://hl7.org/fhir/StructureDefinition/translation",
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
         "extension": [
           {
             "url": "lang",
@@ -91,7 +91,7 @@ The following fields support multilingual content:
   "_comment": {
     "extension": [
       {
-        "url": "https://hl7.org/fhir/StructureDefinition/translation",
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
         "extension": [
           {
             "url": "lang",
@@ -109,7 +109,7 @@ The following fields support multilingual content:
   "_extraDetails": {
     "extension": [
       {
-        "url": "https://hl7.org/fhir/StructureDefinition/translation",
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
         "extension": [
           {
             "url": "lang",
@@ -157,7 +157,7 @@ Always use the standard HL7 translation extension:
 
 ```
 {
-  "url": "https://hl7.org/fhir/StructureDefinition/translation",
+  "url": "http://hl7.org/fhir/StructureDefinition/translation",
   "extension": [
     {
       "url": "lang",

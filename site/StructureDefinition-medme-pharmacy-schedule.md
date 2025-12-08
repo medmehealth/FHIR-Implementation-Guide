@@ -1,4 +1,4 @@
-# MedMe Pharmacy Schedule - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Pharmacy Schedule - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacySchedule |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacySchedule |
 
  
 A profile of Schedule for MedMe pharmacy services. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-sched
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-schedule",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMePharmacySchedule",
   "title" : "MedMe Pharmacy Schedule",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

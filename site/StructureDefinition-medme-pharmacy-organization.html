@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>MedMe Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.23</title>
+    <title>MedMe Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.24</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MedMe Pharmacy Services Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.9.23 - ci-build
+            <span style="display:inline-block;">0.9.24 - ci-build
 
 
 
@@ -113,7 +113,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.23) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">MedMe Pharmacy Services Implementation Guide - Local Development build (v0.9.24) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://fhir.medmehealth.com/pharmacy-services/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -203,7 +203,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.9.23<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization|0.9.23"/></span>
+      <span class="copy-text">0.9.24<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization|0.9.24"/></span>
       </td>
     </tr>
 
@@ -219,7 +219,7 @@
         
           Draft
           
-            as of 2025-12-02
+            as of 2025-12-08
           
         
       </td>
@@ -459,7 +459,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Country (e.g. can be ISO 3166 2 or 3 letter code)</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7d1e3008-98b5-4b0e-8a68-ff47125615fe
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // c24ade18-4e19-4d82-893e-915d7267f044
 document.getElementById('cbmedme-pharmacy-organizationK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('medme-pharmacy-organizationK'), 'binding', document.getElementById('cbmedme-pharmacy-organizationK-binding').checked, document.getElementById('ppmedme-pharmacy-organizationK'));
 document.getElementById('cbmedme-pharmacy-organizationK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -469,15 +469,132 @@ filterDesc(document.getElementById('medme-pharmacy-organizationK'), 'obligation'
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Organization.identifier.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationId.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationCode.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Used to categorize the organization."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">OrganizationType</a><div><code>http://hl7.org/fhir/ValueSet/organization-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.system</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Telecommunications form for contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Use of contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.address.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The use of an address."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a><div><code>http://hl7.org/fhir/ValueSet/address-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<table class="list" data-fhir="generated-heirarchy">
+  <tr>
+    <td>
+      <b>Path</b>
+    </td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationId.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationCode.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Used to categorize the organization.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">Organization type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​system</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Telecommunications form for contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Use of contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.address.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The use of an address.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -487,18 +604,118 @@ filterDesc(document.getElementById('medme-pharmacy-organizationK'), 'obligation'
             <a name="inv-key"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Organization</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>org-1</td><td>error</td><td>Organization</td><td>The organization SHALL at least have a name or an identifier, and possibly more than one<br/>: (identifier.count() + name.count()) &gt; 0</td><td></td></tr>
-<tr><td>org-2</td><td>error</td><td>Organization.address</td><td>An address of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
-<tr><td>org-3</td><td>error</td><td>Organization.telecom</td><td>The telecom of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Organization</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-1</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>The organization SHALL at least have a name or an identifier, and possibly more than one</td>
+    <td>
+      <code>(identifier.count() + name.count()) &gt; 0</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-2</td>
+    <td>error</td>
+    <td>Organization.address</td>
+    <td>An address of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-3</td>
+    <td>error</td>
+    <td>Organization.telecom</td>
+    <td>The telecom of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -571,7 +788,7 @@ filterDesc(document.getElementById('medme-pharmacy-organizationK'), 'obligation'
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">https://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">http://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aeab" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-medme-pharmacy-organization-definitions.html#Organization.type.coding.code" data-no-external="true">code</a><a name="Organization.type.coding.code"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
@@ -587,7 +804,7 @@ filterDesc(document.getElementById('medme-pharmacy-organizationK'), 'obligation'
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Name of the pharmacy organization</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7d1e3008-98b5-4b0e-8a68-ff47125615fe
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // c24ade18-4e19-4d82-893e-915d7267f044
 document.getElementById('cbmedme-pharmacy-organizationD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('medme-pharmacy-organizationD'), 'binding', document.getElementById('cbmedme-pharmacy-organizationD-binding').checked, document.getElementById('ppmedme-pharmacy-organizationD'));
 document.getElementById('cbmedme-pharmacy-organizationD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -839,7 +1056,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Identity of the terminology system<br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">https://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Identity of the terminology system<br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">http://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="akcd" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-medme-pharmacy-organization-definitions.html#Organization.type.coding.version" title="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged." data-no-external="true">version</a><a name="s-Organization.type.coding.version"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -1032,7 +1249,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/endpoint.html">Endpoint</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Technical endpoints providing access to services operated for the organization<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7d1e3008-98b5-4b0e-8a68-ff47125615fe
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // c24ade18-4e19-4d82-893e-915d7267f044
 document.getElementById('cbmedme-pharmacy-organizationS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('medme-pharmacy-organizationS'), 'binding', document.getElementById('cbmedme-pharmacy-organizationS-binding').checked, document.getElementById('ppmedme-pharmacy-organizationS'));
 document.getElementById('cbmedme-pharmacy-organizationS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1042,37 +1259,222 @@ filterDesc(document.getElementById('medme-pharmacy-organizationS'), 'obligation'
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Organization.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages"></button></div><div>From the FHIR Standard</div><table class="grid">
+<table class="list" data-fhir="generated-heirarchy">
   <tr>
-    <td style="font-size: 11px">
-      <b>Additional Bindings</b>
+    <td>
+      <b>Path</b>
     </td>
-    <td style="font-size: 11px">Purpose</td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
   </tr>
   <tr>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
+    <td>Organization.language</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[preferred]">preferred</a>
     </td>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a>
+    <td title="A human language.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">Common Languages</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
     </td>
   </tr>
-</table>
-</td></tr>
-<tr><td>Organization.identifier.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationId.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationId.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationCode.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationCode.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Used to categorize the organization."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">OrganizationType</a><div><code>http://hl7.org/fhir/ValueSet/organization-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.system</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Telecommunications form for contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Use of contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.address.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The use of an address."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a><div><code>http://hl7.org/fhir/ValueSet/address-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.address.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of an address (physical / postal)."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-type.html">AddressType</a><div><code>http://hl7.org/fhir/ValueSet/address-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/address-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.contact.purpose</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The purpose for which you would contact a contact party."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contactentity-type.html">ContactEntityType</a><div><code>http://hl7.org/fhir/ValueSet/contactentity-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contactentity-type"></button></div><div>From the FHIR Standard</div></td></tr>
+  <tr>
+    <td>Organization.identifier.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationId.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationId.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationCode.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationCode.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Used to categorize the organization.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">Organization type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​system</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Telecommunications form for contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Use of contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.address.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The use of an address.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.address.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The type of an address (physical / postal).">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-type.html">AddressType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/address-type|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.contact.​purpose</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="The purpose for which you would contact a contact party.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contactentity-type.html">Contact entity type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contactentity-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -1082,18 +1484,118 @@ filterDesc(document.getElementById('medme-pharmacy-organizationS'), 'obligation'
             <a name="inv-snap"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Organization</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>org-1</td><td>error</td><td>Organization</td><td>The organization SHALL at least have a name or an identifier, and possibly more than one<br/>: (identifier.count() + name.count()) &gt; 0</td><td></td></tr>
-<tr><td>org-2</td><td>error</td><td>Organization.address</td><td>An address of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
-<tr><td>org-3</td><td>error</td><td>Organization.telecom</td><td>The telecom of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Organization</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-1</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>The organization SHALL at least have a name or an identifier, and possibly more than one</td>
+    <td>
+      <code>(identifier.count() + name.count()) &gt; 0</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-2</td>
+    <td>error</td>
+    <td>Organization.address</td>
+    <td>An address of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-3</td>
+    <td>error</td>
+    <td>Organization.telecom</td>
+    <td>The telecom of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -1156,7 +1658,7 @@ filterDesc(document.getElementById('medme-pharmacy-organizationS'), 'obligation'
       "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding" title="A reference to a code defined by a terminology system" class="dict"><span style="text-decoration: underline">coding</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Code defined by a terminology system</span>
         "extension": [
         ],
-        "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.system" title="The identification of the code system that defines the meaning of the symbol in the code" class="dict"><span style="text-decoration: underline">system</span></a>" : "https://terminology.hl7.org/CodeSystem/organization-type", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span>
+        "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.system" title="The identification of the code system that defines the meaning of the symbol in the code" class="dict"><span style="text-decoration: underline">system</span></a>" : "http://terminology.hl7.org/CodeSystem/organization-type", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span>
         "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.version" title="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged" class="dict"><span style="text-decoration: underline">version</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Version of the system - if relevant</span>
         "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.code" title="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)" class="dict"><span style="text-decoration: underline">code</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Symbol in syntax defined by the system</span>
         "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.display" title="A representation of the meaning of the code in the system, following the rules of the system" class="dict"><span style="text-decoration: underline">display</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Representation defined by the system</span>
@@ -1408,7 +1910,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Country (e.g. can be ISO 3166 2 or 3 letter code)</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7d1e3008-98b5-4b0e-8a68-ff47125615fe
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // c24ade18-4e19-4d82-893e-915d7267f044
 document.getElementById('cbmedme-pharmacy-organizationKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('medme-pharmacy-organizationKA'), 'binding', document.getElementById('cbmedme-pharmacy-organizationKA-binding').checked, document.getElementById('ppmedme-pharmacy-organizationKA'));
 document.getElementById('cbmedme-pharmacy-organizationKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1418,15 +1920,132 @@ filterDesc(document.getElementById('medme-pharmacy-organizationKA'), 'obligation
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Organization.identifier.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationId.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationCode.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Used to categorize the organization."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">OrganizationType</a><div><code>http://hl7.org/fhir/ValueSet/organization-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.system</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Telecommunications form for contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Use of contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.address.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The use of an address."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a><div><code>http://hl7.org/fhir/ValueSet/address-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
+<table class="list" data-fhir="generated-heirarchy">
+  <tr>
+    <td>
+      <b>Path</b>
+    </td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationId.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationCode.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Used to categorize the organization.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">Organization type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​system</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Telecommunications form for contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Use of contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.address.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The use of an address.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -1436,18 +2055,118 @@ filterDesc(document.getElementById('medme-pharmacy-organizationKA'), 'obligation
             <a name="inv-all-key"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Organization</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>org-1</td><td>error</td><td>Organization</td><td>The organization SHALL at least have a name or an identifier, and possibly more than one<br/>: (identifier.count() + name.count()) &gt; 0</td><td></td></tr>
-<tr><td>org-2</td><td>error</td><td>Organization.address</td><td>An address of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
-<tr><td>org-3</td><td>error</td><td>Organization.telecom</td><td>The telecom of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Organization</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-1</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>The organization SHALL at least have a name or an identifier, and possibly more than one</td>
+    <td>
+      <code>(identifier.count() + name.count()) &gt; 0</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-2</td>
+    <td>error</td>
+    <td>Organization.address</td>
+    <td>An address of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-3</td>
+    <td>error</td>
+    <td>Organization.telecom</td>
+    <td>The telecom of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -1520,7 +2239,7 @@ filterDesc(document.getElementById('medme-pharmacy-organizationKA'), 'obligation
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">https://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">http://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="aeab" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-medme-pharmacy-organization-definitions.html#Organization.type.coding.code" data-no-external="true">code</a><a name="a-Organization.type.coding.code"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
@@ -1536,7 +2255,7 @@ filterDesc(document.getElementById('medme-pharmacy-organizationKA'), 'obligation
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Name of the pharmacy organization</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7d1e3008-98b5-4b0e-8a68-ff47125615fe
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // c24ade18-4e19-4d82-893e-915d7267f044
 document.getElementById('cbmedme-pharmacy-organizationDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('medme-pharmacy-organizationDA'), 'binding', document.getElementById('cbmedme-pharmacy-organizationDA-binding').checked, document.getElementById('ppmedme-pharmacy-organizationDA'));
 document.getElementById('cbmedme-pharmacy-organizationDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1787,7 +2506,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#uri">uri</a></td>
-<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Identity of the terminology system<br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">https://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
+<td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Identity of the terminology system<br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">http://terminology.hl7.org/CodeSystem/organization-type</span></td></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7" id="akcd" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a no-external="true" href="StructureDefinition-medme-pharmacy-organization-definitions.html#Organization.type.coding.version" title="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged." data-no-external="true">version</a><a name="sa-Organization.type.coding.version"> </a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: black; null" title="This element is included in summaries">Σ</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
@@ -1980,7 +2699,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/endpoint.html">Endpoint</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Technical endpoints providing access to services operated for the organization<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 7d1e3008-98b5-4b0e-8a68-ff47125615fe
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // c24ade18-4e19-4d82-893e-915d7267f044
 document.getElementById('cbmedme-pharmacy-organizationSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('medme-pharmacy-organizationSA'), 'binding', document.getElementById('cbmedme-pharmacy-organizationSA-binding').checked, document.getElementById('ppmedme-pharmacy-organizationSA'));
 document.getElementById('cbmedme-pharmacy-organizationSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1990,37 +2709,222 @@ filterDesc(document.getElementById('medme-pharmacy-organizationSA'), 'obligation
 </script></table>
           <!--Terminology Bindings heading in the fragment -->
           <h4>Terminology Bindings</h4>
-<table class="list">
-<tr><td><b>Path</b></td><td><b>Conformance</b></td><td><b>ValueSet</b></td><td><b>URI</b></td></tr>
-<tr><td>Organization.language</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#preferred">preferred</a></td><td title="A human language."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a><div><code>http://hl7.org/fhir/ValueSet/languages</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/languages"></button></div><div>From the FHIR Standard</div><table class="grid">
+<table class="list" data-fhir="generated-heirarchy">
   <tr>
-    <td style="font-size: 11px">
-      <b>Additional Bindings</b>
+    <td>
+      <b>Path</b>
     </td>
-    <td style="font-size: 11px">Purpose</td>
+    <td>
+      <b>Status</b>
+    </td>
+    <td>
+      <b>Usage</b>
+    </td>
+    <td>
+      <b>ValueSet</b>
+    </td>
+    <td>
+      <b>Version</b>
+    </td>
+    <td>
+      <b>Source</b>
+    </td>
   </tr>
   <tr>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/valueset-all-languages.html" title="http://hl7.org/fhir/ValueSet/all-languages">AllLanguages</a>
+    <td>Organization.language</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[preferred]">preferred</a>
     </td>
-    <td style="font-size: 11px">
-      <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html" title="A required binding, for use when the binding strength is 'extensible' or 'preferred'">Max Binding</a>
+    <td title="A human language.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-languages.html">Common Languages</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/languages" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
     </td>
   </tr>
-</table>
-</td></tr>
-<tr><td>Organization.identifier.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationId.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationId.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationCode.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Identifies the purpose for this identifier, if known ."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a><div><code>http://hl7.org/fhir/ValueSet/identifier-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.identifier:organizationCode.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">Identifier Type Codes</a><div><code>http://hl7.org/fhir/ValueSet/identifier-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#example">example</a></td><td title="Used to categorize the organization."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">OrganizationType</a><div><code>http://hl7.org/fhir/ValueSet/organization-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.system</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Telecommunications form for contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.telecom.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="Use of contact point."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a><div><code>http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.address.use</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The use of an address."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a><div><code>http://hl7.org/fhir/ValueSet/address-use|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.address.type</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#required">required</a></td><td title="The type of an address (physical / postal)."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-type.html">AddressType</a><div><code>http://hl7.org/fhir/ValueSet/address-type|4.0.1</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/address-type|4.0.1"></button></div><div>From the FHIR Standard</div></td></tr>
-<tr><td>Organization.contact.purpose</td><td><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#extensible">extensible</a></td><td title="The purpose for which you would contact a contact party."><a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contactentity-type.html">ContactEntityType</a><div><code>http://hl7.org/fhir/ValueSet/contactentity-type</code><button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/ValueSet/contactentity-type"></button></div><div>From the FHIR Standard</div></td></tr>
+  <tr>
+    <td>Organization.identifier.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationId.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationId.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationCode.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Identifies the purpose for this identifier, if known .">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-use.html">IdentifierUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.identifier:organizationCode.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-identifier-type.html">IdentifierType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/identifier-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[example]">example</a>
+    </td>
+    <td title="Used to categorize the organization.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-organization-type.html">Organization type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/organization-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​system</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Telecommunications form for contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-system.html">ContactPointSystem</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-system|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.telecom.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="Use of contact point.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contact-point-use.html">ContactPointUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contact-point-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.address.​use</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The use of an address.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-use.html">AddressUse</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/address-use|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.address.​type</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[required]">required</a>
+    </td>
+    <td title="The type of an address (physical / postal).">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-address-type.html">AddressType</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/address-type|4.0.1" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is explicitly stated to be 4.0.1">&#x1F4CD;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Organization.contact.​purpose</td>
+    <td>Base</td>
+    <td>
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/terminologies.html#Enumeration[extensible]">extensible</a>
+    </td>
+    <td title="The purpose for which you would contact a contact party.">
+      <a style="opacity: 1.0" href="http://hl7.org/fhir/R4/valueset-contactentity-type.html">Contact entity type</a>
+      <button data-clipboard-text="http://hl7.org/fhir/ValueSet/contactentity-type" title="Click to copy URL" class="btn-copy"></button>
+    </td>
+    <td title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references">&#x1F4E6;4.0.1</td>
+    <td>
+      <a href="https://hl7.org/fhir/R4/">FHIR Std.</a>
+    </td>
+  </tr>
 </table>
 
         
@@ -2030,18 +2934,118 @@ filterDesc(document.getElementById('medme-pharmacy-organizationSA'), 'obligation
             <a name="inv-all-snap"> </a>
             <!--Constraints  heading in the fragment -->
             <h4>Constraints</h4>
-<table class="list">
-<tr><td width="60"><b>Id</b></td><td><b>Grade</b></td><td><b>Path(s)</b></td><td><b>Details</b></td><td><b>Requirements</b></td></tr>
-<tr><td>dom-2</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL NOT contain nested Resources<br/>: contained.contained.empty()</td><td></td></tr>
-<tr><td>dom-3</td><td>error</td><td>Organization</td><td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource<br/>: contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</td><td></td></tr>
-<tr><td>dom-4</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated<br/>: contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</td><td></td></tr>
-<tr><td>dom-5</td><td>error</td><td>Organization</td><td>If a resource is contained in another resource, it SHALL NOT have a security label<br/>: contained.meta.security.empty()</td><td></td></tr>
-<tr><td>dom-6</td><td>best practice</td><td>Organization</td><td>A resource should have narrative for robust management<br/>: text.`div`.exists()</td><td></td></tr>
-<tr><td>ele-1</td><td>error</td><td><b>**ALL** elements</b></td><td>All FHIR elements must have a @value or children<br/>: hasValue() or (children().count() &gt; id.count())</td><td></td></tr>
-<tr><td>ext-1</td><td>error</td><td><b>**ALL** extensions</b></td><td>Must have either extensions or value[x], not both<br/>: extension.exists() != value.exists()</td><td></td></tr>
-<tr><td>org-1</td><td>error</td><td>Organization</td><td>The organization SHALL at least have a name or an identifier, and possibly more than one<br/>: (identifier.count() + name.count()) &gt; 0</td><td></td></tr>
-<tr><td>org-2</td><td>error</td><td>Organization.address</td><td>An address of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
-<tr><td>org-3</td><td>error</td><td>Organization.telecom</td><td>The telecom of an organization can never be of use 'home'<br/>: where(use = 'home').empty()</td><td></td></tr>
+<table class="list presentation" data-fhir="generated-heirarchy">
+  <tr>
+    <td width="60">
+      <b>Id</b>
+    </td>
+    <td>
+      <b>Grade</b>
+    </td>
+    <td>
+      <b>Path(s)</b>
+    </td>
+    <td>
+      <b>Description</b>
+    </td>
+    <td>
+      <b>Expression</b>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-2</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL NOT contain nested Resources</td>
+    <td>
+      <code>contained.contained.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-3</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource</td>
+    <td>
+      <code>contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-4</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated</td>
+    <td>
+      <code>contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-5</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>If a resource is contained in another resource, it SHALL NOT have a security label</td>
+    <td>
+      <code>contained.meta.security.empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>dom-6</td>
+    <td>best practice</td>
+    <td>Organization</td>
+    <td>A resource should have narrative for robust management</td>
+    <td>
+      <code>text.`div`.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ele-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** elements</b>
+    </td>
+    <td>All FHIR elements must have a @value or children</td>
+    <td>
+      <code>hasValue() or (children().count() &gt; id.count())</code>
+    </td>
+  </tr>
+  <tr>
+    <td>ext-1</td>
+    <td>error</td>
+    <td>
+      <b>**ALL** extensions</b>
+    </td>
+    <td>Must have either extensions or value[x], not both</td>
+    <td>
+      <code>extension.exists() != value.exists()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-1</td>
+    <td>error</td>
+    <td>Organization</td>
+    <td>The organization SHALL at least have a name or an identifier, and possibly more than one</td>
+    <td>
+      <code>(identifier.count() + name.count()) &gt; 0</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-2</td>
+    <td>error</td>
+    <td>Organization.address</td>
+    <td>An address of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
+  <tr>
+    <td>org-3</td>
+    <td>error</td>
+    <td>Organization.telecom</td>
+    <td>The telecom of an organization can never be of use 'home'</td>
+    <td>
+      <code>where(use = 'home').empty()</code>
+    </td>
+  </tr>
 </table>
 
           
@@ -2104,7 +3108,7 @@ filterDesc(document.getElementById('medme-pharmacy-organizationSA'), 'obligation
       "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding" title="A reference to a code defined by a terminology system" class="dict"><span style="text-decoration: underline">coding</span></a>" : [{ <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Code defined by a terminology system</span>
         "extension": [
         ],
-        "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.system" title="The identification of the code system that defines the meaning of the symbol in the code" class="dict"><span style="text-decoration: underline">system</span></a>" : "https://terminology.hl7.org/CodeSystem/organization-type", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span>
+        "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.system" title="The identification of the code system that defines the meaning of the symbol in the code" class="dict"><span style="text-decoration: underline">system</span></a>" : "http://terminology.hl7.org/CodeSystem/organization-type", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span>
         "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.version" title="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged" class="dict"><span style="text-decoration: underline">version</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Version of the system - if relevant</span>
         "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.code" title="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)" class="dict"><span style="text-decoration: underline">code</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Symbol in syntax defined by the system</span>
         "<a href="StructureDefinition-medme-pharmacy-organization.html#Organization.type.coding.display" title="A representation of the meaning of the code in the system, following the rules of the system" class="dict"><span style="text-decoration: underline">display</span></a>" : "&lt;<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></span>&gt;", <span style="color: Gray">//</span> <span style="color: brown" title="ele-1: All FHIR elements must have a @value or children"><b>C?</b></span> <span style="color: navy; opacity: 0.8">Representation defined by the system</span>
@@ -2214,7 +3218,7 @@ Summary
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.23 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 2, 2025 11:11-0300">2025-12-02</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="https://medmehealth.com">MedMe Health</a>.  Package medme.fhir.pharmacy.services#0.9.24 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 8, 2025 15:17-0500">2025-12-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

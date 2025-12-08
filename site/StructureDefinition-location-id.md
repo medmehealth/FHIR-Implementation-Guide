@@ -1,4 +1,4 @@
-# Location ID - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Location ID - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:LocationId |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:LocationId |
 
 Reference to the location where the patient is registered or primarily receives care.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-location-id.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "location-id",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/location-id",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "LocationId",
   "title" : "Location ID",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

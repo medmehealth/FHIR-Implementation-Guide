@@ -1,4 +1,4 @@
-# Example Pharmacy Slot - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Example Pharmacy Slot - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

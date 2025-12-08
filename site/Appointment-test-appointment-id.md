@@ -1,4 +1,4 @@
-# Example Pharmacy Appointment - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Example Pharmacy Appointment - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -16,7 +16,7 @@ Profile: [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appoint
 
 **status**: Booked
 
-**appointmentType**: ROUTINE
+**appointmentType**: Routine appointment - default if not valued
 
 **start**: 2023-01-01 10:00:00+0000
 
@@ -28,7 +28,7 @@ Profile: [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appoint
 
 **created**: 2023-01-01 10:00:00+0000
 
-> **participant****actor**:[Jane Doe Female, DoB: 1990-01-13 ( MR)](Patient-66ccb0fd-199d-4321-95b0-4defae497b72.md)**status**: Accepted
+> **participant****actor**:[Jane Doe Female, DoB: 1990-01-13 ( Medical record number)](Patient-66ccb0fd-199d-4321-95b0-4defae497b72.md)**status**: Accepted
 
 > **participant****actor**:[HealthcareService COVID-19 and Flu Vaccination Service](HealthcareService-pharmacy-immunization-service.md)**status**: Accepted
 
@@ -55,7 +55,7 @@ Profile: [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appoint
       "valueCodeableConcept" : {
         "coding" : [
           {
-            "system" : "https://terminology.hl7.org/CodeSystem/language",
+            "system" : "http://terminology.hl7.org/CodeSystem/language",
             "code" : "en-CA",
             "display" : "English (Canada)"
           }
@@ -77,7 +77,7 @@ Profile: [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appoint
   "appointmentType" : {
     "coding" : [
       {
-        "system" : "https://terminology.hl7.org/CodeSystem/v2-0276",
+        "system" : "http://terminology.hl7.org/CodeSystem/v2-0276",
         "code" : "ROUTINE"
       }
     ]

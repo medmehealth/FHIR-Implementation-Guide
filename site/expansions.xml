@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="13d79c3c-0243-41f8-a2f9-c73e3bd25ba0"/>
+  <id value="489a5bd9-e56e-4396-867d-be76113db94a"/>
   <meta>
-    <lastUpdated value="2025-12-02T11:11:22.563-03:00"/>
+    <lastUpdated value="2025-12-08T15:17:38.595-05:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -16,102 +16,138 @@
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
               <a href="http://hl7.org/fhir/R4/codesystem-appointmentstatus.html">codesystem AppointmentStatus v4.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/appointmentstatus|4.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
             </p>
             <p>This value set contains 5 concepts</p>
-            <table class="codes">
+            <table class="codes" data-fhir="generated">
               <tr>
+                <td>
+                  <b>System</b>
+                </td>
                 <td style="white-space:nowrap">
                   <b>Code</b>
                 </td>
                 <td>
-                  <b>System</b>
+                  <b>Display (en)</b>
                 </td>
                 <td>
-                  <b>Display</b>
+                  <b>JSON</b>
                 </td>
                 <td>
-                  <b>Definition</b>
+                  <b>XML</b>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/appointmentstatus-pending"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/appointmentstatus-pending"> </a>
+                  <code>http://hl7.org/fhir/appointmentstatus</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-pending">pending</a>
                 </td>
-                <td>http://hl7.org/fhir/appointmentstatus</td>
                 <td>Pending</td>
                 <td>
-                  <div>
-                    <p>Some or all of the participant(s) have not finalized their acceptance of the appointment request.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/appointmentstatus&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;pending&quot;, &quot;display&quot;: &quot;Pending&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/appointmentstatus&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;pending&quot;&gt;&lt;display value=&quot;Pending&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/appointmentstatus-booked"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/appointmentstatus-booked"> </a>
+                  <code>http://hl7.org/fhir/appointmentstatus</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-booked">booked</a>
                 </td>
-                <td>http://hl7.org/fhir/appointmentstatus</td>
                 <td>Booked</td>
                 <td>
-                  <div>
-                    <p>All participant(s) have been considered and the appointment is confirmed to go ahead at the date/times specified.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/appointmentstatus&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;booked&quot;, &quot;display&quot;: &quot;Booked&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/appointmentstatus&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;booked&quot;&gt;&lt;display value=&quot;Booked&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/appointmentstatus-cancelled"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/appointmentstatus-cancelled"> </a>
+                  <code>http://hl7.org/fhir/appointmentstatus</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-cancelled">cancelled</a>
                 </td>
-                <td>http://hl7.org/fhir/appointmentstatus</td>
                 <td>Cancelled</td>
                 <td>
-                  <div>
-                    <p>The appointment has been cancelled.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/appointmentstatus&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;cancelled&quot;, &quot;display&quot;: &quot;Cancelled&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/appointmentstatus&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;cancelled&quot;&gt;&lt;display value=&quot;Cancelled&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/appointmentstatus-fulfilled"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/appointmentstatus-fulfilled"> </a>
+                  <code>http://hl7.org/fhir/appointmentstatus</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-fulfilled">fulfilled</a>
                 </td>
-                <td>http://hl7.org/fhir/appointmentstatus</td>
                 <td>Fulfilled</td>
                 <td>
-                  <div>
-                    <p>The planning stages of the appointment are now complete, the encounter resource will exist and will track further status changes. Note that an encounter may exist before the appointment status is fulfilled for many reasons.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/appointmentstatus&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;fulfilled&quot;, &quot;display&quot;: &quot;Fulfilled&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/appointmentstatus&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;fulfilled&quot;&gt;&lt;display value=&quot;Fulfilled&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
               <tr>
-                <td style="white-space:nowrap">
-                  <a name="x-http://hl7.org/fhir/appointmentstatus-entered-in-error"> </a>  
+                <td>
+                  <a name="x-http://hl7.org/fhir/appointmentstatus-entered-in-error"> </a>
+                  <code>http://hl7.org/fhir/appointmentstatus</code>
+                </td>
+                <td style="white-space:nowrap">  
                   <a href="http://hl7.org/fhir/R4/codesystem-appointmentstatus.html#appointmentstatus-entered-in-error">entered-in-error</a>
                 </td>
-                <td>http://hl7.org/fhir/appointmentstatus</td>
                 <td>Entered in Error</td>
                 <td>
-                  <div>
-                    <p>This instance should not have been part of this patient's medical record.</p>
-
-                  </div>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/appointmentstatus&quot;, &quot;version&quot;: &quot;4.0.1&quot;, &quot;code&quot;: &quot;entered-in-error&quot;, &quot;display&quot;: &quot;Entered in Error&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/appointmentstatus&quot;&gt;&lt;version value=&quot;4.0.1&quot;&gt;&lt;code value=&quot;entered-in-error&quot;&gt;&lt;display value=&quot;Entered in Error&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
                 </td>
               </tr>
             </table>
           </div>
         </text>
         <url value="https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status"/>
-        <version value="0.9.23"/>
+        <version value="0.9.24"/>
         <name value="MedMeAppointmentStatus"/>
         <title value="MedMe Appointment Status"/>
         <status value="draft"/>
-        <date value="2025-12-02T11:10:54-03:00"/>
+        <date value="2025-12-08T15:17:38-05:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -119,10 +155,14 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:722955c5-ff63-46eb-b5ac-803b255c00a5"/>
-          <timestamp value="2025-12-02T11:12:02-03:00"/>
+          <identifier value="urn:uuid:5f89b54e-f1f4-4af2-bfb8-9f48b0345424"/>
+          <timestamp value="2025-12-08T15:18:56-05:00"/>
           <total value="5"/>
           <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
           <parameter>
             <name value="count"/>
             <valueInteger value="1000"/>
@@ -163,6 +203,152 @@
             <system value="http://hl7.org/fhir/appointmentstatus"/>
             <code value="entered-in-error"/>
             <display value="Entered in Error"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0276.html">codesystem appointmentReason v2.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v2-0276|2.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>
+                    <a href="http://hl7.org/fhir/concept-properties#status">status</a>
+                  </b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0276-WALKIN"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v2-0276</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0276.html#v2-0276-WALKIN">WALKIN</a>
+                </td>
+                <td>Walk-in</td>
+                <td>A</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0276&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;WALKIN&quot;, &quot;display&quot;: &quot;Walk-in&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v2-0276&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;WALKIN&quot;&gt;&lt;display value=&quot;Walk-in&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/v2-0276-ROUTINE"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/v2-0276</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0276.html#v2-0276-ROUTINE">ROUTINE</a>
+                </td>
+                <td>Routine</td>
+                <td>A</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v2-0276&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;ROUTINE&quot;, &quot;display&quot;: &quot;Routine&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v2-0276&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;ROUTINE&quot;&gt;&lt;display value=&quot;Routine&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type"/>
+        <version value="0.9.24"/>
+        <name value="MedMeAppointmentType"/>
+        <title value="MedMe Appointment Type"/>
+        <status value="draft"/>
+        <date value="2025-12-08T15:17:38-05:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="CA"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:4e73156b-808e-47d8-8410-62dd99ec6670"/>
+          <timestamp value="2025-12-08T15:18:56-05:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v2-0276|2.1.0"/>
+          </parameter>
+          <property>
+            <code value="status"/>
+            <uri value="http://hl7.org/fhir/concept-properties#status"/>
+          </property>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0276"/>
+            <code value="WALKIN"/>
+            <display value="Walk-in"/>
+            <property>
+              <code value="status"/>
+              <valueCode value="A"/>
+            </property>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v2-0276"/>
+            <code value="ROUTINE"/>
+            <display value="Routine"/>
+            <property>
+              <code value="status"/>
+              <valueCode value="A"/>
+            </property>
           </contains>
         </expansion>
       </ValueSet>

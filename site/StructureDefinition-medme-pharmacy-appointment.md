@@ -1,4 +1,4 @@
-# MedMe Pharmacy Appointment - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Pharmacy Appointment - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyAppointment |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyAppointment |
 
  
 A profile of Appointment for MedMe pharmacy services, based on FHIR R4, with essential fields for pharmacy appointment management. 
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-appoi
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-appointment",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMePharmacyAppointment",
   "title" : "MedMe Pharmacy Appointment",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -215,7 +215,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-appoi
             "key" : "walkin-no-slot",
             "severity" : "error",
             "human" : "If appointment type is WALKIN, slot must not be present",
-            "expression" : "appointmentType.coding.where(system = 'https://terminology.hl7.org/CodeSystem/v2-0276' and code = 'WALKIN').exists() implies slot.empty()",
+            "expression" : "appointmentType.coding.where(system = 'http://terminology.hl7.org/CodeSystem/v2-0276' and code = 'WALKIN').exists() implies slot.empty()",
             "xpath" : "@value|f:*|h:div",
             "source" : "http://hl7.org/fhir/StructureDefinition/Element"
           }
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-appoi
       {
         "id" : "Appointment.appointmentType.coding.system",
         "path" : "Appointment.appointmentType.coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/v2-0276"
+        "fixedUri" : "http://terminology.hl7.org/CodeSystem/v2-0276"
       },
       {
         "id" : "Appointment.appointmentType.coding.code",
@@ -324,7 +324,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-appoi
         "short" : "Status of the participant's participation",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.org/fhir/ValueSet/participationstatus"
+          "valueSet" : "http://hl7.org/fhir/ValueSet/participationstatus"
         }
       }
     ]

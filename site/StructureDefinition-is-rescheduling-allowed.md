@@ -1,4 +1,4 @@
-# Is Rescheduling Allowed - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Is Rescheduling Allowed - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:IsReschedulingAllowed |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:IsReschedulingAllowed |
 
 Indicates whether patients can reschedule their appointments for this healthcare service.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-is-rescheduling-allo
   "resourceType" : "StructureDefinition",
   "id" : "is-rescheduling-allowed",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-rescheduling-allowed",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "IsReschedulingAllowed",
   "title" : "Is Rescheduling Allowed",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

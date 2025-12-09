@@ -1,4 +1,4 @@
-# Example Pharmacy Location - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Example Pharmacy Location - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -64,7 +64,7 @@ Profile: [MedMe Pharmacy Location](StructureDefinition-medme-pharmacy-location.m
     {
       "coding" : [
         {
-          "system" : "https://terminology.hl7.org/CodeSystem/v3-RoleCode",
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
           "code" : "PHARM",
           "display" : "Pharmacy"
         }

@@ -1,4 +1,4 @@
-# Invalidated At - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Invalidated At - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/invalidated-at | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:InvalidatedAt |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/invalidated-at | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:InvalidatedAt |
 
 The timestamp when this slot was/will be invalidated.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-invalidated-at.csv),
   "resourceType" : "StructureDefinition",
   "id" : "invalidated-at",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/invalidated-at",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "InvalidatedAt",
   "title" : "Invalidated At",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

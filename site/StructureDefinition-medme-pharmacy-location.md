@@ -1,4 +1,4 @@
-# MedMe Pharmacy Location - MedMe Pharmacy Services Implementation Guide v0.9.22
+# MedMe Pharmacy Location - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:MedMePharmacyLocation |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyLocation |
 
  
 A profile of Location for MedMe pharmacy services, based on Canadian Core. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-locat
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-location",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-location",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "MedMePharmacyLocation",
   "title" : "MedMe Pharmacy Location",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-locat
         "id" : "Location.type:outpatientPharmacy.coding.system",
         "path" : "Location.type.coding.system",
         "min" : 1,
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/v3-RoleCode"
+        "fixedUri" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode"
       },
       {
         "id" : "Location.type:outpatientPharmacy.coding.code",
@@ -277,6 +277,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-locat
       {
         "id" : "Location.address.state",
         "path" : "Location.address.state",
+        "min" : 1
+      },
+      {
+        "id" : "Location.address.postalCode",
+        "path" : "Location.address.postalCode",
         "min" : 1
       },
       {

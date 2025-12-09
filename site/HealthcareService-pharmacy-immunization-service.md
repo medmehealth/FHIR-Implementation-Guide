@@ -1,4 +1,4 @@
-# Example Pharmacy Immunization Service - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Example Pharmacy Immunization Service - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -106,12 +106,12 @@ Profile: [MedMe Pharmacy HealthcareService](StructureDefinition-medme-pharmacy-h
     {
       "coding" : [
         {
-          "system" : "https://snomed.info/sct",
+          "system" : "http://snomed.info/sct",
           "code" : "430193006",
           "display" : "Medication Review"
         },
         {
-          "system" : "https://snomed.info/sct",
+          "system" : "http://snomed.info/sct",
           "code" : "430193007",
           "display" : "Medication Reconciliation"
         }
@@ -121,7 +121,7 @@ Profile: [MedMe Pharmacy HealthcareService](StructureDefinition-medme-pharmacy-h
     {
       "coding" : [
         {
-          "system" : "https://snomed.info/sct",
+          "system" : "http://snomed.info/sct",
           "code" : "310080006",
           "display" : "Pharmacy service"
         }
@@ -133,16 +133,16 @@ Profile: [MedMe Pharmacy HealthcareService](StructureDefinition-medme-pharmacy-h
     {
       "coding" : [
         {
-          "system" : "https://terminology.hl7.org/fhir/service-type",
+          "system" : "http://terminology.hl7.org/fhir/service-type",
           "code" : "64"
         },
         {
-          "system" : "https://snomed.info/sct",
+          "system" : "http://snomed.info/sct",
           "code" : "33879002",
           "display" : "Administration of vaccine to produce active immunity"
         },
         {
-          "system" : "https://snomed.info/sct",
+          "system" : "http://snomed.info/sct",
           "code" : "430193006",
           "display" : "Medication Review"
         }
@@ -161,12 +161,12 @@ Profile: [MedMe Pharmacy HealthcareService](StructureDefinition-medme-pharmacy-h
     {
       "coding" : [
         {
-          "system" : "https://terminology.hl7.org/fhir/service-mode",
+          "system" : "http://terminology.hl7.org/fhir/service-mode",
           "code" : "in-person",
           "display" : "In-person"
         },
         {
-          "system" : "https://terminology.hl7.org/fhir/service-mode",
+          "system" : "http://terminology.hl7.org/fhir/service-mode",
           "code" : "virtual",
           "display" : "Virtual"
         }

@@ -1,4 +1,4 @@
-# Communication Language - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Communication Language - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language | *Version*:0.9.22 |
-| Draft as of 2025-11-25 | *Computable Name*:CommunicationLanguage |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language | *Version*:0.9.24 |
+| Draft as of 2025-12-08 | *Computable Name*:CommunicationLanguage |
 
 Preferred language for communications related to this appointment.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-communication-langua
   "resourceType" : "StructureDefinition",
   "id" : "communication-language",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/communication-language",
-  "version" : "0.9.22",
+  "version" : "0.9.24",
   "name" : "CommunicationLanguage",
   "title" : "Communication Language",
   "status" : "draft",
-  "date" : "2025-11-25T17:07:48-05:00",
+  "date" : "2025-12-08T15:17:38-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -132,7 +132,7 @@ Other representations of profile: [CSV](StructureDefinition-communication-langua
       {
         "id" : "Extension.value[x].coding.system",
         "path" : "Extension.value[x].coding.system",
-        "fixedUri" : "https://terminology.hl7.org/CodeSystem/language"
+        "fixedUri" : "http://terminology.hl7.org/CodeSystem/language"
       },
       {
         "id" : "Extension.value[x].coding.code",

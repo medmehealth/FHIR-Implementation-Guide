@@ -1,4 +1,4 @@
-# Example Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Example Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -48,7 +48,7 @@ Profile: [MedMe Pharmacy Organization](StructureDefinition-medme-pharmacy-organi
     {
       "coding" : [
         {
-          "system" : "https://terminology.hl7.org/CodeSystem/organization-type",
+          "system" : "http://terminology.hl7.org/CodeSystem/organization-type",
           "code" : "prov",
           "display" : "Healthcare Provider"
         }

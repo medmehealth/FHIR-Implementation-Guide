@@ -1,4 +1,4 @@
-# Artifacts Summary - MedMe Pharmacy Services Implementation Guide v0.9.22
+# Artifacts Summary - MedMe Pharmacy Services Implementation Guide v0.9.24
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

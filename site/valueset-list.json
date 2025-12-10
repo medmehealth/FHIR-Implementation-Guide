@@ -1,17 +1,8 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status",
-      "version" : "0.9.24",
-      "status" : "draft",
-      "name" : "MedMeAppointmentStatus",
-      "title" : "MedMe Appointment Status",
-      "description" : "Supported appointment statuses for MedMe pharmacy services",
-      "systems" : ["http://hl7.org/fhir/appointmentstatus"]
-    },
-    {
       "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-      "version" : "0.9.24",
+      "version" : "0.9.25",
       "status" : "draft",
       "name" : "MedMeAppointmentType",
       "title" : "MedMe Appointment Type",

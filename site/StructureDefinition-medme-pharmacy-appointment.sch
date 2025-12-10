@@ -25,7 +25,7 @@
       <sch:assert test="count(f:minutesDuration) &gt;= 1">minutesDuration: minimum cardinality of 'minutesDuration' is 1</sch:assert>
       <sch:assert test="count(f:slot) &lt;= 1">slot: maximum cardinality of 'slot' is 1</sch:assert>
       <sch:assert test="count(f:created) &gt;= 1">created: minimum cardinality of 'created' is 1</sch:assert>
-      <sch:assert test="count(f:participant) &gt;= 2">participant: minimum cardinality of 'participant' is 2</sch:assert>
+      <sch:assert test="count(f:participant) &gt;= 3">participant: minimum cardinality of 'participant' is 3</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

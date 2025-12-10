@@ -1,4 +1,4 @@
-# Example Pharmacy Appointment - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Example Pharmacy Appointment - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -31,6 +31,8 @@ Profile: [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appoint
 > **participant****actor**:[Jane Doe Female, DoB: 1990-01-13 ( Medical record number)](Patient-66ccb0fd-199d-4321-95b0-4defae497b72.md)**status**: Accepted
 
 > **participant****actor**:[HealthcareService COVID-19 and Flu Vaccination Service](HealthcareService-pharmacy-immunization-service.md)**status**: Accepted
+
+> **participant****actor**:[Location MedMe Pharmacy - Downtown](Location-example-pharmacy-location.md)**status**: Accepted
 
 
 
@@ -101,6 +103,12 @@ Profile: [MedMe Pharmacy Appointment](StructureDefinition-medme-pharmacy-appoint
     {
       "actor" : {
         "reference" : "HealthcareService/pharmacy-immunization-service"
+      },
+      "status" : "accepted"
+    },
+    {
+      "actor" : {
+        "reference" : "Location/example-pharmacy-location"
       },
       "status" : "accepted"
     }

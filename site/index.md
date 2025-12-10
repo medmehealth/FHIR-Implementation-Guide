@@ -1,4 +1,4 @@
-# Home - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Home - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyServicesIG |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:MedMePharmacyServicesIG |
 
 # MedMe Pharmacy Services Implementation Guide
 
@@ -96,11 +96,11 @@ For questions or support with this Implementation Guide, please refer to the FHI
   "resourceType" : "ImplementationGuide",
   "id" : "medme.fhir.pharmacy.services",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "MedMePharmacyServicesIG",
   "title" : "MedMe Pharmacy Services Implementation Guide",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {
@@ -1065,20 +1065,6 @@ For questions or support with this Implementation Guide, please refer to the FHI
         },
         "name" : "Location ID",
         "description" : "Reference to the location where the patient is registered or primarily receives care.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/medme-appointment-status"
-        },
-        "name" : "MedMe Appointment Status",
-        "description" : "Supported appointment statuses for MedMe pharmacy services",
         "exampleBoolean" : false
       },
       {

@@ -1,4 +1,4 @@
-# MedMe Appointment Type - MedMe Pharmacy Services Implementation Guide v0.9.24
+# MedMe Appointment Type - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:MedMeAppointmentType |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:MedMeAppointmentType |
 
  
 Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only) 
@@ -46,11 +46,11 @@ Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only
   "resourceType" : "ValueSet",
   "id" : "medme-appointment-type",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "MedMeAppointmentType",
   "title" : "MedMe Appointment Type",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

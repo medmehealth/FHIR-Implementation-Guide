@@ -1,4 +1,4 @@
-# MedMe Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.24
+# MedMe Pharmacy Organization - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyOrganization |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:MedMePharmacyOrganization |
 
  
 A profile of Organization for MedMe pharmacy services, based on Canadian Core. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-organ
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-organization",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-organization",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "MedMePharmacyOrganization",
   "title" : "MedMe Pharmacy Organization",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

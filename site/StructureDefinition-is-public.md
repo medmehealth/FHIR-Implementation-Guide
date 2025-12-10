@@ -1,4 +1,4 @@
-# Is Public - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Is Public - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:IsPublic |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:IsPublic |
 
 Indicates whether the healthcare service is available to the general public or restricted to specific populations.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-is-public.csv), [Exc
   "resourceType" : "StructureDefinition",
   "id" : "is-public",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-public",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "IsPublic",
   "title" : "Is Public",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# Artifact Contact - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Artifact Contact - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/StructureDefinition/artifact-contact | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:ArtifactContact |
+| *Official URL*:http://hl7.org/fhir/StructureDefinition/artifact-contact | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:ArtifactContact |
 
 Contact details for communications related to this appointment (may be different from the patient).
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-artifact-contact.csv
   "resourceType" : "StructureDefinition",
   "id" : "artifact-contact",
   "url" : "http://hl7.org/fhir/StructureDefinition/artifact-contact",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "ArtifactContact",
   "title" : "Artifact Contact",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

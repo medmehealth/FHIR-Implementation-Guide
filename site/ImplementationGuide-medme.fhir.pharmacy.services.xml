@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services"/>
-  <version value="0.9.24"/>
+  <version value="0.9.25"/>
   <name value="MedMePharmacyServicesIG"/>
   <title value="MedMe Pharmacy Services Implementation Guide"/>
   <status value="draft"/>
-  <date value="2025-12-08T15:17:38-05:00"/>
+  <date value="2025-12-10T09:54:50-05:00"/>
   <publisher value="MedMe Health"/>
   <contact>
     <name value="MedMe Health"/>
@@ -652,17 +652,6 @@
       </reference>
       <name value="Location ID"/>
       <description value="Reference to the location where the patient is registered or primarily receives care."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/medme-appointment-status"/>
-      </reference>
-      <name value="MedMe Appointment Status"/>
-      <description value="Supported appointment statuses for MedMe pharmacy services"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -17,11 +17,11 @@
      fhir:v "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services"^^xsd:anyURI ;
      fhir:l <https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services>
   ] ; # 
-  fhir:version [ fhir:v "0.9.24"] ; # 
+  fhir:version [ fhir:v "0.9.25"] ; # 
   fhir:name [ fhir:v "MedMePharmacyServicesIG"] ; # 
   fhir:title [ fhir:v "MedMe Pharmacy Services Implementation Guide"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-08T15:17:38-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-10T09:54:50-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MedMe Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MedMe Health" ] ;
@@ -1673,27 +1673,6 @@
        ] ;
        fhir:name [ fhir:v "Location ID" ] ;
        fhir:description [ fhir:v "Reference to the location where the patient is registered or primarily receives care." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-status> ;
-         fhir:reference [ fhir:v "ValueSet/medme-appointment-status" ]
-       ] ;
-       fhir:name [ fhir:v "MedMe Appointment Status" ] ;
-       fhir:description [ fhir:v "Supported appointment statuses for MedMe pharmacy services" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

@@ -1,4 +1,4 @@
-# Artifacts Summary - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Artifacts Summary - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -45,7 +45,6 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
-| [MedMe Appointment Status](ValueSet-medme-appointment-status.md) | Supported appointment statuses for MedMe pharmacy services |
 | [MedMe Appointment Type](ValueSet-medme-appointment-type.md) | Supported appointment types for MedMe pharmacy services (WALKIN and ROUTINE only) |
 
 ### Example: Example Instances 

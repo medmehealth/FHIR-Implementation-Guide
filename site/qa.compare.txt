@@ -1,11 +1,11 @@
 MedMePharmacyServicesIG : Validation Results
 =========================================
 
-err = 40, warn = 49, info = 10
+err = 42, warn = 48, info = 5
 $--
 Generated $--. FHIR version $-- for medme.fhir.pharmacy.services#$-- (canonical = https://fhir.medmehealth.com/pharmacy-services)
  Build Errors : 26 / 4 / 0
- /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/Appointment-test-appointment-id : 8 / 2 / 1
+ /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/Appointment-test-appointment-id : 10 / 2 / 1
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/HealthcareService-pharmacy-immunization-service : 6 / 6 / 1
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/ImplementationGuide-medme.fhir.pharmacy.services : 0 / 3 / 1
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/Location-example-pharmacy-location : 0 / 2 / 1
@@ -31,7 +31,6 @@ Generated $--. FHIR version $-- for medme.fhir.pharmacy.services#$-- (canonical 
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-patient : 4 / 14 / 2
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-schedule : 1 / 0 / 1
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/StructureDefinition-medme-pharmacy-slot : 0 / 0 / 1
- /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/ValueSet-medme-appointment-status : 0 / 1 / 6
  /Users/rli/dev/fhir-pharmacy-services-ig/fsh-generated/resources/ValueSet-medme-appointment-type : 0 / 2 / 3
 </table>
 == n/a ==
@@ -76,6 +75,8 @@ ERROR: Appointment/test-appointment-id: Appointment.participant[0]: Constraint f
 ERROR: Appointment/test-appointment-id: Appointment.participant[0]: Constraint failed: at-least-one-healthcare-service: 'At least one participant must be a HealthcareService' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 ERROR: Appointment/test-appointment-id: Appointment.participant[1]: Constraint failed: at-least-one-patient: 'At least one participant must be a Patient (participant.where(actor.reference.startsWith('Patient/')).count() >= 1)'
 ERROR: Appointment/test-appointment-id: Appointment.participant[1]: Constraint failed: at-least-one-healthcare-service: 'At least one participant must be a HealthcareService' (defined in http://hl7.org/fhir/StructureDefinition/Element)
+ERROR: Appointment/test-appointment-id: Appointment.participant[2]: Constraint failed: at-least-one-patient: 'At least one participant must be a Patient (participant.where(actor.reference.startsWith('Patient/')).count() >= 1)'
+ERROR: Appointment/test-appointment-id: Appointment.participant[2]: Constraint failed: at-least-one-healthcare-service: 'At least one participant must be a HealthcareService' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 == fsh-generated/resources/HealthcareService-pharmacy-immunization-service.json ==
 WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/id'
 WARNING: HealthcareService/pharmacy-immunization-service: HealthcareService.identifier[1].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/healthcare-service/activity-id'
@@ -100,9 +101,9 @@ WARNING: Location/example-pharmacy-location: Location.identifier[1].system: No d
 WARNING: Organization/example-pharmacy-organization: Organization.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/id'
 WARNING: Organization/example-pharmacy-organization: Organization.identifier[1].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/enterprise-code'
 == fsh-generated/resources/Patient-66ccb0fd-199d-4321-95b0-4defae497b72.json ==
-INFORMATION: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2]: This element does not match any known slice defined in the profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.24 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2]: This element does not match any known slice defined in the profile https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.25 (this may not be a problem, but you should check that it's not intended to match a slice)
 INFORMATION: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.meta.source: No definition could be found for URL value 'https://fhir.medmehealth.com'
-ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0]: Problem processing expression 'system.matches('https://fhir\.medmehealth\.com/pharmacy-services/systems/entity/(organization/[^/]+/)?patient/id')' in profile 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.24' at path 'Patient.identifier[0]': Error @1, 115: Unknown FHIRPath character escape \.
+ERROR: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0]: Problem processing expression 'system.matches('https://fhir\.medmehealth\.com/pharmacy-services/systems/entity/(organization/[^/]+/)?patient/id')' in profile 'https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-patient|0.9.25' at path 'Patient.identifier[0]': Error @1, 115: Unknown FHIRPath character escape \.
 WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[0].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/organization/org-12345/patient/id'
 WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[1].system: No definition could be found for URL value 'https://fhir.infoway-inforoute.ca/NamingSystem/ca-qc-patient-healthcare-id'
 WARNING: Patient/66ccb0fd-199d-4321-95b0-4defae497b72: Patient.identifier[2].system: No definition could be found for URL value 'https://fhir.medmehealth.com/pharmacy-services/systems/entity/patient/pc-id'
@@ -135,8 +136,8 @@ ERROR: StructureDefinition/group-size: StructureDefinition.differential.element[
 == fsh-generated/resources/StructureDefinition-is-waitlisted.json ==
 == fsh-generated/resources/StructureDefinition-location-id.json ==
 == fsh-generated/resources/StructureDefinition-medme-pharmacy-appointment.json ==
-WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/artifact-contact'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 0.9.24, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/artifact-contact' to 'http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0'
-WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/artifact-contact'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 0.9.24, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/artifact-contact' to 'http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0'
+WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/artifact-contact'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 0.9.25, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/artifact-contact' to 'http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0'
+WARNING: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[5].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/artifact-contact'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.1.0', found versions: 0.9.25, 5.1.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/artifact-contact' to 'http://hl7.org/fhir/StructureDefinition/artifact-contact|5.1.0'
 ERROR: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[11].constraint[0]: The invariant walkin-no-slot defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment)
 ERROR: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.differential.element[20].constraint[1]: The invariant at-least-one-healthcare-service defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment)
 ERROR: StructureDefinition/medme-pharmacy-appointment: StructureDefinition.snapshot.element[51].constraint[2]: Error in constraint 'at-least-one-patient' with expression 'participant.where(actor.reference.startsWith('Patient/')).count() >= 1': Error evaluating FHIRPath expression: The name 'participant' is not valid for any of the possible types: [https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-appointment#Appointment.participant] (@char 1)
@@ -170,13 +171,6 @@ WARNING: StructureDefinition/medme-pharmacy-patient: StructureDefinition.snapsho
 == fsh-generated/resources/StructureDefinition-medme-pharmacy-schedule.json ==
 ERROR: StructureDefinition/medme-pharmacy-schedule: StructureDefinition.differential.element[11].constraint[0]: The invariant at-least-one-location defined in the differential must have no source, or the source must be the same as the profile (http://hl7.org/fhir/StructureDefinition/Element vs https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-schedule)
 == fsh-generated/resources/StructureDefinition-medme-pharmacy-slot.json ==
-== fsh-generated/resources/ValueSet-medme-appointment-status.json ==
-INFORMATION: ValueSet/medme-appointment-status: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem http://hl7.org/fhir/appointmentstatus|4.0.1
-INFORMATION: ValueSet/medme-appointment-status: ValueSet.compose.include[0].concept[1]: Reference to draft CodeSystem http://hl7.org/fhir/appointmentstatus|4.0.1
-INFORMATION: ValueSet/medme-appointment-status: ValueSet.compose.include[0].concept[2]: Reference to draft CodeSystem http://hl7.org/fhir/appointmentstatus|4.0.1
-INFORMATION: ValueSet/medme-appointment-status: ValueSet.compose.include[0].concept[3]: Reference to draft CodeSystem http://hl7.org/fhir/appointmentstatus|4.0.1
-INFORMATION: ValueSet/medme-appointment-status: ValueSet.compose.include[0].concept[4]: Reference to draft CodeSystem http://hl7.org/fhir/appointmentstatus|4.0.1
-WARNING: ValueSet/medme-appointment-status: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated/resources/ValueSet-medme-appointment-type.json ==
 WARNING: ValueSet/medme-appointment-type: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v2-0276'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.1.0', found versions: 2.0.0, 2.1.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v2-0276' to 'http://terminology.hl7.org/CodeSystem/v2-0276|2.1.0'
 INFORMATION: ValueSet/medme-appointment-type: ValueSet.compose.include[0].concept[0]: The display 'Walk-in' is not valid in the Code system 'Walk-in'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code

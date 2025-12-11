@@ -1,4 +1,4 @@
-# Is Cancellation Allowed - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Is Cancellation Allowed - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:IsCancellationAllowed |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:IsCancellationAllowed |
 
 Indicates whether patients can cancel their appointments for this healthcare service.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-is-cancellation-allo
   "resourceType" : "StructureDefinition",
   "id" : "is-cancellation-allowed",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/is-cancellation-allowed",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "IsCancellationAllowed",
   "title" : "Is Cancellation Allowed",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# medme.fhir.pharmacy.services#0.9.24: MedMe Pharmacy Services Implementation Guide
+# medme.fhir.pharmacy.services#0.9.25: MedMe Pharmacy Services Implementation Guide
 
 ## Pages
 
@@ -10,7 +10,6 @@
 
 ### ValueSets
 
-* [MedMe Appointment Status](ValueSet-medme-appointment-status.md)
 * [MedMe Appointment Type](ValueSet-medme-appointment-type.md)
 
 ### Resource Profiles

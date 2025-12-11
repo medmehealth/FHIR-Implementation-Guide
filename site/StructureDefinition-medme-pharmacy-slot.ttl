@@ -17,11 +17,11 @@
      fhir:v "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot"^^xsd:anyURI ;
      fhir:l <https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-slot>
   ] ; # 
-  fhir:version [ fhir:v "0.9.24"] ; # 
+  fhir:version [ fhir:v "0.9.25"] ; # 
   fhir:name [ fhir:v "MedMePharmacySlot"] ; # 
   fhir:title [ fhir:v "MedMe Pharmacy Slot"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-08T15:17:38-05:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-10T09:54:50-05:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "MedMe Health"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "MedMe Health" ] ;

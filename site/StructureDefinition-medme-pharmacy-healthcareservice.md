@@ -1,4 +1,4 @@
-# MedMe Pharmacy HealthcareService - MedMe Pharmacy Services Implementation Guide v0.9.24
+# MedMe Pharmacy HealthcareService - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:MedMePharmacyHealthcareService |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:MedMePharmacyHealthcareService |
 
  
 A profile of HealthcareService for MedMe pharmacy services, based on Canadian Core, with additional extensions for pharmacy-specific needs. 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-medme-pharmacy-healt
   "resourceType" : "StructureDefinition",
   "id" : "medme-pharmacy-healthcareservice",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/medme-pharmacy-healthcareservice",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "MedMePharmacyHealthcareService",
   "title" : "MedMe Pharmacy HealthcareService",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

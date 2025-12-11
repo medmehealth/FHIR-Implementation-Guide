@@ -1,4 +1,4 @@
-# Group Size - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Group Size - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:GroupSize |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:GroupSize |
 
 The maximum number of people that can be booked in this slot.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-group-size.csv), [Ex
   "resourceType" : "StructureDefinition",
   "id" : "group-size",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/group-size",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "GroupSize",
   "title" : "Group Size",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

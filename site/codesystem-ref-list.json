@@ -13,18 +13,6 @@
       "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
-      "url" : "http://hl7.org/fhir/appointmentstatus",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "AppointmentStatus",
-      "title" : "AppointmentStatus",
-      "description" : "The free/busy status of an appointment.",
-      "oids" : ["2.16.840.1.113883.4.642.4.485"],
-      "uses" : {
-      },
-      "ValueSet-medme-appointment-status.html" : "MedMe Appointment Status"
-    },
-    {
       "url" : "http://hl7.org/fhir/contact-point-system",
       "version" : "4.0.1",
       "status" : "active",

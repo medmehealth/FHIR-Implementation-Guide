@@ -1,4 +1,4 @@
-# Default Duration - MedMe Pharmacy Services Implementation Guide v0.9.24
+# Default Duration - MedMe Pharmacy Services Implementation Guide v0.9.25
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration | *Version*:0.9.24 |
-| Draft as of 2025-12-08 | *Computable Name*:DefaultDuration |
+| *Official URL*:https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration | *Version*:0.9.25 |
+| Draft as of 2025-12-10 | *Computable Name*:DefaultDuration |
 
 The default duration in minutes for appointments of this healthcare service type.
 
@@ -43,11 +43,11 @@ Other representations of profile: [CSV](StructureDefinition-default-duration.csv
   "resourceType" : "StructureDefinition",
   "id" : "default-duration",
   "url" : "https://fhir.medmehealth.com/pharmacy-services/StructureDefinition/default-duration",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "DefaultDuration",
   "title" : "Default Duration",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [
     {

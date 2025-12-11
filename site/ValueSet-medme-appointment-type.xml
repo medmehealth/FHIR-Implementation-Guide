@@ -6,11 +6,11 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet medme-appointment-type</b></p><a name="medme-appointment-type"> </a><a name="hcmedme-appointment-type"> </a><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0276.html"><code>http://terminology.hl7.org/CodeSystem/v2-0276</code></a><span title="Version is not explicitly stated, which means it is fixed to 2.1.0, the version found through the package references"> version &#x1F4E6;2.1.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0276.html#v2-0276-WALKIN">WALKIN</a></td><td>Walk-in</td><td>A previously unscheduled walk-in visit</td></tr><tr><td><a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0276.html#v2-0276-ROUTINE">ROUTINE</a></td><td>Routine</td><td>Routine appointment - default if not valued</td></tr></table></li></ul></div>
   </text>
   <url value="https://fhir.medmehealth.com/pharmacy-services/ValueSet/medme-appointment-type"/>
-  <version value="0.9.24"/>
+  <version value="0.9.25"/>
   <name value="MedMeAppointmentType"/>
   <title value="MedMe Appointment Type"/>
   <status value="draft"/>
-  <date value="2025-12-08T15:17:38-05:00"/>
+  <date value="2025-12-10T09:54:50-05:00"/>
   <publisher value="MedMe Health"/>
   <contact>
     <name value="MedMe Health"/>

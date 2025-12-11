@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide medme.fhir.pharmacy.services</b></p><a name=\"medme.fhir.pharmacy.services\"> </a><a name=\"hcmedme.fhir.pharmacy.services\"> </a><h2>MedMePharmacyServicesIG</h2><p>The official URL for this implementation guide is: </p><pre>https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services</pre><div><p>FHIR Implementation Guide for comprehensive pharmacy services including prescription dispensing, immunizations, minor ailment treatments, and medication management - built on Canadian Core profiles</p>\n</div></div>"
   },
   "url" : "https://fhir.medmehealth.com/pharmacy-services/ImplementationGuide/medme.fhir.pharmacy.services",
-  "version" : "0.9.24",
+  "version" : "0.9.25",
   "name" : "MedMePharmacyServicesIG",
   "title" : "MedMe Pharmacy Services Implementation Guide",
   "status" : "draft",
-  "date" : "2025-12-08T15:17:38-05:00",
+  "date" : "2025-12-10T09:54:50-05:00",
   "publisher" : "MedMe Health",
   "contact" : [{
     "name" : "MedMe Health",
@@ -824,18 +824,6 @@
       },
       "name" : "Location ID",
       "description" : "Reference to the location where the patient is registered or primarily receives care.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/medme-appointment-status"
-      },
-      "name" : "MedMe Appointment Status",
-      "description" : "Supported appointment statuses for MedMe pharmacy services",
       "exampleBoolean" : false
     },
     {
